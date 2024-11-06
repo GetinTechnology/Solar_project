@@ -1,0 +1,57 @@
+/* CSS for the Navbar component */
+.header {
+    background-color: white; /* Primary color */
+    padding: 1rem 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 100px;
+  }
+  
+  .header .navbar-brand {
+    color: #ff0000;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .header .navbar-brand:hover {
+    color: #A5D6A7; 
+    text-decoration: none;
+  }
+  
+  .header .navbar-nav .nav-link {
+    color: #000000; 
+    margin: 0 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+
+  
+  .header .navbar-nav .nav-dropdown .dropdown-menu {
+    background-color: #2E7D32; /* Primary color */
+  }
+  
+  .header .navbar-nav .dropdown-item {
+    color: #000000; /* Background color */
+  }
+  
+  .header .navbar-nav .dropdown-item:hover {
+    color: #FF7043; /* Accent color */
+    background-color: transparent;
+  }
+  
+  .header .navbar-nav .mx-auto {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .header .navbar-collapse {
+    justify-content: space-between;
+  }
+  
+  .header .navbar-nav:last-child .nav-link {
+    font-weight: bold;
+  }
+  
+  
