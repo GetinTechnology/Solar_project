@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Solar_project/static/css/main.6b893621.css",
-    "main.js": "/Solar_project/static/js/main.a9da9e9f.js",
+    "main.css": "/Solar_project/static/css/main.216655ff.css",
+    "main.js": "/Solar_project/static/js/main.696f633d.js",
     "static/media/banner.jpg": "/Solar_project/static/media/banner.f54a884d2290d8ddf89b.jpg",
     "index.html": "/Solar_project/index.html",
-    "main.6b893621.css.map": "/Solar_project/static/css/main.6b893621.css.map",
-    "main.a9da9e9f.js.map": "/Solar_project/static/js/main.a9da9e9f.js.map"
+    "main.216655ff.css.map": "/Solar_project/static/css/main.216655ff.css.map",
+    "main.696f633d.js.map": "/Solar_project/static/js/main.696f633d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b893621.css",
-    "static/js/main.a9da9e9f.js"
+    "static/css/main.216655ff.css",
+    "static/js/main.696f633d.js"
   ]
 }
