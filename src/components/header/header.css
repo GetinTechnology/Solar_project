@@ -53,5 +53,7 @@
   .header .navbar-nav:last-child .nav-link {
     font-weight: bold;
   }
-  
+  #responsive-navbar-nav{
+    background-color: #fff;
+  }
   
