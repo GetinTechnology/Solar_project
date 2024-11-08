@@ -1,0 +1,33 @@
+.footer{
+    margin-top: 2rem;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+.footer p{
+    text-align: center;
+}
+.foot-links{
+    padding: 0;
+}
+li{
+    list-style: none;
+    padding:10px 0;
+}
+.foot-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-col button{
+    border: 2px solid;
+    background: transparent;
+    color: #fff;
+    padding: 3px 5px;
+    border-radius: 30px;
+}
+.foot-social{
+    display: flex;
+    justify-content: space-between;
+}
+

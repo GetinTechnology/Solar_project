@@ -1,6 +1,15 @@
 import React from 'react'
 import './home.css'
 import '../../images/banner.jpg'
+import exp from '../../images/experties.svg'
+import qul from '../../images/shield-check-svgrepo-com.svg'
+import cus from '../../images/puzzle-piece-6-svgrepo-com.svg'
+import com from '../../images/headset-svgrepo-com.svg'
+import money from '../../images/rupee-2-svgrepo-com.svg'
+import eco from '../../images/eco-home-eco-house-svgrepo-com.svg'
+import res from '../../images/residential.jpg'
+import commercial from '../../images/commercial.jpg'
+import small from '../../images/small business.jpg'
 import { Row,Col,Container} from 'react-bootstrap'
 import Calculator from '../../components/Calcultor'
 import SavingsIcon from '@mui/icons-material/Savings';
@@ -11,32 +20,32 @@ function Home() {
   const wcu = [
     {
       title:"Experienced Professionals",
-      img:"",
+      img:exp,
       content:"Our team has years of experience in the solar industry, ensuring that your installation is handled by experts."
     },
     {
       title:"Quality & Durability",
-      img:"",
+      img:qul,
       content:"We use only top-quality materials and equipment to provide you with reliable, long-lasting solar solutions."
     },
     {
       title:"Customized Solutions",
-      img:"",
+      img:cus,
       content:"Every home and business is unique. We tailor our solar solutions to meet your specific energy needs and goals"
     },
     {
       title:"Affordable Financing",
-      img:"",
+      img:money,
       content:"We offer flexible financing options to make solar accessible and affordable for everyone."
     },
     {
       title:"Comprehensive Support",
-      img:"",
+      img:com,
       content:"Our dedicated support team is here to assist you before, during, and after installation, ensuring your complete satisfaction."
     },
     {
       title:"Commitment to Sustainability",
-      img:"",
+      img:eco,
       content:"We are dedicated to promoting sustainable energy solutions that protect our planet and future generations."
     },
   ]
@@ -90,7 +99,7 @@ function Home() {
         {wcu.map((content)=>{
          return <Col lg={4} >
             <div className='wcu-box'>
-            <img src="" alt={content.img} />
+            <img src={content.img} alt="" />
             <h3>{content.title}</h3>
             <p>{content.content}</p>
             </div>
@@ -99,7 +108,37 @@ function Home() {
         })}
       </Row>
       </Container>
-     
+    </div>
+    <div className='segments'>
+        <Container>
+          <h2>our segments</h2>
+          <Row>
+            <Col>
+              <div className='segment'>
+                <img src={res} alt="" />
+                <div className='se-name'>
+                  <h3>Residential</h3>
+                </div>
+              </div>
+            </Col>
+            <Col>
+              <div className='segment'>
+                <img src={commercial} alt="" />
+                <div className='se-name'>
+                  <h3>Commercial</h3>
+                </div>
+              </div>
+            </Col>
+            <Col>
+              <div className='segment'>
+                <img src={small} alt="" />
+                <div className='se-name'>
+                  <h3>Small Bussiness</h3>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
     </div>
     
     </>
