@@ -24,7 +24,7 @@ function Header() {
       </Nav>
       <Nav>
         <Nav.Link href="#deets">7032541991</Nav.Link>
-        <Nav.Link eventKey={2} href="#memes">Get A Quote</Nav.Link>
+        <Nav.Link eventKey={2} href="#memes" className='quote'>Get A Quote</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>

@@ -57,3 +57,9 @@
     background-color: #fff;
   }
   
+.quote{
+  background-color: #2E7D32 !important;
+  border-radius:50px ;
+  color: #fff !important;
+  padding: 10px 20px !important;
+}

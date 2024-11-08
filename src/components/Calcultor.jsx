@@ -63,8 +63,9 @@ function Calculator() {
             <div className="calculate-box-1">
               <h2>Enter Electronic Items and Quantity</h2>
               <Form>
+                <div className='d-flex align-items-center' style={{gap:'20px'}}>
                 <Form.Group>
-                  <Form.Label>Electronic Item</Form.Label>
+                  <Form.Label>Electronic</Form.Label>
                   <Form.Control
                     as="select"
                     value={currentItem.name}
@@ -86,18 +87,28 @@ function Calculator() {
                     min="1"
                   />
                 </Form.Group>
+                <Button onClick={handleAddItem} variant="primary" style={{height:'50px',marginTop:'20px'}}>Add Item</Button>
+                </div>
+               
 
-                <Button onClick={handleAddItem} variant="primary">Add Item</Button>
+           
               </Form>
 
-              <div className="mt-4">
+              <div className="mt-4" style={{height:'180px'}}>
                 <h4>Items List</h4>
-                {items.map((item, index) => (
-                  <div key={index} style={{ display: 'flex', alignItems: 'center' }}>
-                    <p style={{ marginRight: '10px' }}>{item.quantity} x {item.name}</p>
-                    <Button variant="danger" size="sm" onClick={() => handleRemoveItem(index)}>Remove</Button>
-                  </div>
-                ))}
+                <div style={{display:'flex',flexWrap:'wrap',gap:'10px'}}>
+                  {
+                    items.length === 0 ?<p>electriconic item list </p> : items.map((item, index) => (
+                      <div key={index} style={{display:'flex'}}>
+                        <p style={{ marginRight: '10px' }}>{item.quantity} x {item.name}</p>
+                        <Button variant="danger" size="sm" onClick={() => handleRemoveItem(index)}>Remove</Button>
+          
+                      </div>
+                    ))
+                  }
+        
+                </div>
+
               </div>
 
               <Form.Group className="mt-3">
@@ -112,6 +123,8 @@ function Calculator() {
                   <option value="smallBusiness">Small Business</option>
                 </Form.Control>
               </Form.Group>
+              <p> Sed dolore a recusandae vitae eveniet ullam veritatis omnis! Ut adipisci fugit eveniet neque! Nostrum maiores blanditiis voluptatum, sunt totam eos impedit.
+              </p>
             </div>
           </Col>
           <Col>

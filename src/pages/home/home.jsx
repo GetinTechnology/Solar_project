@@ -15,6 +15,8 @@ import Calculator from '../../components/Calcultor'
 import SavingsIcon from '@mui/icons-material/Savings';
 import EnergySavingsLeafIcon from '@mui/icons-material/EnergySavingsLeaf';
 import BuildCircleIcon from '@mui/icons-material/BuildCircle';
+import dummy from '../../images/dummy.jpg'
+import FAQ from '../../components/Faq'
 
 function Home() {
   const wcu = [
@@ -65,21 +67,21 @@ function Home() {
       <Row>
         <Col >
           <div className='banner-bottom-box box-1'>
-            <SavingsIcon></SavingsIcon>
+            <SavingsIcon className='banner-bottom-box-icon'></SavingsIcon>
             <h2>Save on Energy <br/>Bills</h2>
             <p>Reduce your monthly bills and enjoy long-term savings with our high-efficiency solar systems. Say goodbye to rising electricity costs!</p>
           </div>
         </Col>
         <Col >
         <div  className='banner-bottom-box box-2'>
-          <EnergySavingsLeafIcon></EnergySavingsLeafIcon>
+          <EnergySavingsLeafIcon className='banner-bottom-box-icon'></EnergySavingsLeafIcon>
             <h2>Reduce Your Carbon Footprint</h2>
             <p>By switching to solar, you’re supporting a cleaner, greener environment. Join us in making a positive impact on the planet with renewable energy.</p>
           </div>
         </Col>
         <Col  >
         <div  className='banner-bottom-box box-3'>
-          <BuildCircleIcon></BuildCircleIcon>
+          <BuildCircleIcon className='banner-bottom-box-icon'></BuildCircleIcon>
           <h2>Reliable and Low Maintenance</h2>
           <p>Our solar panels are designed for durability and low maintenance, providing you with reliable energy for years to come.</p>
           </div>
@@ -113,7 +115,7 @@ function Home() {
         <Container>
           <h2>our segments</h2>
           <Row>
-            <Col>
+            <Col sm={12} md={4} lg={4}>
               <div className='segment'>
                 <img src={res} alt="" />
                 <div className='se-name'>
@@ -121,7 +123,7 @@ function Home() {
                 </div>
               </div>
             </Col>
-            <Col>
+            <Col sm={12} md={4} lg={4}>
               <div className='segment'>
                 <img src={commercial} alt="" />
                 <div className='se-name'>
@@ -129,7 +131,7 @@ function Home() {
                 </div>
               </div>
             </Col>
-            <Col>
+            <Col sm={12} md={4} lg={4}>
               <div className='segment'>
                 <img src={small} alt="" />
                 <div className='se-name'>
@@ -140,6 +142,44 @@ function Home() {
           </Row>
         </Container>
     </div>
+    <div className="review">
+      <h2>Customers Review</h2>
+      <Container>
+        <Row>
+          <Col sm={12} lg={4}>
+          <div className='review-box'>
+              <img src={dummy}  alt="" />
+              <div className='review-box-content'>
+              <p>Priya Rajan</p>
+              <p>Chennai, Tamil Nadu</p>
+              <p>Getin Solar made the whole process so smooth! From the initial consultation to installation, they were professional and timely. I’m already seeing a reduction in my electricity bills, and it feels great to contribute to the environment. Highly recommend them to anyone considering solar power!</p>
+              </div>
+            </div>
+          </Col>
+          <Col sm={12} lg={4}>
+          <div className='review-box'>
+              <img src={dummy}  alt="" />
+              <div className='review-box-content'>
+              <p>Arun Kumar</p>
+              <p> Coimbatore, Tamil Nadu</p>
+              <p>The team at Getin Solar did an excellent job. They were transparent with the costs and guided me through every step. The installation was quick, and the system has been performing efficiently since day one. A trustworthy choice for solar solutions in Tamil Nadu!</p>
+              </div>
+            </div>
+          </Col>
+          <Col sm={12} lg={4}>
+          <div className='review-box'>
+              <img src={dummy}  alt="" />
+              <div className='review-box-content'>
+              <p>Lakshmi Narayanan</p>
+              <p>Madurai, Tamil Nadu</p>
+              <p>I was initially hesitant, but Getin Solar’s team answered all my questions and provided me with a tailored solution for my home. Their customer service is top-notch, and I’m thrilled with the results. Great experience from start to finish!</p>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+    <FAQ/>
     
     </>
 
