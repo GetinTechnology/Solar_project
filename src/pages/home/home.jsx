@@ -65,21 +65,21 @@ function Home() {
     <div className="banner-bottom">
       <Container>
       <Row>
-        <Col >
+        <Col sm={12} lg={4} md={4}>
           <div className='banner-bottom-box box-1'>
             <SavingsIcon className='banner-bottom-box-icon'></SavingsIcon>
             <h2>Save on Energy <br/>Bills</h2>
             <p>Reduce your monthly bills and enjoy long-term savings with our high-efficiency solar systems. Say goodbye to rising electricity costs!</p>
           </div>
         </Col>
-        <Col >
+        <Col sm={12} lg={4} md={4}>
         <div  className='banner-bottom-box box-2'>
           <EnergySavingsLeafIcon className='banner-bottom-box-icon'></EnergySavingsLeafIcon>
             <h2>Reduce Your Carbon Footprint</h2>
             <p>By switching to solar, you’re supporting a cleaner, greener environment. Join us in making a positive impact on the planet with renewable energy.</p>
           </div>
         </Col>
-        <Col  >
+        <Col  sm={12} lg={4} md={4}>
         <div  className='banner-bottom-box box-3'>
           <BuildCircleIcon className='banner-bottom-box-icon'></BuildCircleIcon>
           <h2>Reliable and Low Maintenance</h2>

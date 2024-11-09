@@ -1,0 +1,108 @@
+.about{
+    margin-top: 6rem;
+}
+.about-banner {
+    height: 60vh;
+    background: 
+      linear-gradient(180deg, rgba(0, 0, 0, 0.492), rgba(0, 0, 0, 0.492)), 
+      url('../../images/about.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5rem;
+    margin: 2rem 2rem 4rem 2rem;
+    border-radius: 30px;
+    padding: 20px;
+    background-position: center;
+  }
+  .simple-solar-section {
+    background-color: #FAFAFA;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .simple-solar-header {
+    font-size: 2.5rem;
+    color: #2E7D32;
+    margin-bottom: 1rem;
+  }
+  
+  .simple-solar-description {
+    font-size: 1.2rem;
+    color: #606060;
+    margin-bottom: 3rem;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+    transition: transform 1s ease-in;
+
+  }
+  
+  .step-box {
+    background-color: rgb(90, 90, 207);
+    border-radius: 10px;
+    padding: 2rem;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .step-icon {
+    transition: transform 1s ease-in-out;
+  }
+  
+  .step-box:hover .step-icon {
+    animation: icon-rotate 1s ease-in-out forwards;
+  }
+  
+  @keyframes icon-rotate {
+    0% {
+      transform: scale(1) rotate(0deg);
+    }
+    25% {
+      transform: scale(1.2) rotate(90deg);
+    }
+    50% {
+      transform: scale(1.2) rotate(180deg);
+    }
+    75% {
+      transform: scale(1.2) rotate(270deg);
+    }
+    100% {
+      transform: scale(1) rotate(360deg);
+    }
+  }
+  
+  .step-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .step-title {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .step-description {
+    color: #333333;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .about-us h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #2E7D32;
+  }
+  
+
+  

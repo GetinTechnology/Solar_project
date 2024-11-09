@@ -15,10 +15,10 @@ function Footer() {
         <Container>
             <div className="footer-one">
                 <Row>
-                    <Col className='foot-col'>
+                    <Col className='foot-col' md={3} lg={3}>
                         <h1>Getin Solar</h1>
                     </Col>
-                    <Col className='foot-col'>
+                    <Col className='foot-col '  md={3}  lg={3}>
                         <ul className='foot-links'>
                             <li>Home</li>
                             <li>about us</li>
@@ -28,7 +28,7 @@ function Footer() {
                             <li>contact</li>
                         </ul>
                     </Col>
-                    <Col className='foot-col'>
+                    <Col className='foot-col'  md={3}  lg={3}>
                         <div>
                             <button>Get a Quote</button>
                             <ul className='foot-links'>
@@ -45,7 +45,7 @@ function Footer() {
                             </div>
                         </div>
                     </Col>
-                    <Col className='foot-col'>
+                    <Col className='foot-col' md={3}   lg={3}>
                         <ul>
                             <li>chennai</li>
                             <li>Bengaluru</li>

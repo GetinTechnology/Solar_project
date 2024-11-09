@@ -9,12 +9,12 @@ function Header() {
   return (
 <Navbar collapseOnSelect expand="lg" className="fixed-top header">
   <Container>
-    <Navbar.Brand href="#home">Getin solar</Navbar.Brand>
+    <Navbar.Brand href="#home" as={Link} to='Solar_project/'>Getin solar</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mx-auto">
         <Nav.Link as={Link} to="Solar_project/">Home</Nav.Link>
-        <Nav.Link href="#pricing">about us</Nav.Link>
+        <Nav.Link as={Link} to="About/">About Us</Nav.Link>
         <NavDropdown title="venue" id="collapsible-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">Residencial</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">commercial</NavDropdown.Item>

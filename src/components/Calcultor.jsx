@@ -87,7 +87,7 @@ function Calculator() {
                     min="1"
                   />
                 </Form.Group>
-                <Button onClick={handleAddItem} variant="primary" style={{height:'50px',marginTop:'20px'}}>Add Item</Button>
+                <Button onClick={handleAddItem} variant="primary" className='add-btn'>Add Item</Button>
                 </div>
                
 
