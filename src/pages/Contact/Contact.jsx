@@ -46,7 +46,6 @@ function Contact() {
             <p><strong>Email:</strong> info@getinsolar.com</p>
             <p><strong>Address:</strong> 123 Solar St, Green City, Tamil Nadu</p>
             
-            {/* Map Embed */}
             <iframe
               className="contact-map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31109.934126236847!2d80.2082942688651!3d13.08268011388573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526e61a4cd2db9%3A0x5bf6d48b7f8bc0b9!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1636023793131!5m2!1sen!2sin"
@@ -59,7 +58,6 @@ function Contact() {
 
           <Col lg={6} className="contact-info-1">
             <Form className="contact-form" onSubmit={handleSubmit}>
-              {/* Contact Form Fields */}
               <Form.Group controlId="formName" className="mb-3">
                 <Form.Label>Name</Form.Label>
                 <Form.Control type="text" name="name" placeholder="Enter your name" value={formData.name} onChange={handleInputChange} required />
