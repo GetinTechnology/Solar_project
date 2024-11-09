@@ -1,6 +1,6 @@
-/* CSS for the Navbar component */
+
 .header {
-    background-color: white; /* Primary color */
+    background-color: white; 
     padding: 1rem 0;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
