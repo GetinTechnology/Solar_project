@@ -1,3 +1,5 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 .about{
     margin-top: 6rem;
 }
@@ -104,5 +106,155 @@
     color: #2E7D32;
   }
   
+  .work-with-us {
+    background-color: #2E7D32;
+    color: #fff;
+    padding: 50px;
+    font-family: 'Georgia', serif;
+  }
+  
+  .work-with-us h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #FF7043;
+    padding-bottom: 10px;
+  }
+  
 
   
+  .column {
+    padding: 0 10px;
+  }
+  
+  .article {
+    padding: 10px;
+    background-color: #3A4F3E;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 600px;
+    border-left: 4px solid #FF7043;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .article h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #A5D6A7;
+  }
+  
+  .others,
+  .us {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+  
+  .others::before,
+  .us::before {
+    font-weight: bold;
+    color: #FF7043;
+  }
+  
+  .others::before {
+    content: "Others: ";
+  }
+  
+  .us::before {
+    content: "Us: ";
+  }
+  
+  /* Hover effect to enhance newspaper style */
+  .article:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }
+  /* Meet Our Team Section */
+.meetourteam {
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+}
+
+/* Custom Arrow Container */
+.custom-arrow-container {
+  position: absolute;
+  top: -40px; /* Position above the dots */
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none; /* Prevents blocking clicks on the dots */
+}
+
+.custom-prev-arrow,
+.custom-next-arrow {
+  pointer-events: all; /* Allows clicking on arrows */
+  font-size: 2rem;
+  color: #FF7043; /* Deep orange */
+  cursor: pointer;
+  z-index: 10;
+  padding: 0 15px;
+}
+
+.custom-arrow:hover {
+  color: #FF7043; /* Darker orange on hover */
+}
+
+/* Slider Dots */
+.custom-dots {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between dots */
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #A5D6A7; /* Light green */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #2E7D32; /* Forest green */
+}
+
+/* Team Member Card */
+.team-member {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px !important;
+}
+
+.team-member-img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.team-member h3 {
+  font-size: 1.25rem;
+  color: #2E7D32; /* Forest green */
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #555;
+}
+
+  
+  @media (max-width:650px) {
+      .article{
+        width: auto;
+      }
+  }
+  @media (max-width:450px) {
+    .article{
+      width: auto;
+    }
+    .team-member {
+
+      width: auto !important;
+    }
+  
+  }
