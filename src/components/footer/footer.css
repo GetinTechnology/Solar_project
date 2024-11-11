@@ -1,39 +1,114 @@
-.footer{
-    margin-top: 2rem;
+.footer {
     background-color: #000;
     color: #fff;
-    padding: 20px;
-}
-.footer p{
-    text-align: center;
-}
-.foot-links{
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer h2 {
+    font-size: 1.8rem;
+    color: #A5D6A7; /* Light Green */
+    margin-bottom: 1rem;
+  }
+  
+  .footer-content {
+    margin-bottom: 20px;
+  }
+  
+  .footer-links, .footer-contact, .footer-locations {
     padding: 0;
-}
-li{
+    margin: 0;
     list-style: none;
-    padding:10px 0;
-}
-.foot-col{
+    font-size: 0.95rem;
+  }
+  
+  .footer-links li, .footer-locations li {
+    margin: 10px 0;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .footer-links li:hover, .footer-locations li:hover {
+    color: #A5D6A7; /* Light Green */
+  }
+  
+  .footer-contact li {
     display: flex;
-    justify-content: center;
     align-items: center;
-    
-}
-.foot-col button{
-    border: 2px solid;
-    background: transparent;
-    color: #fff;
-    padding: 3px 5px;
-    border-radius: 30px;
-}
-.foot-social{
+    gap: 8px;
+    margin: 8px 0;
+    color: #ddd;
+  }
+  
+  .footer-social {
     display: flex;
-    justify-content: space-between;
-}
-
-@media (max-width:450px) {
-    .foot-col{
-        text-align: center
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .footer-social svg {
+    color: #FF7043; /* Accent Color */
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .footer-social svg:hover {
+    color: #A5D6A7; /* Light Green */
+  }
+  
+  .quote-button {
+    border: 2px solid #FF7043;
+    background-color: transparent;
+    color: #FF7043;
+    padding: 8px 16px;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .quote-button:hover {
+    background-color: #FF7043;
+    color: #fff;
+  }
+  
+  .footer-section {
+    margin-bottom: 1.5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  hr {
+    border: 0.5px solid #444;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer li {
+    display: block;
+  }
+  
+  .footer ul li svg {
+    color: #A5D6A7;
+  }
+  
+  .footer p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-section {
+      text-align: center;
     }
-}
+  
+    .footer h2 {
+      font-size: 1.5rem;
+    }
+  }
+  

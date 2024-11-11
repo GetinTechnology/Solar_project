@@ -17,6 +17,11 @@ import EnergySavingsLeafIcon from '@mui/icons-material/EnergySavingsLeaf';
 import BuildCircleIcon from '@mui/icons-material/BuildCircle';
 import dummy from '../../images/dummy.jpg'
 import FAQ from '../../components/Faq'
+import EventAvailableIcon from '@mui/icons-material/EventAvailable';
+import AssignmentIcon from '@mui/icons-material/Assignment';
+import ConstructionIcon from '@mui/icons-material/Construction';
+import BoltIcon from '@mui/icons-material/Bolt';
+import ChooseSolar from '../../components/ChooseSolar'
 
 function Home() {
   const wcu = [
@@ -51,6 +56,13 @@ function Home() {
       content:"We are dedicated to promoting sustainable energy solutions that protect our planet and future generations."
     },
   ]
+  const steps = [
+    { title: "Book a Free Consultation", description: "Schedule a consultation with our solar experts...", icon: <EventAvailableIcon /> },
+    { title: "Review Proposal & Confirm Order", description: "Receive a detailed proposal tailored to your site...", icon: <AssignmentIcon /> },
+    { title: "Track Project Installation", description: "Keep tabs on each stage of the installation process...", icon: <ConstructionIcon /> },
+    { title: "Your Site is Solar Powered", description: "Celebrate as your property begins harnessing the sun...", icon: <BoltIcon /> },
+  ];
+  
   return (
     <>
       <div className='banner'>
@@ -58,7 +70,7 @@ function Home() {
       <div className='banner-content'>
         <h1>Power Your Future with Clean, Renewable Energy</h1>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam tenetur minus velit est voluptate nulla dolorem nihil accusamus eaque laborum provident ut modi, animi, quidem veritatis asperiores. Aut, facere rem.</p>
-      <button>get a quote</button>
+      <button className='quote'>Get A Quote</button>
       </div>  
       </Container>
     </div>
@@ -142,6 +154,9 @@ function Home() {
           </Row>
         </Container>
     </div>
+      <div>
+        <ChooseSolar/>
+      </div>
     <div className="review">
       <h2>Customers Review</h2>
       <Container>

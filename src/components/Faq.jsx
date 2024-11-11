@@ -29,12 +29,12 @@ const FAQItem = ({ question, answer }) => {
   };
 
   return (
-    <div className="faq-item" onClick={toggleFAQ}>
+    <div className={`faq-item ${isOpen ? 'open' : ''}`} onClick={toggleFAQ}>
       <div className="faq-question">
         <h3>{question}</h3>
-        <span>{isOpen ? '-' : '+'}</span>
+        <span>{isOpen ? '+' : '+'}</span>
       </div>
-      {isOpen && <p className="faq-answer">{answer}</p>}
+      <div className="faq-answer">{answer}</div>
     </div>
   );
 };
