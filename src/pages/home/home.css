@@ -387,6 +387,7 @@ border-radius: 30px;
   border-radius: 8px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  text-align: center;
 }
 
 .step-box:hover {

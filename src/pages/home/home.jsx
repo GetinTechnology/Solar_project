@@ -158,7 +158,7 @@ function Home() {
           <Row>
             <h2>Get Your Solar in Steps</h2>
             {steps.map((step)=>
-              (<Col key={step.title} style={{display:'flex',justifyContent:'center'}}>
+              (<Col key={step.title} style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                 <div className='step-box'>
                   <div>{step.icon}</div>
                   <h3>{step.title}</h3>
