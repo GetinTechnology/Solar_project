@@ -70,39 +70,39 @@ function About() {
 
       </Container>
       <div className="work-with-us">
-        <h2>Why Work with Us?</h2>
-        <Container>
-          <Row className="main-content">
-            <Col lg={6} className="column">
-              <Row className="article">
-                <h3>Personalized Solutions, Not a One-Size-Fits-All Approach</h3>
-                <p className="others">Others: Many solar companies offer standard packages that might not fully address your unique needs.</p>
-                <p className="us">Us: We take the time to understand your specific energy goals, roof space, budget, and location. Our custom-designed solar solutions are tailored to maximize energy production and cost efficiency for you, ensuring that every system is as unique as the customer it serves.</p>
-              </Row>
-              <Row className="article">
-                <h3>Transparency and Trust Throughout the Process</h3>
-                <p className="others">Others: Solar providers often have hidden fees and unclear timelines.</p>
-                <p className="us">Us: Transparency is our promise. From consultation to installation, we offer a clear breakdown of all costs, timelines, and the work involved.</p>
-              </Row>
+    <h2>Why Work with Us?</h2>
+    <Container className="main-content">
+        <Row>
+            <Col lg={6} className="left-section">
+                <div className="card">
+                    <h3>Personalized Solutions, Not a One-Size-Fits-All Approach</h3>
+                    <p className="others">Others: Many solar companies offer standard packages that might not fully address your unique needs.</p>
+                    <p className="us">Us: Our custom-designed solar solutions maximize energy production and cost efficiency, tailored just for you.</p>
+                </div>
+                <div className="card">
+                    <h3>Transparency and Trust Throughout the Process</h3>
+                    <p className="others">Others: Solar providers often have hidden fees and unclear timelines.</p>
+                    <p className="us">Us: We promise a clear breakdown of all costs, timelines, and work involved from start to finish.</p>
+                </div>
             </Col>
-
-            <Col lg={6} className="column">
-              <Row className="article">
-                <h3>End-to-End Service with Comprehensive Support</h3>
-                <p className="others">Others: Many companies focus only on installation.</p>
-                <p className="us">Us: We provide ongoing support and system monitoring to ensure your solar panels perform optimally.</p>
-              </Row>
-              <Row className="article">
-                <h3>Commitment to Sustainability and Quality</h3>
-                <p className="others">Others: Some companies may prioritize rapid installations over quality.</p>
-                <p className="us">Us: We source high-quality materials and uphold stringent standards on every project.</p>
-              </Row>
+            <Col lg={6} className="right-section">
+                <div className="card">
+                    <h3>End-to-End Service with Comprehensive Support</h3>
+                    <p className="others">Others: Many companies focus only on installation.</p>
+                    <p className="us">Us: We provide ongoing support and system monitoring to ensure peak performance of your solar panels.</p>
+                </div>
+                <div className="card">
+                    <h3>Commitment to Sustainability and Quality</h3>
+                    <p className="others">Others: Some companies prioritize rapid installations over quality.</p>
+                    <p className="us">Us: We source high-quality materials and uphold stringent standards on every project.</p>
+                </div>
             </Col>
-          </Row>
-        </Container>
+        </Row>
+    </Container>
+</div>
 
-      </div>
       <div>
+
         <Container>
           <div className="simple-solar-section">
             <h2 className="simple-solar-header">We Make Solar Simple</h2>
@@ -110,22 +110,22 @@ function About() {
               Switching to solar is easy with Getin Solar. From consultation to installation, we’ve got you covered.
             </p>
             <div className="steps-container">
-              <div className="step-box">
+              <div className="step-boxx">
                 <div className="step-icon">🌞</div>
                 <h3 className="step-title">Personalized Consultation</h3>
                 <p className="step-description">We discuss your energy needs and answer all your questions.</p>
               </div>
-              <div className="step-box">
+              <div className="step-boxx">
                 <div className="step-icon">🛠️</div>
                 <h3 className="step-title">Customized Solar Design</h3>
                 <p className="step-description">Our experts create a solar system designed just for you.</p>
               </div>
-              <div className="step-box">
+              <div className="step-boxx">
                 <div className="step-icon">⚙️</div>
                 <h3 className="step-title">Hassle-Free Installation</h3>
                 <p className="step-description">Our certified team installs everything safely and efficiently.</p>
               </div>
-              <div className="step-box">
+              <div className="step-boxx">
                 <div className="step-icon">🔧</div>
                 <h3 className="step-title">Ongoing Support</h3>
                 <p className="step-description">We provide continuous support for optimal performance.</p>

@@ -21,7 +21,6 @@ import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import ConstructionIcon from '@mui/icons-material/Construction';
 import BoltIcon from '@mui/icons-material/Bolt';
-import ChooseSolar from '../../components/ChooseSolar'
 
 function Home() {
   const wcu = [
@@ -154,8 +153,21 @@ function Home() {
           </Row>
         </Container>
     </div>
-      <div>
-        <ChooseSolar/>
+      <div className='solar-steps'>
+        <Container>
+          <Row>
+            <h2>Get Your Solar in Steps</h2>
+            {steps.map((step)=>
+              (<Col key={step.title} style={{display:'flex',justifyContent:'center'}}>
+                <div className='step-box'>
+                  <div>{step.icon}</div>
+                  <h3>{step.title}</h3>
+                  <p>{step.description}</p>
+                </div>
+              </Col>)
+            )}
+          </Row>
+        </Container>
       </div>
     <div className="review">
       <h2>Customers Review</h2>

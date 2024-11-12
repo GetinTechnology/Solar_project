@@ -358,86 +358,81 @@ border-radius: 30px;
   background-color: #2E7D32;
 }
 
-.choose-solar-container {
-  padding: 40px;
-  background-color: #FAFAFA; /* Light Off-White */
-  border-radius: 10px;
-  margin-top: 30px;
-}
-
-.steps-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.step-box-container {
+.solar-steps {
+  padding: 40px 20px;
+  background-color: #2E7D32;
   position: relative;
-  width: 100%;  /* Default to 100% width on small screens */
-  max-width: 300px; /* Limit box width on larger screens */
-  margin-bottom: 30px;
+  background-image: radial-gradient(circle, #FAFAFA 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.solar-steps h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .step-box {
-  background-color: #FFFFFF;
+  background-color: #fff !important;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 2rem;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease;
 }
 
 .step-box:hover {
-  transform: translateY(-10px); /* Adds slight hover effect */
+  transform: translateY(-5px);
 }
 
-.step-icon {
-  font-size: 3rem;
-  color: #2E7D32; /* Forest Green */
-  margin-bottom: 15px;
-}
-
-.step-title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #2E7D32; /* Forest Green */
-  margin-bottom: 10px;
-}
-
-.step-description {
-  font-size: 1rem;
-  color: #555;
-}
-
-.step-arrow {
-  font-size: 2rem;
-  color: #2E7D32; /* Forest Green */
-  text-align: center;
+/* Arrow connection between boxes */
+.step-box:not(:last-child)::after {
+  content: '';
   position: absolute;
+  right: -30px;
   top: 50%;
-  right: -20px;
+  width: 60px; /* Length of arrow line */
+  height: 2px; /* Thickness of arrow line */
+  background: #fff;
   transform: translateY(-50%);
-  padding-top: 10px;
 }
 
+.step-box:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  right: -35px; /* Adjusts arrowhead position */
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 8px solid #fff;
+}
+
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .steps-container {
-    flex-direction: column;
-    align-items: center;
+  .solar-steps h2 {
+    font-size: 24px;
+  }
+  
+  .step-box {
+    height: auto;
+    padding: 15px;
+    margin-bottom: 1rem;
   }
 
-  .step-box-container {
-    width: 80%; /* Adjust width on smaller screens */
-    margin-bottom: 20px;
-  }
-
-  .step-arrow {
-    position: static; /* Arrows will be above the boxes on small screens */
-    margin-top: 10px;
+  .step-box::after,
+  .step-box::before {
+    display: none;
   }
 }
-
 
 
 @media (max-width:650px) {

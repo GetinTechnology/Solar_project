@@ -47,6 +47,7 @@ function Footer() {
 
             <Col className='footer-section' md={3} lg={3}>
               <ul className='footer-locations'>
+                <li><h2>Our Loaction</h2></li>
                 <li>Chennai</li>
                 <li>Bengaluru</li>
                 <li>Coimbatore</li>
