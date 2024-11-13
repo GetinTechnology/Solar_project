@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Solar_project/static/css/main.cd281d02.css",
-    "main.js": "/Solar_project/static/js/main.5bcf9e9c.js",
+    "main.css": "/Solar_project/static/css/main.145990f6.css",
+    "main.js": "/Solar_project/static/js/main.45ca928d.js",
     "static/media/about.jpg": "/Solar_project/static/media/about.f7d15c234d6004a0f64c.jpg",
     "static/media/commercial.jpg": "/Solar_project/static/media/commercial.7beed3e7d705ab5cb18f.jpg",
+    "static/media/small-business.jpg": "/Solar_project/static/media/small-business.2d9f3aebe936020df2b7.jpg",
     "static/media/residential.jpg": "/Solar_project/static/media/residential.91a9bfa3fbb508184774.jpg",
-    "static/media/small business.jpg": "/Solar_project/static/media/small business.f4110817d0095e34a4c9.jpg",
     "static/media/dummy.jpg": "/Solar_project/static/media/dummy.56243a16914d41a3c2f2.jpg",
     "static/media/banner.jpg": "/Solar_project/static/media/banner.f54a884d2290d8ddf89b.jpg",
     "static/media/contact.jpg": "/Solar_project/static/media/contact.80a038d64d08efdfe1ca.jpg",
@@ -21,11 +21,11 @@
     "static/media/headset-svgrepo-com.svg": "/Solar_project/static/media/headset-svgrepo-com.78960c60a9ed8f94be1947ac4f8b1b2f.svg",
     "static/media/shield-check-svgrepo-com.svg": "/Solar_project/static/media/shield-check-svgrepo-com.f0d76d683f837c3ac651bca6261634d8.svg",
     "static/media/experties.svg": "/Solar_project/static/media/experties.5ff185a1031cac1b57cc360376719a9e.svg",
-    "main.cd281d02.css.map": "/Solar_project/static/css/main.cd281d02.css.map",
-    "main.5bcf9e9c.js.map": "/Solar_project/static/js/main.5bcf9e9c.js.map"
+    "main.145990f6.css.map": "/Solar_project/static/css/main.145990f6.css.map",
+    "main.45ca928d.js.map": "/Solar_project/static/js/main.45ca928d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd281d02.css",
-    "static/js/main.5bcf9e9c.js"
+    "static/css/main.145990f6.css",
+    "static/js/main.45ca928d.js"
   ]
 }
