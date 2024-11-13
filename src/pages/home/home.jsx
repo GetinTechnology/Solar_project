@@ -9,7 +9,7 @@ import money from '../../images/rupee-2-svgrepo-com.svg'
 import eco from '../../images/eco-home-eco-house-svgrepo-com.svg'
 import res from '../../images/residential.jpg'
 import commercial from '../../images/commercial.jpg'
-import small from '../../images/small business.jpg'
+import small from '../../images/small-business.jpg'
 import { Row,Col,Container} from 'react-bootstrap'
 import Calculator from '../../components/Calcultor'
 import SavingsIcon from '@mui/icons-material/Savings';
@@ -21,6 +21,7 @@ import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import ConstructionIcon from '@mui/icons-material/Construction';
 import BoltIcon from '@mui/icons-material/Bolt';
+import { Link } from 'react-router-dom'
 
 function Home() {
   const wcu = [
@@ -60,6 +61,13 @@ function Home() {
     { title: "Review Proposal & Confirm Order", description: "Receive a detailed proposal tailored to your site...", icon: <AssignmentIcon /> },
     { title: "Track Project Installation", description: "Keep tabs on each stage of the installation process...", icon: <ConstructionIcon /> },
     { title: "Your Site is Solar Powered", description: "Celebrate as your property begins harnessing the sun...", icon: <BoltIcon /> },
+  ];
+  const faqs = [
+    { question: "What is solar energy?", answer: "Solar energy is the energy from the sun that is converted into thermal or electrical energy." },
+    { question: "How does solar power work?", answer: "Solar power works by converting sunlight into electricity using photovoltaic (PV) cells." },
+    { question: "Is solar energy environmentally friendly?", answer: "Yes, solar energy is a clean and renewable resource that reduces carbon emissions." },
+    { question: "How long do solar panels last?", answer: "Most solar panels have a lifespan of 25-30 years, depending on the brand and maintenance." },
+    { question: "What are the benefits of solar energy?", answer: "Solar energy reduces energy bills, lowers carbon footprint, and provides energy independence." },
   ];
   
   return (
@@ -127,28 +135,36 @@ function Home() {
           <h2>our segments</h2>
           <Row>
             <Col sm={12} md={4} lg={4}>
-              <div className='segment'>
+            <Link to='/venue/residential'>
+            <div className='segment'>
                 <img src={res} alt="" />
                 <div className='se-name'>
                   <h3>Residential</h3>
                 </div>
               </div>
+            </Link>
+
             </Col>
             <Col sm={12} md={4} lg={4}>
+            <Link to="/venue/commercial">
               <div className='segment'>
                 <img src={commercial} alt="" />
                 <div className='se-name'>
                   <h3>Commercial</h3>
                 </div>
               </div>
+              </Link>
             </Col>
             <Col sm={12} md={4} lg={4}>
-              <div className='segment'>
+            <Link to="/venue/smallbusiness">
+            <div className='segment'>
                 <img src={small} alt="" />
                 <div className='se-name'>
                   <h3>Small Bussiness</h3>
                 </div>
               </div>
+            </Link>
+
             </Col>
           </Row>
         </Container>
@@ -179,7 +195,7 @@ function Home() {
               <div className='review-box-content'>
               <p>Priya Rajan</p>
               <p>Chennai, Tamil Nadu</p>
-              <p>Getin Solar made the whole process so smooth! From the initial consultation to installation, they were professional and timely. I’m already seeing a reduction in my electricity bills, and it feels great to contribute to the environment. Highly recommend them to anyone considering solar power!</p>
+              <p>Switching to solar energy has truly transformed how we manage energy costs. Since installation, our energy bills have dropped significantly, providing immediate savings. Beyond just the financial perks, knowing that we’re taking a step towards a cleaner, more sustainable environment is incredibly satisfying. The entire installation process was handled professionally, and the team was there to support us with every question. </p>
               </div>
             </div>
           </Col>
@@ -189,7 +205,7 @@ function Home() {
               <div className='review-box-content'>
               <p>Arun Kumar</p>
               <p> Coimbatore, Tamil Nadu</p>
-              <p>The team at Getin Solar did an excellent job. They were transparent with the costs and guided me through every step. The installation was quick, and the system has been performing efficiently since day one. A trustworthy choice for solar solutions in Tamil Nadu!</p>
+              <p>Our move to solar power was a smart decision that continues to pay off. Not only has it been a major cost-saver, but the peace of mind that comes from energy independence has been priceless. It’s inspiring to set a positive example for sustainability within our community, showing that going green doesn’t just benefit the environment but also provides tangible financial savings</p>
               </div>
             </div>
           </Col>
@@ -199,14 +215,14 @@ function Home() {
               <div className='review-box-content'>
               <p>Lakshmi Narayanan</p>
               <p>Madurai, Tamil Nadu</p>
-              <p>I was initially hesitant, but Getin Solar’s team answered all my questions and provided me with a tailored solution for my home. Their customer service is top-notch, and I’m thrilled with the results. Great experience from start to finish!</p>
+              <p>Solar energy has been a game-changer for us. The system operates seamlessly with minimal maintenance, and the impact on our energy bills has been immediate. Our decision to adopt solar wasn’t just about the savings; it was about future-proofing our power needs while contributing to a healthier planet. The entire team was knowledgeable and made sure we were comfortable every step of the way.</p>
               </div>
             </div>
           </Col>
         </Row>
       </Container>
     </div>
-    <FAQ/>
+    <FAQ faqs={faqs}/>
     
     </>
 

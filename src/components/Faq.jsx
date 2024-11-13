@@ -1,13 +1,7 @@
 import React, { useState } from 'react';
 
-const FAQ = () => {
-  const faqs = [
-    { question: "What is solar energy?", answer: "Solar energy is the energy from the sun that is converted into thermal or electrical energy." },
-    { question: "How does solar power work?", answer: "Solar power works by converting sunlight into electricity using photovoltaic (PV) cells." },
-    { question: "Is solar energy environmentally friendly?", answer: "Yes, solar energy is a clean and renewable resource that reduces carbon emissions." },
-    { question: "How long do solar panels last?", answer: "Most solar panels have a lifespan of 25-30 years, depending on the brand and maintenance." },
-    { question: "What are the benefits of solar energy?", answer: "Solar energy reduces energy bills, lowers carbon footprint, and provides energy independence." },
-  ];
+const FAQ = ({faqs}) => {
+
 
   return (
     <div className="faq-container">
