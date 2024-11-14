@@ -7,6 +7,8 @@ import About from './pages/about/About';
 import Carrers from './pages/careers/Carrers';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Venue from './pages/Venue/Venue'
+import Fnf from './pages/404.jsx';
+import LocationPage from './pages/locations/LocationPage';
 
 
 function App() {
@@ -25,7 +27,12 @@ function App() {
             <Route path="smallbusiness/" element={<Venue pageKey="smallBusiness" />} />
             <Route path="commercial/" element={<Venue pageKey="commercial" />} />
           </Route>
+          <Route path='location/'>
+            <Route path='chennai/' element={<LocationPage pagekey={'chennai'}/>}/>
+          </Route>
+          <Route path='*' element={<Fnf/>}/>
         </Routes>
+     
         <Footer />
       </BrowserRouter>
 

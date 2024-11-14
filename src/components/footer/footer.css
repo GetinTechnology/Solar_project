@@ -21,12 +21,22 @@
     list-style: none;
     font-size: 0.95rem;
   }
-  
+  .footer-link{
+    text-decoration: none !important;
+    margin: 10px 0 !important;
+    color: #ccc !important;
+    cursor: pointer !important;
+    transition: color 0.3s !important;
+  }
+  .footer-link:hover{
+    color: #A5D6A7 !important;
+  }
   .footer-links li, .footer-locations li {
     margin: 10px 0;
     color: #ccc;
     cursor: pointer;
     transition: color 0.3s;
+  
   }
   
   .footer-links li:hover, .footer-locations li:hover {

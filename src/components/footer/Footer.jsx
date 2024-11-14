@@ -8,6 +8,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -21,15 +22,30 @@ function Footer() {
 
             <Col className='footer-section' md={3} lg={3}>
               <ul className='footer-links'>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Residential</li>
-                <li>Commercial</li>
-                <li>Career</li>
-                <li>Contact</li>
+                <li><Link to='Solar_project/' className='footer-link'>Home</Link></li>
+                <li><Link to='About/' className='footer-link'>About Us</Link></li>
+                <li><Link to='residential/' className='footer-link'>Residential</Link></li>
+                <li><Link to='smallbusiness/' className='footer-link'>Small Business</Link></li>
+                <li><Link to='commercial/' className='footer-link'>Commercial</Link></li>
+                <li><Link to='career/' className='footer-link'>Career</Link></li>
+                <li><Link to='contact/' className='footer-link'>Contact</Link></li>
               </ul>
             </Col>
 
+ 
+
+            <Col className='footer-section' md={3} lg={3}>
+              <ul className='footer-locations'>
+                <li><h2>Our Loaction</h2></li>
+                <li><Link to='/location/chennai' className='footer-link'>Chennai</Link></li>
+                <li><Link to='/location/bengaluru' className='footer-link'>Bengaluru</Link></li>
+                <li><Link to='/location/coimbatore' className='footer-link'>coimbatore</Link></li>
+                <li><Link to='/location/madurai' className='footer-link'>Madurai</Link></li>
+                <li><Link to='/location/kovilpatti' className='footer-link'>Kovil Patti</Link></li>
+                <li><Link to='/location/Thirunelveli' className='footer-link'>Thirunelveli</Link></li>
+                <li><Link to='/location/Kanniyakumari' className='footer-link'>Kanniyakumari</Link></li>
+              </ul>
+            </Col>
             <Col className='footer-section' md={3} lg={3}>
               <button className="quote-button">Get a Quote</button>
               <ul className='footer-contact'>
@@ -43,20 +59,6 @@ function Footer() {
                 <XIcon />
                 <LinkedInIcon />
               </div>
-            </Col>
-
-            <Col className='footer-section' md={3} lg={3}>
-              <ul className='footer-locations'>
-                <li><h2>Our Loaction</h2></li>
-                <li>Chennai</li>
-                <li>Bengaluru</li>
-                <li>Coimbatore</li>
-                <li>Madurai</li>
-                <li>Virudhunagar</li>
-                <li>Kovilpatti</li>
-                <li>Thirunelveli</li>
-                <li>Kanniyakumari</li>
-              </ul>
             </Col>
           </Row>
         </div>

@@ -1,0 +1,20 @@
+.location{
+    margin-top: 6rem;
+}
+.location-banner{
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.492);
+    background: 
+    linear-gradient(180deg, rgba(0, 0, 0, 0.492), rgba(0, 0, 0, 0.492)), 
+    url(../../images/citys-solar.jpg);
+      background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-align: left;
+    padding-top:5rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin:6rem 2rem  2rem 2rem;
+  border-radius: 30px;
+}

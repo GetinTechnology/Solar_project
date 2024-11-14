@@ -1,0 +1,24 @@
+export const pageData = {
+    chennai:{
+        title:"Chennai",
+    },
+    bengaluru:{
+        title:"Bengaluru",
+    },
+    coimbatore:{
+        title:"Coimbatore",
+    },
+    madurai:{
+        title:"Madurai",
+    },
+    virudhunagar:{
+        title:"Virudhunagar",
+    },
+    thirunelveli:{
+        title:"Thirunelveli",
+    },
+    kovilpatti:{
+        title:"KovilPatti",
+    },
+    kanniyakumari:{title:"Kanniyakumari",},
+}
