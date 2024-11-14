@@ -115,7 +115,7 @@ function Home() {
     <div className="why-choose-us">
       <Container>
       <h2>why choose us</h2>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit inventore sint debitis voluptatem totam natus illum accusantium molestiae quia voluptate assumenda qui accusamus ea, fuga, velit maiores sequi? Illo, ad.</p>
+      <p>At Getin, we’re committed to making clean energy accessible, affordable, and easy for everyone. With a dedicated team, cutting-edge technology, and customized solutions tailored to your specific needs, we ensure a seamless transition to solar power. Trust us to help you achieve energy independence while contributing to a sustainable future.</p>
       <Row>
         {wcu.map((content)=>{
          return <Col lg={4} >

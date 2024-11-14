@@ -65,7 +65,7 @@ function JobOpenings() {
                   <h4
                     key={index}
                     onClick={() => setSelectedJob(job)}
-                    className={selectedJob === job ? 'active' : ''}
+                    className={selectedJob === job ? 'job-title active' : 'job-title'}
                     style={{ cursor: "pointer" }}
                   >
                     {job.title}
