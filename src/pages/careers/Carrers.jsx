@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './careers.css'
 import {Col, Container,Row} from 'react-bootstrap'
 import Jobopenings from '../../components/Jobopenings'
@@ -10,6 +10,9 @@ import sp from '../../images/savings-plan_17774127.png'
 import discount from '../../images/promotion_11762553.png'
 
 function Carrers() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const benefits =[
     {
       img:salary,

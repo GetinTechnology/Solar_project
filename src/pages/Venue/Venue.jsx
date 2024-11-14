@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import { Container,Row,Button  } from 'react-bootstrap';
 import Calculater from '../../components/Calcultor';
 import WhyChooseUs from '../../components/Whychooseus';
@@ -9,6 +9,9 @@ import FAQ from '../../components/Faq';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 function DynamicPage({ pageKey }) {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const data = pageData[pageKey];
   const [showAll, setShowAll] = useState(false);
   const toggleShowAll = () => {

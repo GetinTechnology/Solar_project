@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './home.css'
 import '../../images/banner.jpg'
 import exp from '../../images/experties.svg'
@@ -24,6 +24,9 @@ import BoltIcon from '@mui/icons-material/Bolt';
 import { Link } from 'react-router-dom'
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const wcu = [
     {
       title:"Experienced Professionals",

@@ -1,6 +1,11 @@
+
+import { useEffect } from 'react';
 import { pageData } from '../../location'
 import './location.css'
 function LocationPage({pagekey}) {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     const data = pageData[pagekey];
     if (!data) return null;
       return (

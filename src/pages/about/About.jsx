@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef,useEffect } from 'react';
 import './about.css'
 import { Container, Row, Col } from 'react-bootstrap';
 import Slider from 'react-slick';
@@ -8,6 +8,9 @@ import person from '../../images/dummy.jpg'
 
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const team = [
     { img: person, name: 'Kumar', role: 'CEO' },
     { img: person, name: 'Anita', role: 'CTO' },
