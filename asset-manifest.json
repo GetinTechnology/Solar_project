@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Solar_project/static/css/main.8675e9e1.css",
-    "main.js": "/Solar_project/static/js/main.b833b203.js",
+    "main.css": "/Solar_project/static/css/main.d7015314.css",
+    "main.js": "/Solar_project/static/js/main.a1819056.js",
     "static/media/about.jpg": "/Solar_project/static/media/about.f7d15c234d6004a0f64c.jpg",
     "static/media/commercial.jpg": "/Solar_project/static/media/commercial.7beed3e7d705ab5cb18f.jpg",
     "static/media/small-business.jpg": "/Solar_project/static/media/small-business.2d9f3aebe936020df2b7.jpg",
@@ -11,12 +11,14 @@
     "static/media/contact.jpg": "/Solar_project/static/media/contact.80a038d64d08efdfe1ca.jpg",
     "static/media/citys-solar.jpg": "/Solar_project/static/media/citys-solar.463af8a85d230958b9c4.jpg",
     "static/media/career.jpg": "/Solar_project/static/media/career.71e904891b55617e31a5.jpg",
+    "static/media/notification.wav": "/Solar_project/static/media/notification.44c986223629e8f59379.wav",
     "static/media/working-time_7398232.png": "/Solar_project/static/media/working-time_7398232.be58ebc8afa7510f2bc4.png",
     "static/media/medical-report_12772946.png": "/Solar_project/static/media/medical-report_12772946.d1d11e4028412f396205.png",
     "static/media/holidays_10861897.png": "/Solar_project/static/media/holidays_10861897.3f16ae40b5f73f711adc.png",
     "static/media/salary_7158192.png": "/Solar_project/static/media/salary_7158192.50f9efe0bb3568c7b45c.png",
     "static/media/savings-plan_17774127.png": "/Solar_project/static/media/savings-plan_17774127.43f98d25839d09ecd1fa.png",
     "static/media/promotion_11762553.png": "/Solar_project/static/media/promotion_11762553.8751e1b45d1027331b14.png",
+    "static/media/chat-bubble_11302438.png": "/Solar_project/static/media/chat-bubble_11302438.b95ddcb13ede535219a2.png",
     "static/media/slick.svg": "/Solar_project/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Solar_project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Solar_project/static/media/slick.c94f7671dcc99dce43e2.ttf",
@@ -28,11 +30,11 @@
     "static/media/headset-svgrepo-com.svg": "/Solar_project/static/media/headset-svgrepo-com.78960c60a9ed8f94be1947ac4f8b1b2f.svg",
     "static/media/shield-check-svgrepo-com.svg": "/Solar_project/static/media/shield-check-svgrepo-com.f0d76d683f837c3ac651bca6261634d8.svg",
     "static/media/experties.svg": "/Solar_project/static/media/experties.5ff185a1031cac1b57cc360376719a9e.svg",
-    "main.8675e9e1.css.map": "/Solar_project/static/css/main.8675e9e1.css.map",
-    "main.b833b203.js.map": "/Solar_project/static/js/main.b833b203.js.map"
+    "main.d7015314.css.map": "/Solar_project/static/css/main.d7015314.css.map",
+    "main.a1819056.js.map": "/Solar_project/static/js/main.a1819056.js.map"
   },
   "entrypoints": [
-    "static/css/main.8675e9e1.css",
-    "static/js/main.b833b203.js"
+    "static/css/main.d7015314.css",
+    "static/js/main.a1819056.js"
   ]
 }
