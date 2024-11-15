@@ -1,11 +1,18 @@
-import Container from 'react-bootstrap/Container';
+import {Modal,Container}from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
 import './header.css';
+import { useState } from 'react';
+import Quote from '../quote/Quote';
+
+
 
 function Header() {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const handleClose = () => setModalIsOpen(false);
+  const handleShow = () => setModalIsOpen(true);
   return (
     <Navbar collapseOnSelect expand="lg" className="fixed-top header">
       <Container>
@@ -25,10 +32,13 @@ function Header() {
           </Nav>
           <Nav>
             <Nav.Link href="#deets" className="quote">7032541991</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes" className="quote">Get A Quote</Nav.Link>
+            <button  className="quote" onClick={handleShow}>Get A Quote</button>
           </Nav>
         </Navbar.Collapse>
       </Container>
+      <Modal show={modalIsOpen} onHide={handleClose}>
+      <Quote setModalIsOpen={setModalIsOpen}/>
+    </Modal>
     </Navbar>
   );
 }

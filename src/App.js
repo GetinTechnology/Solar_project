@@ -55,6 +55,7 @@ function App() {
   }, []);
 
   useEffect(() => {
+    setShowNotification(false);
     const handleScroll = () => {
       if (window.scrollY > 20) {
         setIsVisible(true);

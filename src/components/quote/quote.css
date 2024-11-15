@@ -1,0 +1,31 @@
+.Quote{
+    background-color: #fff;
+    padding: 50px;
+}
+.close{
+    display: flex;
+    justify-content:space-between;
+    font-size: 32px;
+    font-weight: 700;
+}
+.quote-form form{
+    display: flex;
+    flex-direction: column;
+}
+.quote-form label,input,select{
+    padding: 10px;
+}
+.quote-form label{
+    color: #2E7D32;
+}
+.quote-form input{
+    border: 2px solid rgb(90, 90, 207);
+}
+.quote-form input:focus,select:focus{
+    outline: 2px solid #FF7043;
+    border: none !important;
+}
+.quote-form select{
+    border: 2px solid rgb(90, 90, 207);
+
+}

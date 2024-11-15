@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Row, Col, Container,Modal } from 'react-bootstrap';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
@@ -9,8 +9,13 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import Quote from '../quote/Quote';
 
 function Footer() {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const handleClose = () => setModalIsOpen(false);
+  const handleShow = () => setModalIsOpen(true);
   return (
     <footer className='footer'>
       <Container>
@@ -47,7 +52,7 @@ function Footer() {
               </ul>
             </Col>
             <Col className='footer-section' md={3} lg={3}>
-              <button className="quote-button">Get a Quote</button>
+              <button className="quote-button" onClick={handleShow}>Get a Quote</button>
               <ul className='footer-contact'>
                 <li><LocalPhoneIcon /> 798754453729</li>
                 <li><EmailIcon /> Email@gmail.com</li>
@@ -67,6 +72,9 @@ function Footer() {
           &copy; 2024 Getin Solar | All Rights Reserved | Developed by Ramaussys Technologies
         </p>
       </Container>
+      <Modal show={modalIsOpen} onHide={handleClose}>
+      <Quote setModalIsOpen={setModalIsOpen}/>
+    </Modal>
     </footer>
   );
 }

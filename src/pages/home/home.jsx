@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React,{useEffect,useState} from 'react'
 import './home.css'
 import '../../images/banner.jpg'
 import exp from '../../images/experties.svg'
@@ -10,7 +10,7 @@ import eco from '../../images/eco-home-eco-house-svgrepo-com.svg'
 import res from '../../images/residential.jpg'
 import commercial from '../../images/commercial.jpg'
 import small from '../../images/small-business.jpg'
-import { Row,Col,Container} from 'react-bootstrap'
+import { Row,Col,Container,Modal} from 'react-bootstrap'
 import Calculator from '../../components/Calcultor'
 import SavingsIcon from '@mui/icons-material/Savings';
 import EnergySavingsLeafIcon from '@mui/icons-material/EnergySavingsLeaf';
@@ -22,6 +22,7 @@ import AssignmentIcon from '@mui/icons-material/Assignment';
 import ConstructionIcon from '@mui/icons-material/Construction';
 import BoltIcon from '@mui/icons-material/Bolt';
 import { Link } from 'react-router-dom'
+import Quote from '../../components/quote/Quote'
 
 function Home() {
   useEffect(() => {
@@ -72,7 +73,9 @@ function Home() {
     { question: "How long do solar panels last?", answer: "Most solar panels have a lifespan of 25-30 years, depending on the brand and maintenance." },
     { question: "What are the benefits of solar energy?", answer: "Solar energy reduces energy bills, lowers carbon footprint, and provides energy independence." },
   ];
-  
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const handleClose = () => setModalIsOpen(false);
+  const handleShow = () => setModalIsOpen(true);
   return (
     <>
       <div className='banner'>
@@ -80,7 +83,7 @@ function Home() {
       <div className='banner-content'>
         <h1>Power Your Future with Clean, Renewable Energy</h1>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam tenetur minus velit est voluptate nulla dolorem nihil accusamus eaque laborum provident ut modi, animi, quidem veritatis asperiores. Aut, facere rem.</p>
-      <button className='quote'>Get A Quote</button>
+      <button className='quote' onClick={handleShow}>Get A Quote</button>
       </div>  
       </Container>
     </div>
@@ -198,7 +201,7 @@ function Home() {
               <div className='review-box-content'>
               <p>Priya Rajan</p>
               <p>Chennai, Tamil Nadu</p>
-              <p>Switching to solar energy has truly transformed how we manage energy costs. Since installation, our energy bills have dropped significantly, providing immediate savings. Beyond just the financial perks, knowing that we’re taking a step towards a cleaner, more sustainable environment is incredibly satisfying. The entire installation process was handled professionally, and the team was there to support us with every question. </p>
+              <p className='review-box-content-p'>Switching to solar energy has truly transformed how we manage energy costs. Since installation, our energy bills have dropped significantly, providing immediate savings. Beyond just the financial perks, knowing that we’re taking a step towards a cleaner, more sustainable environment is incredibly satisfying. The entire installation process was handled professionally, and the team was there to support us with every question. </p>
               </div>
             </div>
           </Col>
@@ -226,7 +229,9 @@ function Home() {
       </Container>
     </div>
     <FAQ faqs={faqs}/>
-    
+    <Modal show={modalIsOpen} onHide={handleClose}>
+      <Quote setModalIsOpen={setModalIsOpen}/>
+    </Modal>
     </>
 
   )
