@@ -15,11 +15,21 @@ function Calculator() {
     subsidy: 0
   });
 
-  const powerUsage = { TV: 100, AC: 1500, Fan: 70, Light: 20 };
+  const powerUsage = { TV: 100, AC: 3160, Fan: 70, Light: 20,Refrigerator:350,"Washing Machine":350,"Microwave Oven":300,Computer:200,"Water Heater":400,Dishwasher:300,Iron:200 };
   const costPerUnit = 5; 
 
   const handleAddItem = () => {
-    setItems([...items, currentItem]);
+    const itemIndex = items.findIndex(item => item.name === currentItem.name);
+  
+    if (itemIndex === -1) {
+      setItems([...items, currentItem]);
+    } else {
+      const updatedItems = items.map((item, index) => 
+        index === itemIndex ? { ...item, quantity: item.quantity + currentItem.quantity } : item
+      );
+      setItems(updatedItems);
+    }
+  
     setCurrentItem({ name: "TV", quantity: 1 });
   };
 
@@ -27,23 +37,45 @@ function Calculator() {
     setItems(items.filter((_, i) => i !== index));
   };
 
+
   useEffect(() => {
     const totalEnergy = items.reduce((total, item) => {
       const power = (powerUsage[item.name] || 0) * item.quantity; 
       return total + (power * 30 * 5) / 1000; 
     }, 0);
-
+  
     const monthlyElectricityCost = totalEnergy * costPerUnit;
     setMonthlyCost(monthlyElectricityCost.toFixed(2));
-
-    const multiplier = usageType === "home" ? 1 : usageType === "commercial" ? 2 : 1.5;
-    const systemSize = Math.ceil(totalEnergy / 100) * multiplier;
-    const spaceRequired = systemSize * 10; 
-    const annualEnergy = totalEnergy * 12;
-    const annualSavings = monthlyElectricityCost * 12 * 0.8;
-    const price = systemSize * 50000;
-    const subsidy = price * 0.3;
-
+  
+    // Apply the new logic for system size based on the monthly electricity cost range
+    let systemSize = 0;
+    let spaceRequired = 0;
+    let annualEnergy = 0;
+    let annualSavings = 0;
+    let price = 0;
+    let subsidy = 0;
+  
+    if (monthlyElectricityCost > 0 && monthlyElectricityCost <= 1000) {
+      // If the cost is 0 - 1000, set everything to 0
+      systemSize = 0;
+      spaceRequired = 0;
+      annualEnergy = 0;
+      annualSavings = 0;
+      price = 0;
+      subsidy = 0;
+    } else {
+      // For costs above 1000, increment system size for each 1000 range
+      const systemSizeMultiplier = Math.floor(monthlyElectricityCost / 1000); // This determines the system size (1, 2, 3, 4,...)
+      systemSize = systemSizeMultiplier;
+  
+      // Now apply the fixed values for each 1 kW
+      spaceRequired = systemSize * 95;  // 95 sqft per kW
+      annualEnergy = systemSize * 1714;  // 1714 kWh per kW
+      annualSavings = systemSize * 12000;  // ₹12,000 savings per kW
+      price = systemSize * 96589;  // ₹96,589 per kW
+      subsidy = systemSize * 30000;  // ₹30,000 subsidy per kW
+    }
+  
     setSystemSuggestions({
       systemSize,
       spaceRequired,
@@ -52,7 +84,8 @@ function Calculator() {
       price: price.toFixed(2),
       subsidy: subsidy.toFixed(2)
     });
-  }, [items, usageType,powerUsage]);
+  }, [items, usageType, powerUsage]);
+  
 
   return (
     <Container>
@@ -71,10 +104,9 @@ function Calculator() {
                     value={currentItem.name}
                     onChange={(e) => setCurrentItem({ ...currentItem, name: e.target.value })}
                   >
-                    <option value="TV">TV</option>
-                    <option value="AC">AC</option>
-                    <option value="Fan">Fan</option>
-                    <option value="Light">Light</option>
+                    {Object.keys(powerUsage).map((elc,index)=>(
+                     <option value={elc} key={index}>{elc}</option>
+                    ))}
                   </Form.Control>
                 </Form.Group>
 

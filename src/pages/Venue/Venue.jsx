@@ -11,7 +11,7 @@ import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 function DynamicPage({ pageKey }) {
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+  }, [pageKey]);
   const data = pageData[pageKey];
   const [showAll, setShowAll] = useState(false);
   const toggleShowAll = () => {

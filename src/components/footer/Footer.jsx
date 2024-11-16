@@ -27,6 +27,7 @@ function Footer() {
 
             <Col className='footer-section' md={3} lg={3}>
               <ul className='footer-links'>
+              <li><h2>Our Links</h2></li>
                 <li><Link to='Solar_project/' className='footer-link'>Home</Link></li>
                 <li><Link to='About/' className='footer-link'>About Us</Link></li>
                 <li><Link to='residential/' className='footer-link'>Residential</Link></li>
@@ -47,6 +48,7 @@ function Footer() {
                 <li><Link to='/location/coimbatore' className='footer-link'>coimbatore</Link></li>
                 <li><Link to='/location/madurai' className='footer-link'>Madurai</Link></li>
                 <li><Link to='/location/kovilpatti' className='footer-link'>Kovil Patti</Link></li>
+                <li><Link to='/location/virudhunagar' className='footer-link'>virudhunagar</Link></li>
                 <li><Link to='/location/Thirunelveli' className='footer-link'>Thirunelveli</Link></li>
                 <li><Link to='/location/Kanniyakumari' className='footer-link'>Kanniyakumari</Link></li>
               </ul>

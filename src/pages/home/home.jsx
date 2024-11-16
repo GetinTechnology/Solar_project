@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import './home.css'
 import '../../images/banner.jpg'
 import exp from '../../images/experties.svg'
@@ -10,7 +10,7 @@ import eco from '../../images/eco-home-eco-house-svgrepo-com.svg'
 import res from '../../images/residential.jpg'
 import commercial from '../../images/commercial.jpg'
 import small from '../../images/small-business.jpg'
-import { Row,Col,Container,Modal} from 'react-bootstrap'
+import { Row, Col, Container, Modal } from 'react-bootstrap'
 import Calculator from '../../components/Calcultor'
 import SavingsIcon from '@mui/icons-material/Savings';
 import EnergySavingsLeafIcon from '@mui/icons-material/EnergySavingsLeaf';
@@ -23,6 +23,7 @@ import ConstructionIcon from '@mui/icons-material/Construction';
 import BoltIcon from '@mui/icons-material/Bolt';
 import { Link } from 'react-router-dom'
 import Quote from '../../components/quote/Quote'
+import { ReactComponent as Quotes } from '../../images/quotes.svg'
 
 function Home() {
   useEffect(() => {
@@ -30,34 +31,54 @@ function Home() {
   }, []);
   const wcu = [
     {
-      title:"Experienced Professionals",
-      img:exp,
-      content:"Our team has years of experience in the solar industry, ensuring that your installation is handled by experts."
+      title: "Experienced Professionals",
+      img: exp,
+      content: "Our team has years of experience in the solar industry, ensuring that your installation is handled by experts."
     },
     {
-      title:"Quality & Durability",
-      img:qul,
-      content:"We use only top-quality materials and equipment to provide you with reliable, long-lasting solar solutions."
+      title: "Quality & Durability",
+      img: qul,
+      content: "We use only top-quality materials and equipment to provide you with reliable, long-lasting solar solutions."
     },
     {
-      title:"Customized Solutions",
-      img:cus,
-      content:"Every home and business is unique. We tailor our solar solutions to meet your specific energy needs and goals"
+      title: "Customized Solutions",
+      img: cus,
+      content: "Every home and business is unique. We tailor our solar solutions to meet your specific energy needs and goals"
     },
     {
-      title:"Affordable Financing",
-      img:money,
-      content:"We offer flexible financing options to make solar accessible and affordable for everyone."
+      title: "Affordable Financing",
+      img: money,
+      content: "We offer flexible financing options to make solar accessible and affordable for everyone."
     },
     {
-      title:"Comprehensive Support",
-      img:com,
-      content:"Our dedicated support team is here to assist you before, during, and after installation, ensuring your complete satisfaction."
+      title: "Comprehensive Support",
+      img: com,
+      content: "Our dedicated support team is here to assist you before, during, and after installation, ensuring your complete satisfaction."
     },
     {
-      title:"Commitment to Sustainability",
-      img:eco,
-      content:"We are dedicated to promoting sustainable energy solutions that protect our planet and future generations."
+      title: "Commitment to Sustainability",
+      img: eco,
+      content: "We are dedicated to promoting sustainable energy solutions that protect our planet and future generations."
+    },
+  ]
+  const review = [
+    {
+      reviewimg: dummy,
+      name: "Priya Rajan",
+      location: "Chennai, Tamil Nadu",
+      review: "Switching to solar energy has truly transformed how we manage energy costs. Since installation, our energy bills have dropped significantly, providing immediate savings.  "
+    },
+    {
+      reviewimg: dummy,
+      name: "Arun Kumar",
+      location: "Coimbatore, Tamil Nadu",
+      review: "Our move to solar power was a smart decision that continues to pay off. Not only has it been a major cost-saver, but the peace of mind that comes from energy independence has been priceless.  "
+    },
+    {
+      reviewimg: dummy,
+      name: "Lakshmi Narayanan",
+      location: "Madurai, Tamil Nadu",
+      review: "Solar energy has been a game-changer for us. The system operates seamlessly with minimal maintenance, and the impact on our energy bills has been immediate.  "
     },
   ]
   const steps = [
@@ -79,159 +100,152 @@ function Home() {
   return (
     <>
       <div className='banner'>
-      <Container>
-      <div className='banner-content'>
-        <h1>Power Your Future with Clean, Renewable Energy</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam tenetur minus velit est voluptate nulla dolorem nihil accusamus eaque laborum provident ut modi, animi, quidem veritatis asperiores. Aut, facere rem.</p>
-      <button className='quote' onClick={handleShow}>Get A Quote</button>
-      </div>  
-      </Container>
-    </div>
-    <div className="banner-bottom">
-      <Container>
-      <Row>
-        <Col sm={12} lg={4} md={4}>
-          <div className='banner-bottom-box box-1'>
-            <SavingsIcon className='banner-bottom-box-icon'></SavingsIcon>
-            <h2>Save on Energy <br/>Bills</h2>
-            <p>Reduce your monthly bills and enjoy long-term savings with our high-efficiency solar systems. Say goodbye to rising electricity costs!</p>
+        <Container>
+          <div className='banner-content'>
+            <h1>Power Your Future with Clean, Renewable Energy</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam tenetur minus velit est voluptate nulla dolorem nihil accusamus eaque laborum provident ut modi, animi, quidem veritatis asperiores. Aut, facere rem.</p>
+            <button className='quote' onClick={handleShow}>Get A Quote</button>
           </div>
-        </Col>
-        <Col sm={12} lg={4} md={4}>
-        <div  className='banner-bottom-box box-2'>
-          <EnergySavingsLeafIcon className='banner-bottom-box-icon'></EnergySavingsLeafIcon>
-            <h2>Reduce Your Carbon Footprint</h2>
-            <p>By switching to solar, you’re supporting a cleaner, greener environment. Join us in making a positive impact on the planet with renewable energy.</p>
-          </div>
-        </Col>
-        <Col  sm={12} lg={4} md={4}>
-        <div  className='banner-bottom-box box-3'>
-          <BuildCircleIcon className='banner-bottom-box-icon'></BuildCircleIcon>
-          <h2>Reliable and Low Maintenance</h2>
-          <p>Our solar panels are designed for durability and low maintenance, providing you with reliable energy for years to come.</p>
-          </div>
-        </Col>
-      </Row>
-      </Container>
-      
-    </div>
-    <div className="saving-calculater">
-      <Calculator />
-    </div>
-    <div className="why-choose-us">
-      <Container>
-      <h2>why choose us</h2>
-      <p>At Getin, we’re committed to making clean energy accessible, affordable, and easy for everyone. With a dedicated team, cutting-edge technology, and customized solutions tailored to your specific needs, we ensure a seamless transition to solar power. Trust us to help you achieve energy independence while contributing to a sustainable future.</p>
-      <Row>
-        {wcu.map((content)=>{
-         return <Col lg={4} >
-            <div className='wcu-box'>
-            <img src={content.img} alt="" />
-            <h3>{content.title}</h3>
-            <p>{content.content}</p>
-            </div>
+        </Container>
+      </div>
+      <div className="banner-bottom">
+        <Container>
+          <Row>
+            <Col sm={12} lg={4} md={4}>
+              <div className='banner-bottom-box box-1'>
+                <SavingsIcon className='banner-bottom-box-icon'></SavingsIcon>
+                <h2>Save on Energy <br />Bills</h2>
+                <p>Reduce your monthly bills and enjoy long-term savings with our high-efficiency solar systems. Say goodbye to rising electricity costs!</p>
+              </div>
+            </Col>
+            <Col sm={12} lg={4} md={4}>
+              <div className='banner-bottom-box box-2'>
+                <EnergySavingsLeafIcon className='banner-bottom-box-icon'></EnergySavingsLeafIcon>
+                <h2>Reduce Your Carbon Footprint</h2>
+                <p>By switching to solar, you’re supporting a cleaner, greener environment. Join us in making a positive impact on the planet with renewable energy.</p>
+              </div>
+            </Col>
+            <Col sm={12} lg={4} md={4}>
+              <div className='banner-bottom-box box-3'>
+                <BuildCircleIcon className='banner-bottom-box-icon'></BuildCircleIcon>
+                <h2>Reliable and Low Maintenance</h2>
+                <p>Our solar panels are designed for durability and low maintenance, providing you with reliable energy for years to come.</p>
+              </div>
+            </Col>
+          </Row>
+        </Container>
 
-          </Col>
-        })}
-      </Row>
-      </Container>
-    </div>
-    <div className='segments'>
+      </div>
+      <div className="saving-calculater">
+        <Calculator />
+      </div>
+      <div className="why-choose-us">
+        <Container>
+          <h2>why choose us</h2>
+          <p>At Getin, we’re committed to making clean energy accessible, affordable, and easy for everyone. With a dedicated team, cutting-edge technology, and customized solutions tailored to your specific needs, we ensure a seamless transition to solar power. Trust us to help you achieve energy independence while contributing to a sustainable future.</p>
+          <Row>
+            {wcu.map((content) => {
+              return <Col lg={4} >
+                <div className='wcu-box'>
+                  <img src={content.img} alt="" />
+                  <h3>{content.title}</h3>
+                  <p>{content.content}</p>
+                </div>
+
+              </Col>
+            })}
+          </Row>
+        </Container>
+      </div>
+      <div className='segments'>
         <Container>
           <h2>our segments</h2>
           <Row>
             <Col sm={12} md={4} lg={4}>
-            <Link to='/venue/residential'>
-            <div className='segment'>
-                <img src={res} alt="" />
-                <div className='se-name'>
-                  <h3>Residential</h3>
+              <Link to='/venue/residential'>
+                <div className='segment'>
+                  <img src={res} alt="" />
+                  <div className='se-name'>
+                    <h3>Residential</h3>
+                  </div>
                 </div>
-              </div>
-            </Link>
+              </Link>
 
             </Col>
             <Col sm={12} md={4} lg={4}>
-            <Link to="/venue/commercial">
-              <div className='segment'>
-                <img src={commercial} alt="" />
-                <div className='se-name'>
-                  <h3>Commercial</h3>
+              <Link to="/venue/commercial">
+                <div className='segment'>
+                  <img src={commercial} alt="" />
+                  <div className='se-name'>
+                    <h3>Commercial</h3>
+                  </div>
                 </div>
-              </div>
               </Link>
             </Col>
             <Col sm={12} md={4} lg={4}>
-            <Link to="/venue/smallbusiness">
-            <div className='segment'>
-                <img src={small} alt="" />
-                <div className='se-name'>
-                  <h3>Small Bussiness</h3>
+              <Link to="/venue/smallbusiness">
+                <div className='segment'>
+                  <img src={small} alt="" />
+                  <div className='se-name'>
+                    <h3>Small Bussiness</h3>
+                  </div>
                 </div>
-              </div>
-            </Link>
+              </Link>
 
             </Col>
           </Row>
         </Container>
-    </div>
+      </div>
       <div className='solar-steps'>
         <Container>
           <Row>
             <h2>Get Your Solar in Steps</h2>
-            {steps.map((step)=>
-              (<Col key={step.title} style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-                <div className='step-box'>
-                  <div>{step.icon}</div>
-                  <h3>{step.title}</h3>
-                  <p>{step.description}</p>
-                </div>
-              </Col>)
+            {steps.map((step) =>
+            (<Col key={step.title} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <div className='step-box'>
+                <div>{step.icon}</div>
+                <h3>{step.title}</h3>
+                <p>{step.description}</p>
+              </div>
+            </Col>)
             )}
           </Row>
         </Container>
       </div>
-    <div className="review">
-      <h2>Customers Review</h2>
-      <Container>
-        <Row>
-          <Col sm={12} lg={4}>
-          <div className='review-box'>
-              <img src={dummy}  alt="" />
-              <div className='review-box-content'>
-              <p>Priya Rajan</p>
-              <p>Chennai, Tamil Nadu</p>
-              <p className='review-box-content-p'>Switching to solar energy has truly transformed how we manage energy costs. Since installation, our energy bills have dropped significantly, providing immediate savings. Beyond just the financial perks, knowing that we’re taking a step towards a cleaner, more sustainable environment is incredibly satisfying. The entire installation process was handled professionally, and the team was there to support us with every question. </p>
-              </div>
-            </div>
-          </Col>
-          <Col sm={12} lg={4}>
-          <div className='review-box'>
-              <img src={dummy}  alt="" />
-              <div className='review-box-content'>
-              <p>Arun Kumar</p>
-              <p> Coimbatore, Tamil Nadu</p>
-              <p>Our move to solar power was a smart decision that continues to pay off. Not only has it been a major cost-saver, but the peace of mind that comes from energy independence has been priceless. It’s inspiring to set a positive example for sustainability within our community, showing that going green doesn’t just benefit the environment but also provides tangible financial savings</p>
-              </div>
-            </div>
-          </Col>
-          <Col sm={12} lg={4}>
-          <div className='review-box'>
-              <img src={dummy}  alt="" />
-              <div className='review-box-content'>
-              <p>Lakshmi Narayanan</p>
-              <p>Madurai, Tamil Nadu</p>
-              <p>Solar energy has been a game-changer for us. The system operates seamlessly with minimal maintenance, and the impact on our energy bills has been immediate. Our decision to adopt solar wasn’t just about the savings; it was about future-proofing our power needs while contributing to a healthier planet. The entire team was knowledgeable and made sure we were comfortable every step of the way.</p>
-              </div>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    </div>
-    <FAQ faqs={faqs}/>
-    <Modal show={modalIsOpen} onHide={handleClose}>
-      <Quote setModalIsOpen={setModalIsOpen}/>
-    </Modal>
+      <div className="review">
+        <h2>Customers Review</h2>
+        <Container>
+          <Row className='review-container'>
+
+            {
+              review.map((review) => (
+                <Col lg={4} key={review.name}>
+                  <div className='review-box'>
+                    <div className="review-box-top">
+                      <div className='review-box-top-1'>
+                        <img src={review.reviewimg} alt="" />
+                        <div className='review-box-top-content'>
+                          <p>{review.name}</p>
+                          <p>{review.location}</p>
+                        </div>
+                      </div>
+                      <Quotes className="review-box-top-2" />
+                    </div>
+                    <div className='review-box-content'>
+                      <p className='review-box-content-p'>{review.review}</p>
+                    </div>
+                  </div>
+                </Col>
+              ))
+            }
+
+          </Row>
+        </Container>
+      </div>
+      <FAQ faqs={faqs} />
+      <Modal show={modalIsOpen} onHide={handleClose}>
+        <Quote setModalIsOpen={setModalIsOpen} />
+      </Modal>
     </>
 
   )

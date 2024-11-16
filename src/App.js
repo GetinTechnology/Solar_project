@@ -26,7 +26,7 @@ function App() {
   useEffect(() => {
     // Show span 1 minute after render
     const initialTimer = setTimeout(() => {
-      setShowNotification(true);
+      setShowNotification(false);
       
       // Hide span after 2 minutes
       const hideTimer = setTimeout(() => {
@@ -35,7 +35,7 @@ function App() {
 
       // Re-show every 10 minutes after the span hides
       const repeatTimer = setInterval(() => {
-        setShowNotification(true);
+        setShowNotification(false);
         
         // Hide span after 2 minutes in each cycle
         setTimeout(() => {
@@ -95,8 +95,15 @@ function App() {
             <Route path="smallbusiness/" element={<Venue pageKey="smallBusiness" />} />
             <Route path="commercial/" element={<Venue pageKey="commercial" />} />
           </Route>
-          <Route path='location/'>
+          <Route path='/location'>
             <Route path='chennai/' element={<LocationPage pagekey={'chennai'}/>}/>
+            <Route path='bengaluru/' element={<LocationPage pagekey={'bengaluru'}/>}/>
+            <Route path='coimbatore/' element={<LocationPage pagekey={'coimbatore'}/>}/>
+            <Route path='madurai/' element={<LocationPage pagekey={'madurai'}/>}/>
+            <Route path='virudhunagar/' element={<LocationPage pagekey={'virudhunagar'}/>}/>
+            <Route path='thirunelveli/' element={<LocationPage pagekey={'thirunelveli'}/>}/>
+            <Route path='kovilpatti/' element={<LocationPage pagekey={'kovilpatti'}/>}/>
+            <Route path='kanniyakumari/' element={<LocationPage pagekey={'kanniyakumari'}/>}/>
           </Route>
           <Route path='*' element={<Fnf/>}/>
         </Routes>

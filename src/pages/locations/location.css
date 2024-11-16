@@ -1,8 +1,8 @@
 .location{
-    margin-top: 6rem;
+    margin-top: 6.6rem;
 }
 .location-banner{
-    height: 60vh;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.492);
     background: 
     linear-gradient(180deg, rgba(0, 0, 0, 0.492), rgba(0, 0, 0, 0.492)), 
@@ -13,8 +13,53 @@
     text-align: left;
     padding-top:5rem ;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
   margin:6rem 2rem  2rem 2rem;
   border-radius: 30px;
+  color: #fff;
+}
+.location-content{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.location-form{
+  background-color: #fff;
+  padding:10px 40px;
+  border-radius: 10px;
+}
+.location-form form{
+  display: flex;
+  flex-direction: column;
+}
+.location-form input{
+  padding: 5px;
+  width: auto;
+  border: #2E7D32 2px solid;
+}
+.location-form input:focus{
+  outline: none;
+  border: #FF7043 2px solid ;
+}
+.location-form label{
+  color: #2E7D32;
+  padding: 5px;
+}
+.location-form select{
+  border: 2px solid  #2E7D32;
+
+}
+.location-cont h3,.location-cont h2{
+  color: #2E7D32;
+}
+.location-cont div,.list-conteent{
+  padding: 10px;
+}
+.location-cont a{
+  text-decoration: none;
+}
+.location-cont{
+  margin-top: 4rem;
 }
