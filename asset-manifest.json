@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Solar_project/static/css/main.6fad8fd7.css",
-    "main.js": "/Solar_project/static/js/main.5ea700d3.js",
-    "static/media/about.jpg": "/Solar_project/static/media/about.f7d15c234d6004a0f64c.jpg",
+    "main.css": "/Solar_project/static/css/main.4cbe06f6.css",
+    "main.js": "/Solar_project/static/js/main.07464a31.js",
     "static/media/commercial.jpg": "/Solar_project/static/media/commercial.7beed3e7d705ab5cb18f.jpg",
     "static/media/small-business.jpg": "/Solar_project/static/media/small-business.2d9f3aebe936020df2b7.jpg",
     "static/media/residential.jpg": "/Solar_project/static/media/residential.91a9bfa3fbb508184774.jpg",
     "static/media/dummy.jpg": "/Solar_project/static/media/dummy.56243a16914d41a3c2f2.jpg",
     "static/media/banner.jpg": "/Solar_project/static/media/banner.f54a884d2290d8ddf89b.jpg",
     "static/media/contact.jpg": "/Solar_project/static/media/contact.80a038d64d08efdfe1ca.jpg",
+    "static/media/about.jpg": "/Solar_project/static/media/about.342a447f3f73209e7072.jpg",
     "static/media/citys-solar.jpg": "/Solar_project/static/media/citys-solar.463af8a85d230958b9c4.jpg",
     "static/media/career.jpg": "/Solar_project/static/media/career.71e904891b55617e31a5.jpg",
     "static/media/notification.wav": "/Solar_project/static/media/notification.44c986223629e8f59379.wav",
@@ -20,26 +20,30 @@
     "static/media/savings-plan_17774127.png": "/Solar_project/static/media/savings-plan_17774127.43f98d25839d09ecd1fa.png",
     "static/media/promotion_11762553.png": "/Solar_project/static/media/promotion_11762553.8751e1b45d1027331b14.png",
     "static/media/chat-bubble_11302438.png": "/Solar_project/static/media/chat-bubble_11302438.b95ddcb13ede535219a2.png",
+    "static/media/solar-energy-svgrepo-com.svg": "/Solar_project/static/media/solar-energy-svgrepo-com.624d115527f92761d3f23c45022ae8a9.svg",
+    "static/media/customer-service-svgrepo-com.svg": "/Solar_project/static/media/customer-service-svgrepo-com.0935130dfda7099ccd09f184d6849a17.svg",
     "static/media/allowance-svgrepo-com.svg": "/Solar_project/static/media/allowance-svgrepo-com.9e327c52645703564268091da93ff844.svg",
     "static/media/location-in.svg": "/Solar_project/static/media/location-in.ba95868bec29685703a028f14eb88739.svg",
     "static/media/slick.svg": "/Solar_project/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Solar_project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Solar_project/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/puzzle-piece-6-svgrepo-com.svg": "/Solar_project/static/media/puzzle-piece-6-svgrepo-com.7e6f3d027b5f62097fe919ad3074000b.svg",
+    "static/media/electric-tower-power-line-svgrepo-com.svg": "/Solar_project/static/media/electric-tower-power-line-svgrepo-com.f3d3c75d74cf9c8e13c6ce013bf4dc4a.svg",
     "static/media/rupee-2-svgrepo-com.svg": "/Solar_project/static/media/rupee-2-svgrepo-com.c8a4328d44b22d5373cbf30c289698fc.svg",
     "static/media/quotes.svg": "/Solar_project/static/media/quotes.c27279bccace02dbc0f3781ecd08c956.svg",
     "index.html": "/Solar_project/index.html",
     "static/media/bill-check-svgrepo-com.svg": "/Solar_project/static/media/bill-check-svgrepo-com.42104e80498b82e6bf602b825812d583.svg",
+    "static/media/home-1-svgrepo-com.svg": "/Solar_project/static/media/home-1-svgrepo-com.92f8869fc32b7aae758096d7a900cbd3.svg",
     "static/media/slick.woff": "/Solar_project/static/media/slick.295183786cd8a1389865.woff",
     "static/media/eco-home-eco-house-svgrepo-com.svg": "/Solar_project/static/media/eco-home-eco-house-svgrepo-com.eefde1129b12f0ef3ae5fd5a757f1153.svg",
     "static/media/headset-svgrepo-com.svg": "/Solar_project/static/media/headset-svgrepo-com.78960c60a9ed8f94be1947ac4f8b1b2f.svg",
     "static/media/shield-check-svgrepo-com.svg": "/Solar_project/static/media/shield-check-svgrepo-com.f0d76d683f837c3ac651bca6261634d8.svg",
     "static/media/experties.svg": "/Solar_project/static/media/experties.5ff185a1031cac1b57cc360376719a9e.svg",
-    "main.6fad8fd7.css.map": "/Solar_project/static/css/main.6fad8fd7.css.map",
-    "main.5ea700d3.js.map": "/Solar_project/static/js/main.5ea700d3.js.map"
+    "main.4cbe06f6.css.map": "/Solar_project/static/css/main.4cbe06f6.css.map",
+    "main.07464a31.js.map": "/Solar_project/static/js/main.07464a31.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fad8fd7.css",
-    "static/js/main.5ea700d3.js"
+    "static/css/main.4cbe06f6.css",
+    "static/js/main.07464a31.js"
   ]
 }
