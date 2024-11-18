@@ -6,7 +6,7 @@ import { ReactComponent as Quotes } from '../images/quotes.svg'
 function review({ reviews }) {
   return (
     <div className="review">
-      <h2>Customers Review</h2>
+      <h2 className='headings'>Customers Review</h2>
       <Container>
         <Row className='review-container'>
 

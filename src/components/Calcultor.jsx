@@ -94,7 +94,7 @@ function Calculator() {
           <h2>Calculate Your Savings</h2>
           <Col>
             <div className="calculate-box-1">
-              <h2>Enter Electronic Items and Quantity</h2>
+              <h3>Enter Electronic Items and Quantity</h3>
               <Form>
                 <div className='d-flex align-items-center' style={{gap:'20px'}}>
                 <Form.Group>
@@ -161,11 +161,11 @@ function Calculator() {
           </Col>
           <Col>
             <div className="calculate-box-2">
+            <h3>Optimized Solar Recommendations for Your  {usageType}</h3>
               <div className="calculate-box">
                 <div><p>Monthly Electricity Cost</p></div>
                 <p>₹{monthlyCost}</p>
               </div>
-              <h3>Solar System Suggestions ({usageType})</h3>
               <div className="calculate-box">
                 <div><p>System Size</p></div>
                 <p>{systemSuggestions.systemSize} kW</p>

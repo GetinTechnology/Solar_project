@@ -102,8 +102,8 @@ function Home() {
       <div className='banner'>
         <Container>
           <div className='banner-content'>
-            <h1>Power Your Future with Clean, Renewable Energy</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam tenetur minus velit est voluptate nulla dolorem nihil accusamus eaque laborum provident ut modi, animi, quidem veritatis asperiores. Aut, facere rem.</p>
+            <h1>Unlock the Power of Solar Energy for Your Home</h1>
+            <p>Take the first step toward a sustainable future by embracing solar energy. Say goodbye to high electricity bills and hello to long-term savings. Experience the benefits of clean, renewable power while reducing your carbon footprint. Transform your home into a beacon of sustainability and efficiency today!</p>
             <button className='quote' onClick={handleShow}>Get A Quote</button>
           </div>
         </Container>
@@ -141,7 +141,7 @@ function Home() {
       </div>
       <div className="why-choose-us">
         <Container>
-          <h2>why choose us</h2>
+          <h2 className='headings'>Why Choose Us</h2>
           <p>At Getin, we’re committed to making clean energy accessible, affordable, and easy for everyone. With a dedicated team, cutting-edge technology, and customized solutions tailored to your specific needs, we ensure a seamless transition to solar power. Trust us to help you achieve energy independence while contributing to a sustainable future.</p>
           <Row>
             {wcu.map((content) => {
@@ -159,7 +159,7 @@ function Home() {
       </div>
       <div className='segments'>
         <Container>
-          <h2>our segments</h2>
+          <h2 className='headings'>Our Segments</h2>
           <Row>
             <Col sm={12} md={4} lg={4}>
               <Link to='/venue/residential'>
@@ -199,9 +199,9 @@ function Home() {
       <div className='solar-steps'>
         <Container>
           <Row>
-            <h2>Get Your Solar in Steps</h2>
+            <h2 className='headings'>Get Your Solar in Steps</h2>
             {steps.map((step) =>
-            (<Col key={step.title} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            (<Col key={step.title} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} sm={12} md={6} lg={3}>
               <div className='step-box'>
                 <div>{step.icon}</div>
                 <h3>{step.title}</h3>
@@ -213,7 +213,7 @@ function Home() {
         </Container>
       </div>
       <div className="review">
-        <h2>Customers Review</h2>
+        <h2 className='headings'>Customers Review</h2>
         <Container>
           <Row className='review-container'>
 

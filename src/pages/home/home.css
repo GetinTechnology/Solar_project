@@ -1,12 +1,12 @@
 .banner{
  
-  height: 60vh;
+  height: 50vh;
   background-color: rgba(0, 0, 0, 0.492);
   background: 
   linear-gradient(180deg, rgba(0, 0, 0, 0.492), rgba(0, 0, 0, 0.492)), 
   url(../../images/banner.jpg);
     background-size: cover;
-  background-position: center; 
+  background-position:bottom; 
   background-repeat: no-repeat; 
   text-align: left;
   padding-top:5rem ;
@@ -76,7 +76,16 @@ border-radius: 30px;
   }
 }
 
+.calculator{
+  text-align: center;
+}
+.calculator h2{
+  font-size: 2.5rem;
+  color: #2E7D32; /* Primary color for heading */
+  font-weight: bold;
+  margin-bottom: 1rem;
 
+}
 .saving-calculater{
   margin-top: 3rem;
 }
@@ -87,6 +96,7 @@ border-radius: 30px;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0px 0px 3px 3px rgba(18, 18, 68, 0.508);
+  text-align: left;
 }
 .calculate-box-1>form{
   display: flex;
@@ -193,9 +203,9 @@ border-radius: 30px;
 
 .segments h2 {
   font-size: 2.5rem;
-  color: #2E7D32; /* Primary color for title */
-  margin-bottom: 2rem;
+  color: #2E7D32; /* Primary color for heading */
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .segment {

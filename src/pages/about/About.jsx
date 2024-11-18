@@ -3,8 +3,10 @@ import './about.css'
 import { Container, Row, Col } from 'react-bootstrap';
 import Slider from 'react-slick';
 import person from '../../images/dummy.jpg'
-
-
+import et from '../../images/electric-tower-power-line-svgrepo-com.svg'
+import ss from '../../images/solar-energy-svgrepo-com.svg'
+import home from '../../images/home-1-svgrepo-com.svg'
+import cs from '../../images/customer-service-svgrepo-com.svg'
 
 
 function About() {
@@ -73,72 +75,109 @@ function About() {
 
       </Container>
       <div className="work-with-us">
-    <h2>Why Work with Us?</h2>
+    <h2 className='headings'>Why Work with Us?</h2>
     <Container className="main-content">
         <Row>
             <Col lg={6} className="left-section">
                 <div className="card">
                     <h3>Personalized Solutions, Not a One-Size-Fits-All Approach</h3>
-                    <p className="others">Others: Many solar companies offer standard packages that might not fully address your unique needs.</p>
-                    <p className="us">Us: Our custom-designed solar solutions maximize energy production and cost efficiency, tailored just for you.</p>
+                    <p className="others">Many solar companies offer standard packages that might not fully address your unique needs.</p>
+                    <p className="us">Our custom-designed solar solutions maximize energy production and cost efficiency, tailored just for you.</p>
                 </div>
-                <div className="card">
+          
+            </Col>
+            <Col>
+            <div className="card">
                     <h3>Transparency and Trust Throughout the Process</h3>
-                    <p className="others">Others: Solar providers often have hidden fees and unclear timelines.</p>
-                    <p className="us">Us: We promise a clear breakdown of all costs, timelines, and work involved from start to finish.</p>
+                    <p className="others">Solar providers often have hidden fees and unclear timelines.</p>
+                    <p className="us">We promise a clear breakdown of all costs, timelines, and work involved from start to finish.</p>
                 </div>
             </Col>
             <Col lg={6} className="right-section">
                 <div className="card">
                     <h3>End-to-End Service with Comprehensive Support</h3>
-                    <p className="others">Others: Many companies focus only on installation.</p>
-                    <p className="us">Us: We provide ongoing support and system monitoring to ensure peak performance of your solar panels.</p>
+                    <p className="others">Many companies focus only on installation.</p>
+                    <p className="us">We provide ongoing support and system monitoring to ensure peak performance of your solar panels.</p>
                 </div>
-                <div className="card">
+
+            </Col>
+            <Col>
+            <div className="card">
                     <h3>Commitment to Sustainability and Quality</h3>
-                    <p className="others">Others: Some companies prioritize rapid installations over quality.</p>
-                    <p className="us">Us: We source high-quality materials and uphold stringent standards on every project.</p>
+                    <p className="others">Some companies prioritize rapid installations over quality.</p>
+                    <p className="us">We source high-quality materials and uphold stringent standards on every project.</p>
                 </div>
             </Col>
         </Row>
     </Container>
 </div>
 
-      <div>
-
+      <div className='made-easy'>
+          <h2 className='headings'>Switch to Solar Made Easy</h2>
         <Container>
-          <div className="simple-solar-section">
-            <h2 className="simple-solar-header">We Make Solar Simple</h2>
-            <p className="simple-solar-description">
-              Switching to solar is easy with Getin Solar. From consultation to installation, we’ve got you covered.
-            </p>
-            <div className="steps-container">
-              <div className="step-boxx">
-                <div className="step-icon">🌞</div>
-                <h3 className="step-title">Personalized Consultation</h3>
-                <p className="step-description">We discuss your energy needs and answer all your questions.</p>
-              </div>
-              <div className="step-boxx">
-                <div className="step-icon">🛠️</div>
-                <h3 className="step-title">Customized Solar Design</h3>
-                <p className="step-description">Our experts create a solar system designed just for you.</p>
-              </div>
-              <div className="step-boxx">
-                <div className="step-icon">⚙️</div>
-                <h3 className="step-title">Hassle-Free Installation</h3>
-                <p className="step-description">Our certified team installs everything safely and efficiently.</p>
-              </div>
-              <div className="step-boxx">
-                <div className="step-icon">🔧</div>
-                <h3 className="step-title">Ongoing Support</h3>
-                <p className="step-description">We provide continuous support for optimal performance.</p>
-              </div>
+          <Row className='made-easy-row'>
+            <span>01</span>
+            <Col className='made-easy-col-1'>
+            <div className='made-easy-content'>
+              <h4>Existing Grid</h4>
+              <p>The traditional power grid relies heavily on non-renewable energy sources like coal, gas, and oil, which contribute significantly to air pollution and global warming. Moreover, the costs of grid electricity have been rising steadily, leaving customers with no control over their energy expenses. This outdated system is not only expensive but also harmful to the environment, limiting customer choice and sustainability..</p>
             </div>
-          </div>
+            </Col>
+            <Col className=' made-easy-col'>
+            <div className="made-easy-image">
+              <img src={et} alt="" />
+            </div>
+            </Col>
+          </Row>
+          <Row className='made-easy-row'>
+            <span>02</span>
+ 
+            <Col className=' made-easy-col'>
+            <div className="made-easy-image">
+              <img src={ss} alt="" />
+            </div>
+            </Col>
+            <Col className='made-easy-col-1'>
+            <div className='made-easy-content'>
+              <h4>Future Grid</h4>
+              <p>The traditional power grid relies heavily on non-renewable energy sources like coal, gas, and oil, which contribute significantly to air pollution and global warming. Moreover, the costs of grid electricity have been rising steadily, leaving customers with no control over their energy expenses. This outdated system is not only expensive but also harmful to the environment, limiting customer choice and sustainability..</p>
+            </div>
+            </Col>
+          </Row>
+          <Row className='made-easy-row'>
+            <span>03</span>
+            <Col className='made-easy-col-1'>
+            <div className='made-easy-content'>
+              <h4>Future Grid</h4>
+              <p>Imagine a decentralized energy system where power is generated and consumed locally. Solar power enables a clean and sustainable energy future by reducing dependence on centralized grids. By harnessing sunlight, you not only reduce your carbon footprint but also contribute to a greener, more resilient power network. This transformation makes solar energy the cornerstone of a reliable and eco-friendly grid.</p>
+            </div>
+            </Col>
+            <Col className=' made-easy-col'>
+            <div className="made-easy-image">
+              <img src={home} alt="" />
+            </div>
+            </Col>
+
+          </Row>
+          <Row className='made-easy-row'>
+            <span>04</span>
+ 
+            <Col className=' made-easy-col'>
+            <div className="made-easy-image">
+              <img src={cs} alt="" />
+            </div>
+            </Col>
+            <Col className='made-easy-col-1'>
+            <div className='made-easy-content'>
+              <h4>Customer Support</h4>
+              <p>Switching to solar can feel overwhelming, but with our dedicated customer support, the process is effortless. From initial consultation to installation and after-sales service, we ensure a smooth and hassle-free experience. Our team of experts is always available to answer your questions, provide technical assistance, and guide you at every step of your solar journey, ensuring you get the most out of your investment.</p>
+            </div>
+            </Col>
+          </Row>
         </Container>
       </div>
       <div className="meetourteam">
-        <h2>Meet Our Team</h2>
+        <h2 className='headings'>Meet Our Team</h2>
 
         {/* Custom Arrows */}
         <div className="custom-arrow-dots-container">

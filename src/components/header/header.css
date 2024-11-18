@@ -60,7 +60,6 @@
 #responsive-navbar-nav {
   background-color: #FAFAFA;
 }
-
 .quote {
   position: relative;
   overflow: hidden;
@@ -72,6 +71,36 @@
   font-weight: bold;
   z-index: 1;
   border: none;
+  display: inline-block;
+  gap: 8px;
+}
+
+.head-quote{
+  background-color: #2E7D32 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: #fff !important;
+  border:none ;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transition: 0.5s all;
+
+}
+.head-quote span{
+  width: 0;
+  overflow: hidden;
+  transition: 0.5s all;
+  white-space: nowrap;
+}
+.head-quote:hover{
+  width: 160px;
+  border-radius: 50px;
+}
+.head-quote:hover span{
+  width: 150px;
 }
 
 .quote::before {

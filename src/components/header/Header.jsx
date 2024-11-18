@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 import './header.css';
 import { useState } from 'react';
 import Quote from '../quote/Quote';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import RequestQuoteIcon from '@mui/icons-material/RequestQuote';
 
 
 
@@ -31,8 +33,8 @@ function Header() {
             <Nav.Link as={Link} to="contact/">Contact</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets" className="quote">7032541991</Nav.Link>
-            <button  className="quote" onClick={handleShow}>Get A Quote</button>
+            <Nav.Link href="#deets" className="head-quote"><LocalPhoneIcon className='head-icon'/><span>+917032541991</span></Nav.Link>
+            <button  className="head-quote" onClick={handleShow}><RequestQuoteIcon className='head-icon'/><span>Get a Quote</span></button>
           </Nav>
         </Navbar.Collapse>
       </Container>
