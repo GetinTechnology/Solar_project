@@ -24,6 +24,8 @@ import BoltIcon from '@mui/icons-material/Bolt';
 import { Link } from 'react-router-dom'
 import Quote from '../../components/quote/Quote'
 import { ReactComponent as Quotes } from '../../images/quotes.svg'
+import {Helmet} from "react-helmet";
+
 
 function Home() {
   useEffect(() => {
@@ -99,6 +101,9 @@ function Home() {
   const handleShow = () => setModalIsOpen(true);
   return (
     <>
+    <Helmet>
+      
+    </Helmet>
       <div className='banner'>
         <Container>
           <div className='banner-content'>

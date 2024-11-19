@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react';
-import { Container,Row,Button  } from 'react-bootstrap';
+import { Container,Row,Button,Col  } from 'react-bootstrap';
 import Calculater from '../../components/Calcultor';
 import WhyChooseUs from '../../components/Whychooseus';
 import { pageData} from '../../venue';
@@ -31,26 +31,33 @@ function DynamicPage({ pageKey }) {
       <Container>
         <h4>{data.description}</h4>
         <p>{data.paragraph}</p>
-        <div className={`content-container ${showAll ? 'expanded' : ''}`}>
-        {data.content.map((content, index) => (
-        (index === 0 || showAll) && (
-          <Row key={index} className="content-item">
-            <h3>{content.title}</h3>
-            <p>{content.content}</p>
-          </Row>
-        )
-      ))} 
-        </div>
-        <Button variant="link" onClick={toggleShowAll} className={showAll ? 'view-less-btn' : 'view-more-btn'}>
-      {showAll ? 'View Less' : 'View More'}
-      <span className={`arrow-icon ${showAll ? 'rotate-up' : 'rotate-down'}`}>
-        {showAll ? <FaChevronUp /> : <FaChevronDown />}
-      </span>
-    </Button>
+        
       </Container>
       <div style={{ marginTop: '4rem' }}>
         <Calculater />
       </div>
+      <div className='venue-content'>
+        <h2>Harnessing the Power of the Sun: Residential Solar Energy Explained</h2>
+        <Container>
+        <Row className="venue-row-content">
+          <span>1</span>
+          <Col className='venue-content-col-1'>
+          <div className='venue-content-box'>
+              <h4>{data.title1.title}</h4>
+              <p>{data.title1.content}</p>
+            </div>
+          </Col>
+          <Col>
+            <div className="venue-content-image">
+              <img src="" alt={data.title1.img} />
+            </div>
+          </Col>
+        </Row>
+ 
+
+        </Container>
+      </div>
+
       <WhyChooseUs title={`Why Choose Us for ${data.title}`} points={data.points} />
       <Review reviews={data.reviews}/>
       <FAQ faqs={data.faqs}/>

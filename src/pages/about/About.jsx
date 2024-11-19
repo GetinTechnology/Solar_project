@@ -112,7 +112,7 @@ function About() {
     </Container>
 </div>
 
-      <div className='made-easy'>
+      {/* <div className='made-easy'>
           <h2 className='headings'>Switch to Solar Made Easy</h2>
         <Container>
           <Row className='made-easy-row'>
@@ -175,7 +175,49 @@ function About() {
             </Col>
           </Row>
         </Container>
+      </div> */}
+      <div className='made-easy-container'>
+      <h2 className='headings'>Switch to Solar Made Easy</h2>
+
+        <Container>
+        <Row>
+        <Col>
+          <div className='made-easy'>
+          <img src={et} alt="" />
+          <h4>Existing Grid</h4>
+          <p>The traditional power grid relies heavily on non-renewable energy sources like coal, gas, and oil, which contribute significantly to air pollution and global warming. Moreover, the costs of grid electricity have been rising steadily, leaving customers with no control over their energy expenses. This outdated system is not only expensive but also harmful to the environment, limiting customer choice and sustainability..</p>
+          </div>
+        </Col>
+        <Col>
+        <div className='made-easy'>
+        <img src={ss} alt="" />
+
+          <h4>Smart Solar Solution</h4>
+          <p>The traditional power grid relies heavily on non-renewable energy sources like coal, gas, and oil, which contribute significantly to air pollution and global warming. Moreover, the costs of grid electricity have been rising steadily, leaving customers with no control over their energy expenses. This outdated system is not only expensive but also harmful to the environment, limiting customer choice and sustainability..</p>
+          </div>
+        </Col>
+        <Col>
+        <div className='made-easy'>
+        <img src={home} alt="" />
+
+          <h4>Future Grid</h4>
+          <p>Imagine a decentralized energy system where power is generated and consumed locally. Solar power enables a clean and sustainable energy future by reducing dependence on centralized grids. By harnessing sunlight, you not only reduce your carbon footprint but also contribute to a greener, more resilient power network. This transformation makes solar energy the cornerstone of a reliable and eco-friendly grid.</p>
+          </div>
+        </Col>
+        <Col>
+        <div className='made-easy'>
+        <img src={home} alt="" />
+
+          <h4>Customer Support</h4>
+          <p>Switching to solar can feel overwhelming, but with our dedicated customer support, the process is effortless. From initial consultation to installation and after-sales service, we ensure a smooth and hassle-free experience. Our team of experts is always available to answer your questions, provide technical assistance, and guide you at every step of your solar journey, ensuring you get the most out of your investment.</p>
+          </div>
+        </Col>
+      </Row>
+
+        </Container>
       </div>
+      
+
       <div className="meetourteam">
         <h2 className='headings'>Meet Our Team</h2>
 

@@ -3,7 +3,7 @@ import { Row, Col, Container, Button, Form } from 'react-bootstrap';
 
 function Calculator() {
   const [items, setItems] = useState([]);
-  const [currentItem, setCurrentItem] = useState({ name: "TV", quantity: 1 });
+  const [currentItem, setCurrentItem] = useState({ name:"", quantity: 1 });
   const [usageType, setUsageType] = useState("home");
   const [monthlyCost, setMonthlyCost] = useState(0);
   const [systemSuggestions, setSystemSuggestions] = useState({
@@ -30,7 +30,7 @@ function Calculator() {
       setItems(updatedItems);
     }
   
-    setCurrentItem({ name: "TV", quantity: 1 });
+    setCurrentItem({ name: currentItem.name, quantity: 1 });
   };
 
   const handleRemoveItem = (index) => {
