@@ -206,7 +206,7 @@ function About() {
         </Col>
         <Col>
         <div className='made-easy'>
-        <img src={home} alt="" />
+        <img src={cs} alt="" />
 
           <h4>Customer Support</h4>
           <p>Switching to solar can feel overwhelming, but with our dedicated customer support, the process is effortless. From initial consultation to installation and after-sales service, we ensure a smooth and hassle-free experience. Our team of experts is always available to answer your questions, provide technical assistance, and guide you at every step of your solar journey, ensuring you get the most out of your investment.</p>

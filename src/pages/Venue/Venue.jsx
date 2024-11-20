@@ -47,14 +47,70 @@ function DynamicPage({ pageKey }) {
               <p>{data.title1.content}</p>
             </div>
           </Col>
-          <Col>
+          <Col className='venue-content-col-2'>
             <div className="venue-content-image">
-              <img src="" alt={data.title1.img} />
+              <img src={data.title1.img} alt={data.title1.title} />
             </div>
           </Col>
         </Row>
- 
+        <Row className="venue-row-content">
+          <span>2</span>
 
+          <Col className='venue-content-col-2'>
+            <div className="venue-content-image">
+              <img src={data.title2.img} alt={data.title2.title} />
+            </div>
+          </Col>
+          <Col className='venue-content-col-1'>
+          <div className='venue-content-box'>
+              <h4>{data.title2.title}</h4>
+              <p>{data.title2.content}</p>
+            </div>
+          </Col>
+        </Row>
+        <Row className="venue-row-content">
+          <span>3</span>
+          <Col className='venue-content-col-1'>
+          <div className='venue-content-box'>
+              <h4>{data.title3.title}</h4>
+              <p>{data.title3.content}</p>
+            </div>
+          </Col>
+          <Col className='venue-content-col-2'>
+            <div className="venue-content-image">
+              <img src={data.title3.img} alt={data.title3.title} />
+            </div>
+          </Col>
+        </Row>
+        <Row className="venue-row-content">
+          <span>4</span>
+
+          <Col className='venue-content-col-2'>
+            <div className="venue-content-image">
+              <img src={data.title4.img} alt={data.title4.title} />
+            </div>
+          </Col>
+          <Col className='venue-content-col-1'>
+          <div className='venue-content-box'>
+              <h4>{data.title4.title}</h4>
+              <p>{data.title4.content}</p>
+            </div>
+          </Col>
+        </Row>
+        <Row className="venue-row-content">
+          <span>5</span>
+          <Col className='venue-content-col-1'>
+          <div className='venue-content-box'>
+              <h4>{data.title5.title}</h4>
+              <p>{data.title5.content}</p>
+            </div>
+          </Col>
+          <Col className='venue-content-col-2'>
+            <div className="venue-content-image">
+              <img src={data.title5.img} alt={data.title5.title} />
+            </div>
+          </Col>
+        </Row>
         </Container>
       </div>
 

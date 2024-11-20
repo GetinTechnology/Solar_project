@@ -34,7 +34,7 @@ function Header() {
           </Nav>
           <Nav>
             <Nav.Link href="#deets" className="head-quote"><LocalPhoneIcon className='head-icon'/><span>+917032541991</span></Nav.Link>
-            <button  className="head-quote" onClick={handleShow}><RequestQuoteIcon className='head-icon'/><span>Get a Quote</span></button>
+            <button  className="head-quote" onClick={handleShow}><RequestQuoteIcon className='head-icon' /><span>Get a Quote</span></button>
           </Nav>
         </Navbar.Collapse>
       </Container>
