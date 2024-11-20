@@ -22,7 +22,7 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link as={Link} to="Solar_project/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="About/">About Us</Nav.Link>
             <NavDropdown title="Venue" id="collapsible-nav-dropdown">
               <NavDropdown.Item as={Link} to='/venue/residential'>Residential</NavDropdown.Item>

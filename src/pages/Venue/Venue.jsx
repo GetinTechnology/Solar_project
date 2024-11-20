@@ -24,15 +24,12 @@ function DynamicPage({ pageKey }) {
     <div className="dynamic-page">
       <div className="res-banner"  style={{
     background: `linear-gradient(180deg, rgba(0, 0, 0, 0.492), rgba(0, 0, 0, 0.492)), url(${data.bannerBackground})`,
-
+        
   }}>
         <h1>{data.title}</h1>
-      </div>
-      <Container>
-        <h4>{data.description}</h4>
         <p>{data.paragraph}</p>
-        
-      </Container>
+      </div>
+
       <div style={{ marginTop: '4rem' }}>
         <Calculater />
       </div>

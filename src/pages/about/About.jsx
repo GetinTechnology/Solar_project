@@ -66,14 +66,10 @@ function About() {
     <div className='about'>
       <div className='about-banner'>
         <h1>About us</h1>
-      </div>
-      <Container>
-        <section>
-          <h2>Our Getin Solar</h2>
-          <p> Getin Solar is a dedicated provider of clean and sustainable energy solutions, committed to helping homeowners, businesses, and communities transition to renewable solar energy. With years of expertise in solar power and a passion for environmental impact, we provide tailored solar solutions that drive energy independence and cost savings.At Getin Solar, our mission is simple: to empower individuals and businesses with reliable, eco-friendly solar power that minimizes environmental impact while maximizing energy efficiency. We believe in a future powered by the sun, where clean energy is accessible and affordable for everyone.</p>
-        </section>
+        <p>Getin Solar is a leading provider of clean, sustainable energy solutions, helping homeowners, businesses, and communities transition to renewable solar power. With years of expertise, we offer tailored solar solutions that promote energy independence and cost savings. </p>
 
-      </Container>
+      </div>
+
       <div className="work-with-us">
     <h2 className='headings'>Why Work with Us?</h2>
     <Container className="main-content">
@@ -112,70 +108,7 @@ function About() {
     </Container>
 </div>
 
-      {/* <div className='made-easy'>
-          <h2 className='headings'>Switch to Solar Made Easy</h2>
-        <Container>
-          <Row className='made-easy-row'>
-            <span>01</span>
-            <Col className='made-easy-col-1'>
-            <div className='made-easy-content'>
-              <h4>Existing Grid</h4>
-              <p>The traditional power grid relies heavily on non-renewable energy sources like coal, gas, and oil, which contribute significantly to air pollution and global warming. Moreover, the costs of grid electricity have been rising steadily, leaving customers with no control over their energy expenses. This outdated system is not only expensive but also harmful to the environment, limiting customer choice and sustainability..</p>
-            </div>
-            </Col>
-            <Col className=' made-easy-col'>
-            <div className="made-easy-image">
-              <img src={et} alt="" />
-            </div>
-            </Col>
-          </Row>
-          <Row className='made-easy-row'>
-            <span>02</span>
- 
-            <Col className=' made-easy-col'>
-            <div className="made-easy-image">
-              <img src={ss} alt="" />
-            </div>
-            </Col>
-            <Col className='made-easy-col-1'>
-            <div className='made-easy-content'>
-              <h4>Future Grid</h4>
-              <p>The traditional power grid relies heavily on non-renewable energy sources like coal, gas, and oil, which contribute significantly to air pollution and global warming. Moreover, the costs of grid electricity have been rising steadily, leaving customers with no control over their energy expenses. This outdated system is not only expensive but also harmful to the environment, limiting customer choice and sustainability..</p>
-            </div>
-            </Col>
-          </Row>
-          <Row className='made-easy-row'>
-            <span>03</span>
-            <Col className='made-easy-col-1'>
-            <div className='made-easy-content'>
-              <h4>Future Grid</h4>
-              <p>Imagine a decentralized energy system where power is generated and consumed locally. Solar power enables a clean and sustainable energy future by reducing dependence on centralized grids. By harnessing sunlight, you not only reduce your carbon footprint but also contribute to a greener, more resilient power network. This transformation makes solar energy the cornerstone of a reliable and eco-friendly grid.</p>
-            </div>
-            </Col>
-            <Col className=' made-easy-col'>
-            <div className="made-easy-image">
-              <img src={home} alt="" />
-            </div>
-            </Col>
 
-          </Row>
-          <Row className='made-easy-row'>
-            <span>04</span>
- 
-            <Col className=' made-easy-col'>
-            <div className="made-easy-image">
-              <img src={cs} alt="" />
-            </div>
-            </Col>
-            <Col className='made-easy-col-1'>
-            <div className='made-easy-content'>
-              <h4>Customer Support</h4>
-              <p>Switching to solar can feel overwhelming, but with our dedicated customer support, the process is effortless. From initial consultation to installation and after-sales service, we ensure a smooth and hassle-free experience. Our team of experts is always available to answer your questions, provide technical assistance, and guide you at every step of your solar journey, ensuring you get the most out of your investment.</p>
-            </div>
-            </Col>
-          </Row>
-        </Container>
-      </div> */}
       <div className='made-easy-container'>
       <h2 className='headings'>Switch to Solar Made Easy</h2>
 

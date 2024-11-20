@@ -86,7 +86,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path='Solar_project/' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='contact/' element={<Contact />} />
           <Route path='About/' element={<About />} />
           <Route path='career/' element={<Carrers />} />
