@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.41fcf1ee.css",
-    "main.js": "/static/js/main.38f03cbb.js",
+    "main.css": "/static/css/main.7f5f7bfa.css",
+    "main.js": "/static/js/main.e1e17e57.js",
+    "static/media/solar-panel-with-green-plug.jpg": "/static/media/solar-panel-with-green-plug.4e675120633050fb03a6.jpg",
     "static/media/c1.png": "/static/media/c1.ee073e85518df2a9cf9f.png",
     "static/media/commercial.jpg": "/static/media/commercial.7beed3e7d705ab5cb18f.jpg",
     "static/media/small-business.jpg": "/static/media/small-business.2d9f3aebe936020df2b7.jpg",
@@ -54,11 +55,11 @@
     "static/media/headset-svgrepo-com.svg": "/static/media/headset-svgrepo-com.78960c60a9ed8f94be1947ac4f8b1b2f.svg",
     "static/media/shield-check-svgrepo-com.svg": "/static/media/shield-check-svgrepo-com.f0d76d683f837c3ac651bca6261634d8.svg",
     "static/media/experties.svg": "/static/media/experties.5ff185a1031cac1b57cc360376719a9e.svg",
-    "main.41fcf1ee.css.map": "/static/css/main.41fcf1ee.css.map",
-    "main.38f03cbb.js.map": "/static/js/main.38f03cbb.js.map"
+    "main.7f5f7bfa.css.map": "/static/css/main.7f5f7bfa.css.map",
+    "main.e1e17e57.js.map": "/static/js/main.e1e17e57.js.map"
   },
   "entrypoints": [
-    "static/css/main.41fcf1ee.css",
-    "static/js/main.38f03cbb.js"
+    "static/css/main.7f5f7bfa.css",
+    "static/js/main.e1e17e57.js"
   ]
 }
