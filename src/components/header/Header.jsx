@@ -8,6 +8,7 @@ import { useState } from 'react';
 import Quote from '../quote/Quote';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import RequestQuoteIcon from '@mui/icons-material/RequestQuote';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 
 
@@ -33,7 +34,7 @@ function Header() {
             <Nav.Link as={Link} to="contact/">Contact</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets" className="head-quote"><LocalPhoneIcon className='head-icon'/><span>+917032541991</span></Nav.Link>
+            <Nav.Link as={Link} to='https://api.whatsapp.com/send?phone=918925831826&text=Hi! Getin Solar' className="head-quote"><WhatsAppIcon className='head-icon'/><span>+91 89258 31826</span></Nav.Link>
             <button  className="head-quote" onClick={handleShow}><RequestQuoteIcon className='head-icon' /><span>Get a Quote</span></button>
           </Nav>
         </Navbar.Collapse>

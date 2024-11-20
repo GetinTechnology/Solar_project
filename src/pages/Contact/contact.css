@@ -14,11 +14,14 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 5rem;
+    flex-direction: column;
+    padding: 5rem;
     margin: 2rem 2rem 4rem 2rem;
     border-radius: 30px;
   }
-  
+  .contact-banner p{
+    font-size: 20px;
+  }
   .contact-banner h1 {
     font-size: 3rem;
     color: #fff;
@@ -71,4 +74,9 @@
   .contact-submit-button:hover {
     background-color: #FF7043; 
   }
-  
+  @media (max-width:450px) {
+    .contact-banner{
+      padding: 20px;
+      height: 80vh;
+    }
+  }

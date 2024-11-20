@@ -12,18 +12,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 margin:6.6rem 2rem  2rem 2rem;
 border-radius: 30px;
 color: #fff;
+padding: 5rem;
 
+}
+.career-banner p{
+    font-size: 20px;
+    text-align: center;
 }
 .career li{
     list-style: lower-roman;
 }
-.career h1{
-    font-size: 64px;
-    font-weight: 700;
-}
+
 .career h2,.career h3{
     margin-bottom: 2rem;
     font-weight: 700;
@@ -78,4 +81,14 @@ color: #fff;
     transform: scale(1);
     box-shadow: 0 0 5px 6px rgba(90, 90, 207, 0.486);
 
+}
+@media (max-width:750px) {
+    .career-banner{
+        padding: 20px;
+    }
+}
+@media (max-width:450px){
+    .career-banner{
+        height: 80vh;
+    }
 }

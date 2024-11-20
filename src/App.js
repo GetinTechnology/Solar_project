@@ -12,6 +12,9 @@ import LocationPage from './pages/locations/LocationPage';
 import { useEffect, useState } from 'react';
 import chat from './images/chat-bubble_11302438.png'
 import not from './images/notification.wav'
+import Policy from './pages/terms/Policy.jsx';
+import Disclaimer from './pages/terms/Disclaimer.jsx';
+import Privacy from './pages/terms/Privacy.jsx';
 
 
 function App() {
@@ -95,6 +98,9 @@ function App() {
             <Route path="smallbusiness/" element={<Venue pageKey="smallBusiness" />} />
             <Route path="commercial/" element={<Venue pageKey="commercial" />} />
           </Route>
+          <Route path='termsofpolicy/' element={<Policy/>}/>
+          <Route path='disclaimer/' element={<Disclaimer/>}/>
+          <Route path='privacy/' element={<Privacy/>}/>
           <Route path='/location'>
             <Route path='chennai/' element={<LocationPage pagekey={'chennai'}/>}/>
             <Route path='bengaluru/' element={<LocationPage pagekey={'bengaluru'}/>}/>

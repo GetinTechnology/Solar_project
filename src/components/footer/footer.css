@@ -4,7 +4,10 @@
     padding: 40px 0;
     font-family: Arial, sans-serif;
   }
-  
+  .footer a{
+    text-decoration: none;
+    color: #ddd;
+  }
   .footer h2 {
     font-size: 1.8rem;
     color: #A5D6A7; /* Light Green */

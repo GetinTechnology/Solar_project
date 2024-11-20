@@ -67,3 +67,23 @@
   font-weight: bold;
   margin-bottom: 1rem;
 }
+.fnf{
+  margin: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fnf a{
+  text-decoration: none;
+  color: #2E7D32;
+}
+.fnf img{
+  width: 400px;
+}
+.terms{
+  margin-top:7rem ;
+}
+.terms p,h3{
+  padding: 8px 0;
+}

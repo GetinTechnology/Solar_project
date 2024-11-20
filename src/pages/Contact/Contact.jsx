@@ -38,6 +38,7 @@ function Contact() {
     <div className='contact'>
       <div className='contact-banner'>
         <h1>Contact Us</h1>
+        <p>Ready to make the switch to sustainable solar power? Whether you’re a homeowner, small business owner, or managing a commercial property, we’re here to help. Get in touch with our team today and start your journey toward energy independence and savings. Let's harness the power of the sun, together!</p>
       </div>
       
       <Container className="contact-form-container">
