@@ -269,7 +269,7 @@ border-radius: 30px;
 .review-box{
   box-shadow: 0 0 10px 10px rgba(128, 128, 128, 0.145);
   padding: 24px 24px;
-  height: 230px;
+  height: 250px;
   border-radius: 10px;
   margin: 20px 0;
   transition: .3s all ease-in;
@@ -452,6 +452,11 @@ border-radius: 30px;
 }
 
 /* Responsive adjustments */
+@media (min-width:1440px){
+  .review-box{
+    height: 230px;
+  }
+}
 @media (max-width:1020px) {
   .review-box{
     height: auto;

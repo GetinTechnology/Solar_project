@@ -45,10 +45,10 @@ function Footer() {
                 <li><h2>Our Loaction</h2></li>
                 <li><Link to='/location/chennai' className='footer-link'>Chennai</Link></li>
                 <li><Link to='/location/bengaluru' className='footer-link'>Bengaluru</Link></li>
-                <li><Link to='/location/coimbatore' className='footer-link'>coimbatore</Link></li>
+                <li><Link to='/location/coimbatore' className='footer-link'>Coimbatore</Link></li>
                 <li><Link to='/location/madurai' className='footer-link'>Madurai</Link></li>
-                <li><Link to='/location/kovilpatti' className='footer-link'>Kovil Patti</Link></li>
-                <li><Link to='/location/virudhunagar' className='footer-link'>virudhunagar</Link></li>
+                <li><Link to='/location/kovilpatti' className='footer-link'>Kovilpatti</Link></li>
+                <li><Link to='/location/virudhunagar' className='footer-link'>Virudhunagar</Link></li>
                 <li><Link to='/location/Thirunelveli' className='footer-link'>Thirunelveli</Link></li>
                 <li><Link to='/location/Kanniyakumari' className='footer-link'>Kanniyakumari</Link></li>
               </ul>

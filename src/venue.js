@@ -48,9 +48,9 @@ export const pageData = {
         { icon: <SecurityIcon />, title: "Reliable Energy", description: "Enjoy stable power with minimal maintenance." },
       ],
       reviews:[
-        {reviewimage:dummy,name:"Karthik Suresh",Location: "Coimbatore, Tamil Nadu",Review: "Switching to solar has been a game-changer for our household. The installation was efficient, and we immediately saw the impact on our monthly bills. It feels empowering to know that we're contributing to a cleaner environment while also benefiting financially."},
-        {reviewimage:dummy,name:"Anjali Ramesh",Location: "Chennai, Tamil Nadu",Review: "The decision to go solar was initially about cutting costs, but it’s brought so many additional benefits. We’re saving a significant amount on electricity, which helps tremendously, and it’s rewarding to know we’re reducing our carbon footprint. "},
-        {reviewimage:dummy,name:" Pradeep Rajan",Location: "Madurai, Tamil Nadu",Review: "Solar energy has exceeded our expectations. The entire process, from consultation to installation, was handled with such care and attention to detail. We’ve noticed major savings, and the impact on our utility bills has been exactly what we hoped for. "},
+        {reviewimage:dummy,name:"Karthik Suresh",Location: "Coimbatore, Tamil Nadu",Review: "Switching to solar has been a game-changer for our household. The installation was efficient, and we immediately saw the impact on our monthly bills. "},
+        {reviewimage:dummy,name:"Anjali Ramesh",Location: "Chennai, Tamil Nadu",Review: "The decision to go solar was initially about cutting costs, but it’s brought so many additional benefits. We’re saving a significant amount on electricity, which helps tremendously."},
+        {reviewimage:dummy,name:" Pradeep Rajan",Location: "Madurai, Tamil Nadu",Review: "Solar energy has exceeded our expectations. The entire process, from consultation to installation, was handled with such care and attention to detail.  "},
       ],
        faqs : [
         { question: "How much can I save with residential solar panels?", answer: "Solar panels can significantly reduce your monthly energy bills. Savings depend on your energy usage, location, and system size, with many homeowners seeing reductions of 50% or more." },
@@ -96,7 +96,7 @@ export const pageData = {
       reviews:[
         {reviewimage:dummy,name:"Raghavendra Prasad",Location: "Salem, Tamil Nadu",Review: "As a small business owner, switching to solar was one of the best decisions we've made. Our energy bills have dropped significantly, freeing up funds we can reinvest into other areas of the business. "},
         {reviewimage:dummy,name:"Priyanka Subramanian",Location: "Erode, Tamil Nadu",Review: "Going solar has had a fantastic impact on our operational costs. With energy prices rising, the predictability and stability of solar power have been a huge asset for us. "},
-        {reviewimage:dummy,name:"Kavya",Location: "Bengaluru, Karnataka",Review: "We decided to go solar to reduce our electricity costs, but the benefits have gone beyond our expectations. Not only are we saving money each month, but we've also gained a reputation as an eco-friendly business, which resonates well with our clients. "},
+        {reviewimage:dummy,name:"Kavya",Location: "Bengaluru, Karnataka",Review: "We decided to go solar to reduce our electricity costs, but the benefits have gone beyond our expectations. Not only are we saving money each month."},
       ],
       faqs :  [
         { 

@@ -78,7 +78,7 @@ function Home() {
     },
     {
       reviewimg: dummy,
-      name: "Lakshmi Narayanan",
+      name: "Lakshmi",
       location: "Madurai, Tamil Nadu",
       review: "Solar energy has been a game-changer for us. The system operates seamlessly with minimal maintenance, and the impact on our energy bills has been immediate.  "
     },
