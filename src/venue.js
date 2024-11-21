@@ -1,14 +1,14 @@
-import HomeRepairServiceIcon from '@mui/icons-material/HomeRepairService';
-import SavingsIcon from '@mui/icons-material/Savings';
-import SecurityIcon from '@mui/icons-material/Security';
-import HomeIcon from '@mui/icons-material/Home';
-import TrendingUpIcon from '@mui/icons-material/TrendingUp';
-import MoneyIcon from '@mui/icons-material/Money';
-import ThumbUpIcon from '@mui/icons-material/ThumbUp';
-import ApartmentIcon from '@mui/icons-material/Apartment';
-import BusinessIcon from '@mui/icons-material/Business';
-import LocalAtmIcon from '@mui/icons-material/LocalAtm';
-import StarIcon from '@mui/icons-material/Star';
+import HomeRepairServiceIcon from './images/business-bag-svgrepo-com.svg';
+import SavingsIcon from './images/piggy-bank-check-svgrepo-com.svg';
+import SecurityIcon from './images/energy-svgrepo-com (1).svg';
+import HomeIcon from './images/home-1-svgrepo-com.svg';
+import TrendingUpIcon from './images/eco3-svgrepo-com.svg';
+import MoneyIcon from './images/money-round-1184-svgrepo-com.svg';
+import ThumbUpIcon from './images/thumbsup-ui-like-svgrepo-com.svg';
+import ApartmentIcon from './images/building-svgrepo-com.svg';
+import BusinessIcon from './images/building-svgrepo-com (1).svg';
+import LocalAtmIcon from './images/dollar-square-svgrepo-com.svg';
+import StarIcon from './images/star-svgrepo-com.svg';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import Residential from './images/residential.jpg';
 import Commercial from './images/commercial.jpg';
@@ -29,6 +29,7 @@ import c2 from './images/c2.png'
 import c3 from './images/c3.png'
 import c4 from './images/c4.jpg'
 import c5 from './images/c5.jpg'
+
 export const pageData = {
     residential: {
       title: "Residential",
@@ -42,10 +43,10 @@ export const pageData = {
         title5:{title:"The Future of Energy Independence and Security",content:"Investing in residential solar power is also a step toward greater energy independence and security. Solar energy offers homeowners a way to control their energy production and consumption. Rather than being affected by rising utility costs or energy market volatility, solar-powered households can enjoy stable, predictable energy costs.Moreover, residential solar systems contribute to a more resilient energy grid. When homes generate and store their own electricity, they reduce the overall demand on the grid, helping prevent blackouts or service interruptions during peak times. Some neighborhoods even establish solar communities, where solar-powered homes share energy and support each other in emergencies, fostering local resilience and cooperation.",img:battery},
     
       points: [
-        { icon: <HomeRepairServiceIcon />, title: "Lower Your Bills", description: "Reduce monthly costs by switching to efficient solar energy." },
-        { icon: <SavingsIcon />, title: "Eco-Friendly", description: "Support a cleaner planet by reducing carbon footprint." },
-        { icon: <HomeIcon />, title: "Increased Home Value", description: "Homes with solar panels have higher resale value." },
-        { icon: <SecurityIcon />, title: "Reliable Energy", description: "Enjoy stable power with minimal maintenance." },
+        { icon: HomeRepairServiceIcon , title: "Lower Your Bills", description: "Reduce monthly costs by switching to efficient solar energy." },
+        { icon: SavingsIcon, title: "Eco-Friendly", description: "Support a cleaner planet by reducing carbon footprint." },
+        { icon: HomeIcon , title: "Increased Home Value", description: "Homes with solar panels have higher resale value." },
+        { icon: SecurityIcon , title: "Reliable Energy", description: "Enjoy stable power with minimal maintenance." },
       ],
       reviews:[
         {reviewimage:dummy,name:"Karthik Suresh",Location: "Coimbatore, Tamil Nadu",Review: "Switching to solar has been a game-changer for our household. The installation was efficient, and we immediately saw the impact on our monthly bills. "},
@@ -76,19 +77,19 @@ export const pageData = {
         title5:{title:"Making the Switch: An Easy Process",content:"The process of transitioning to solar power is streamlined and straightforward, especially with the help of experienced providers. Most providers begin with a consultation to assess the energy needs of the business, followed by a design that fits the unique needs of the business. The provider will handle all aspects of installation and activation, ensuring the system is up and running quickly and efficiently.",img:sm5},
  
       points: [
-        { icon: <BusinessCenterIcon />, title: "Lower Overhead", description: "Cut energy costs to boost business profits." },
+        { icon: HomeRepairServiceIcon , title: "Lower Overhead", description: "Cut energy costs to boost business profits." },
         {
-            icon: <TrendingUpIcon />,
+            icon: TrendingUpIcon ,
             title: "Green Branding",
             description: "Attract eco-conscious clients with sustainable practices."
           },
           {
-            icon: <MoneyIcon />,
+            icon: MoneyIcon,
             title: "Flexible Financing",
             description: "Get access to financing options that fit your budget."
           },
           {
-            icon: <ThumbUpIcon />,
+            icon: ThumbUpIcon ,
             title: "Reliable Power",
             description: "Experience dependable power for your business needs."
           }
@@ -154,19 +155,19 @@ export const pageData = {
         title5:{title:"A Sustainable and Profitable Investment",content:"Commercial solar power is an intelligent, forward-thinking investment that can lead to significant savings, enhanced sustainability, and a stronger brand image. By switching to solar, businesses can reduce their environmental footprint, lower their energy costs, and contribute to a cleaner, more resilient energy future. Solar power is not only a solution for today’s energy challenges—it’s a crucial part of tomorrow’s energy landscape.",img:c4},
    
       points: [
-        { icon: <ApartmentIcon />, title: "Cost Efficiency", description: "Significant savings on large-scale energy usage." },
+        { icon:ApartmentIcon, title: "Cost Efficiency", description: "Significant savings on large-scale energy usage." },
         {
-            icon: <BusinessIcon />,
+            icon: BusinessIcon ,
             title: "Enhanced Sustainability",
             description: "Improve your business's green footprint."
           },
           {
-            icon: <LocalAtmIcon />,
+            icon: LocalAtmIcon,
             title: "Tax Benefits",
             description: "Access rebates and tax incentives for solar adoption."
           },
           {
-            icon: <StarIcon />,
+            icon: StarIcon ,
             title: "High Reliability",
             description: "Minimize disruptions with a consistent power source."
           }

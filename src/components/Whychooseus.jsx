@@ -11,7 +11,9 @@ const WhyChooseUs = ({ title, points }) => {
           {points.map((point, index) => (
             <Col key={index} sm={6} lg={3} className="why-choose-col">
               <div className="why-choose-box">
-                <div className="why-choose-icon">{point.icon}</div>
+                <div className="why-choose-icon">
+                  <img src={point.icon} alt="" />
+                </div>
                 <h3 className="why-choose-point-title">{point.title}</h3>
                 <p>{point.description}</p>
               </div>

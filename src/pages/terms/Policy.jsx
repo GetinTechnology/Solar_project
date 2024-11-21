@@ -5,8 +5,11 @@ import '../../App.css'
 function Policy() {
     return (
         <div className='terms'>
+            <div className='terms-banner'>
+            <h2>Solar Policy Terms and Conditions</h2>
+
+            </div>
             <Container>
-                <h2>Solar Policy Terms and Conditions</h2>
                 <p>Welcome to Getin Solar. Please review the following terms and conditions that govern your use of our services and ensure a clear understanding of our policies related to solar installations and services. By engaging with our services, you agree to comply with these terms.</p>
                 <div>
                     <h3>Agreement to Terms

@@ -6,7 +6,6 @@ import { pageData} from '../../venue';
 import './venue.css'
 import Review from '../../components/review'
 import FAQ from '../../components/Faq';
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 function DynamicPage({ pageKey }) {
   useEffect(() => {
@@ -22,10 +21,7 @@ function DynamicPage({ pageKey }) {
 
   return (
     <div className="dynamic-page">
-      <div className="res-banner"  style={{
-    background: `linear-gradient(180deg, rgba(0, 0, 0, 0.492), rgba(0, 0, 0, 0.492)), url(${data.bannerBackground})`,
-        
-  }}>
+      <div className="res-banner">
         <h1>{data.title}</h1>
         <p>{data.paragraph}</p>
       </div>

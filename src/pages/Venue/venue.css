@@ -1,7 +1,8 @@
 .res-banner{
      
-  height: 60vh;
-  background-color: rgba(0, 0, 0, 0.492);
+  height: 50vh;
+  background: rgb(102,143,212);
+  background: linear-gradient(186deg, rgba(102,143,212,1) 0%, rgba(103,210,106,0.7232142857142857) 100%);
     background-size: cover !important;
   background-position: center !important; 
   background-repeat: no-repeat; 
@@ -48,9 +49,12 @@ padding: 5rem;
   transform: scalex(0.9) ;
 }
 .why-choose-icon {
-  font-size: 36px;
-  color: #2E7D32;
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+
+}
+.why-choose-icon img{
+  width: 50px;
 }
 .why-choose-point-title{
   white-space: nowrap;

@@ -3,6 +3,11 @@ import { Container } from 'react-bootstrap'
 function Disclaimer() {
     return (
         <div className='terms'>
+                 <div className='terms-banner'>
+                 <h2>Disclaimer
+                 </h2>
+
+            </div>
             <Container>
             <h2>Disclaimer
             </h2>

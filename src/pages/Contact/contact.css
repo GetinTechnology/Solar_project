@@ -3,10 +3,9 @@
   }
   
   .contact-banner {
-    height: 60vh;
-    background: 
-      linear-gradient(180deg, rgba(0, 0, 0, 0.492), rgba(0, 0, 0, 0.492)), 
-      url('../../images/contact.jpg');
+    height: 50vh;
+    background: rgb(90,90,207);
+    background: linear-gradient(186deg, rgba(90,90,207,1) 0%, rgba(103,210,106,0.7232142857142857) 100%);
     background-size: cover;
     background-position: center;
     color: #fff;

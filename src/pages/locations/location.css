@@ -2,22 +2,24 @@
     margin-top: 6.6rem;
 }
 .location-banner{
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.492);
-    background: 
-    linear-gradient(180deg, rgba(0, 0, 0, 0.492), rgba(0, 0, 0, 0.492)), 
-    url(../../images/citys-solar.jpg);
+    height: 70vh;
+    background: rgb(90,90,207);
+    background: linear-gradient(186deg, rgba(90,90,207,1) 0%, rgba(103,210,106,0.7232142857142857) 100%);
       background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
     text-align: left;
-    padding-top:5rem ;
     display: flex;
+    padding: 30px;
     align-items: start;
     justify-content: center;
   margin:6rem 2rem  2rem 2rem;
   border-radius: 30px;
   color: #fff;
+}
+.location-col{
+  display: flex;
+  justify-content: center;
 }
 .location-content{
   display: flex;
@@ -29,10 +31,12 @@
   background-color: #fff;
   padding:10px 40px;
   border-radius: 10px;
+  width: 400px;
 }
 .location-form form{
   display: flex;
   flex-direction: column;
+  
 }
 .location-form input{
   padding: 5px;
@@ -67,4 +71,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width:850px) {
+  .location-banner{
+    height: auto;
+  }
 }

@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 import './header.css';
 import { useState } from 'react';
 import Quote from '../quote/Quote';
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import RequestQuoteIcon from '@mui/icons-material/RequestQuote';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
@@ -19,7 +18,7 @@ function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" className="fixed-top header">
       <Container>
-        <Navbar.Brand as={Link} to='Solar_project/' className="brand-name">Getin Solar</Navbar.Brand>
+        <Navbar.Brand as={Link} to='/' className="brand-name">Getin Solar</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">

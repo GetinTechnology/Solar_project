@@ -4,7 +4,11 @@ import { Container } from 'react-bootstrap'
 function Privacy() {
     return (
         <div className='terms'>
-           
+                     <div className='terms-banner'>
+                     <h2>Privacy Policy
+                     </h2>
+
+            </div>
             <Container>
             <h2>Privacy Policy
             </h2>

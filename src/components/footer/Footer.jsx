@@ -30,9 +30,9 @@ function Footer() {
               <li><h2>Our Links</h2></li>
                 <li><Link to='Solar_project/' className='footer-link'>Home</Link></li>
                 <li><Link to='About/' className='footer-link'>About Us</Link></li>
-                <li><Link to='residential/' className='footer-link'>Residential</Link></li>
-                <li><Link to='smallbusiness/' className='footer-link'>Small Business</Link></li>
-                <li><Link to='commercial/' className='footer-link'>Commercial</Link></li>
+                <li><Link to='/venue/residential' className='footer-link'>Residential</Link></li>
+                <li><Link to='/venue/smallbusiness/' className='footer-link'>Small Business</Link></li>
+                <li><Link to='/venue/commercial/' className='footer-link'>Commercial</Link></li>
                 <li><Link to='career/' className='footer-link'>Career</Link></li>
                 <li><Link to='contact/' className='footer-link'>Contact</Link></li>
               </ul>

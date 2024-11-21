@@ -25,7 +25,10 @@ import { Link } from 'react-router-dom'
 import Quote from '../../components/quote/Quote'
 import { ReactComponent as Quotes } from '../../images/quotes.svg'
 import {Helmet} from "react-helmet";
-
+import booking from "../../images/booking.svg"
+import tracking from "../../images/track.svg"
+import reviewimg from '../../images/review.svg'
+import solar from "../../images/solar.svg"
 
 function Home() {
   useEffect(() => {
@@ -84,10 +87,10 @@ function Home() {
     },
   ]
   const steps = [
-    { title: "Book a Free Consultation", description: "Schedule a consultation with our solar experts...", icon: <EventAvailableIcon /> },
-    { title: "Review Proposal & Confirm Order", description: "Receive a detailed proposal tailored to your site...", icon: <AssignmentIcon /> },
-    { title: "Track Project Installation", description: "Keep tabs on each stage of the installation process...", icon: <ConstructionIcon /> },
-    { title: "Your Site is Solar Powered", description: "Celebrate as your property begins harnessing the sun...", icon: <BoltIcon /> },
+    { title: "Book a Free Consultation", description: "Schedule a consultation with our solar experts.", icon: booking },
+    { title: "Review Proposal & Confirm Order", description: "Receive a detailed proposal tailored to your site.", icon: reviewimg },
+    { title: "Track Project Installation", description: "Keep tabs on each stage of the installation process.", icon: tracking },
+    { title: "Your Site is Solar Powered", description: "Celebrate as your property begins harnessing the sun.", icon: solar },
   ];
   const faqs = [
     { question: "What is solar energy?", answer: "Solar energy is the energy from the sun that is converted into thermal or electrical energy." },
@@ -208,7 +211,9 @@ function Home() {
             {steps.map((step) =>
             (<Col key={step.title} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} sm={12} md={6} lg={3}>
               <div className='step-box'>
-                <div>{step.icon}</div>
+                <div>
+                  <img src={step.icon} alt="" className='step-icon' />
+                </div>
                 <h3>{step.title}</h3>
                 <p>{step.description}</p>
               </div>
