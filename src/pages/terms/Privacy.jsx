@@ -1,7 +1,10 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { Container } from 'react-bootstrap'
 
 function Privacy() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div className='terms'>
                      <div className='terms-banner'>

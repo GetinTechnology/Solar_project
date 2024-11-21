@@ -1,15 +1,21 @@
-import React from 'react'
+
 import { Container } from 'react-bootstrap'
 import '../../App.css'
+import { useEffect } from 'react'
 
 function Policy() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div className='terms'>
             <div className='terms-banner'>
-            <h2>Solar Policy Terms and Conditions</h2>
+            <h2>Terms and Conditions</h2>
 
             </div>
             <Container>
+            <h2>Solar Policy Terms and Conditions</h2>
+
                 <p>Welcome to Getin Solar. Please review the following terms and conditions that govern your use of our services and ensure a clear understanding of our policies related to solar installations and services. By engaging with our services, you agree to comply with these terms.</p>
                 <div>
                     <h3>Agreement to Terms
