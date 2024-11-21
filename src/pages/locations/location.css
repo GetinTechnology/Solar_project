@@ -51,15 +51,20 @@
   border: 2px solid  #2E7D32;
 
 }
-.location-cont h3,.location-cont h2{
+.location-cont h2{
+ margin-bottom: 2rem;
+  text-align: center;
   color: #2E7D32;
 }
-.location-cont div,.list-conteent{
-  padding: 10px;
-}
-.location-cont a{
-  text-decoration: none;
-}
-.location-cont{
+.location-cont {
   margin-top: 4rem;
+}
+.location-cont img{
+  width: 80%;
+}
+
+.location-cont-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

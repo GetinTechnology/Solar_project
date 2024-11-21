@@ -127,47 +127,22 @@ const steps = [
       <div>
       <WhyChooseUs title={`Why Choose Us for ${data.title}`} points={points} />
       </div>
-      <div className='location-cont'>
+      <div className="location-cont">
+        <h2>Getin Solar {data.title}: Your Trusted Solar Solutions Partner</h2>
         <Container>
-        <h2>Affordable Solar Panel Installation in {data.title}: Save More, Live Sustainably</h2>
-        <p>Transitioning to solar energy in {data.title} has never been more accessible or advantageous. With rising electricity costs and a growing need for renewable energy, solar panels offer a practical and eco-friendly solution for households and businesses in the region.</p>
-        <div>
-          <h3>Top Reasons to Choose Solar Panels in {data.title}</h3>
-          <ol>
-            <li className="list-conteent"><b>Slash Your Electricity Costs:</b> Solar energy enables you to produce your own power, significantly lowering your monthly electricity expenses. Enjoy savings of up to 90% on your bills.</li>
-            <li className="list-conteent"><b>Government Subsidy Benefits:</b> Take advantage of government solar subsidy programs to make installation more affordable. Subsidies of up to ₹78,000 under the PM Kusum Yojana are available to reduce your upfront investment.</li>
-            <li className="list-conteent"><b>Achieve Energy Independence:</b> Solar panels empower you to reduce reliance on conventional electricity sources, giving you greater control over your energy usage.</li>
-            <li className="list-conteent"><b>Environmentally Friendly Solution:</b> Solar energy is clean, green, and renewable. By going solar, you contribute to reducing carbon emissions and promoting a sustainable environment.</li>
-            <li className="list-conteent"><b>Low Maintenance, High Durability:</b> Modern solar panels require minimal upkeep and have a lifespan of up to 25 years, making them a hassle-free investment.</li>
-          </ol>
-        </div>
-        <div>
-          <h3>Steps to Apply for a Solar Subsidy in {data.title}
-          </h3>
-          <p>Follow these simple steps to avail government solar subsidies:</p>
-          <ol>
-            <li className="list-conteent">Visit the official solar subsidy portal at <Link to='https://www.pmsuryaghar.gov.in/'>PM Suryaghar.</Link> </li>
-            <li className="list-conteent">Register by providing details like your name, Aadhar number, address, and contact information.</li>
-            <li className="list-conteent">Upload the necessary documents, including ID proof and residential details.</li>
-            <li className="list-conteent">Submit your application and save your registration ID for future reference.</li>
-          </ol>
-        </div>
-        <div>
-          <h3>Advantages of Installing Solar Panels in {data.title}</h3>
-          <ul>
-          <li className="list-conteent"><b>Significant Energy Savings: </b> Drastically cut your electricity costs with free solar energy.</li>
-            <li className="list-conteent"><b>Boosted Property Value: </b> Homes with installed solar panels attract more buyers and offer higher resale value.</li>
-            <li className="list-conteent"><b>Eco-Friendly Living:</b> Reduce your carbon footprint and support a greener environment.</li>
-            <li className="list-conteent"><b>Smart Long-Term Investment:</b> Solar systems provide reliable returns, with a payback period of 5-8 years and free electricity thereafter.</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Understanding Solar Installation Costs in {data.title}</h3>
-          <p>The total cost of installing a solar power system includes solar panels, an inverter, a mounting structure, wiring, and installation charges. Costs vary depending on the system's size and type but are now more accessible thanks to government incentives and financing options.</p>
-        </div>
-  
+          <Row className='location-cont-row'>
+            <Col className='location-cont-col' md={12} sm={12} lg={6}>
+              <img src={data.image} alt="" />
+            </Col>
+            <Col md={12} sm={12} lg={6}>
+              {data.contents.map((content,index)=>(
+                <div key={index}>
+                  <p>{content}</p>
+                </div>
+              ))}
+            </Col>
+          </Row>
         </Container>
-        
       </div>
       <div className='solar-steps' style={{marginTop:'4rem'}}>
         <Container>

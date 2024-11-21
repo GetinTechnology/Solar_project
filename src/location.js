@@ -1,9 +1,18 @@
 import review from "./components/review";
 import dummy from "./images/dummy.jpg"
+import chennai from './images/chennai.jpg'
+import bangalore from './images/bangalore.jpg'
+import coimbatore from './images/coimbatore.jpg'
+import madurai from './images/madurai.jpg'
+import kovilpatti from './images/kovipatti.jpg'
+import virudhunagar from './images/virudhunagar.jpg'
+import thirunelveli from './images/tvl.jpg'
+import kanniyakumari from './images/kanniyakumari.jpg'
 
 export const pageData = {
     chennai:{
         title:"Chennai",
+        image:chennai,
         reviews:[
             {reviewimage:dummy,name:"Priya S",Location: "Chennai",Review: "Switching to solar with Getin Solar has been life-changing! The installation process was seamless, and my electricity bills have reduced drastically. Truly a step towards sustainability!"},
             {reviewimage:dummy,name:"Ramesh K.",Location: "Chennai",Review: "Their team explained everything clearly, from subsidies to maintenance. Excellent customer service and quick response time! "},
@@ -50,10 +59,16 @@ export const pageData = {
               question: "Does switching to solar increase property value?", 
               answer: "Yes, homes with solar installations often attract higher property valuations, as they appeal to energy-conscious buyers and promise long-term savings." 
             }
-          ]
+          ],
+          contents:[
+            "Located in the heart of Chennai, Getin Solar is proud to serve the city’s vibrant and forward-thinking community with sustainable energy solutions. As one of Tamil Nadu's leading solar providers, we specialize in designing and delivering solar systems tailored to the unique needs of homes, small businesses, and commercial properties in Chennai.",
+            "With its abundant sunlight and growing focus on green energy, Chennai is perfectly positioned to benefit from solar power. At Getin Solar, we help residents and businesses reduce energy costs, minimize environmental impact, and achieve energy independence. Our team in Chennai offers comprehensive services, from consultation and system design to installation and ongoing maintenance, ensuring a seamless transition to solar power.",
+          "Whether you're looking to power your home, reduce operational costs for your business, or contribute to a cleaner future, Getin Solar Chennai is here to guide you every step of the way. Together, let's harness the power of the sun and build a brighter, greener Chennai."
+        ]
     },
     bengaluru:{
         title:"Bengaluru",
+        image:bangalore,
         reviews:[
             {reviewimage:dummy,name:"Vinod P.",Location: "Bengaluru",Review: "Their solar panels are of top-notch quality. I’ve already started noticing the savings. Thanks to the professional team for the hassle-free installation."},
             {reviewimage:dummy,name:"Gayathri V.",Location: "Bengalurui",Review: "Solar panels from Getin Solar are the best investment I’ve made. They guided me through the subsidy process and helped me make the right choice. "},
@@ -100,10 +115,16 @@ export const pageData = {
               question: "Will installing solar panels increase my property value in Bengaluru?", 
               answer: "Yes, homes with solar panels tend to have higher resale values, as they provide long-term savings on electricity bills and are seen as eco-friendly." 
             }
-          ]
+          ],
+          contents:[
+            "Located in the dynamic city of Bangalore, GetIn Solar is proud to serve the tech capital of India with innovative and sustainable solar energy solutions. As one of Karnataka's leading solar providers, we specialize in crafting customized solar systems for homeowners, small businesses, and commercial properties across Bangalore.",
+            "With its sunny climate and increasing emphasis on renewable energy, Bangalore is an ideal city to embrace solar power. At GetIn Solar, we empower individuals and businesses to lower energy costs, reduce their carbon footprint, and achieve energy independence. From initial consultation and tailored system design to professional installation and reliable maintenance, our Bangalore team ensures a smooth and efficient transition to solar power",
+          "Whether you aim to power your home, cut operational costs for your business, or contribute to a greener tomorrow, GetIn Solar Bangalore is committed to supporting you at every step. Together, let's leverage Bangalore’s abundant sunlight to create a cleaner, more sustainable future."
+        ]
     },
     coimbatore:{
         title:"Coimbatore",
+        image:coimbatore,
         reviews:[
             {reviewimage:dummy,name:"Kavitha J.",Location: "Coimbatore",Review: "The entire process was smooth and efficient. The team was professional and completed the installation on time. Loving the savings!"},
             {reviewimage:dummy,name:"Naveen S. ",Location: "Coimbatore",Review: "I was impressed by their attention to detail and the high-quality panels they provided. Excellent customer support too. "},
@@ -150,10 +171,17 @@ export const pageData = {
               question: "Will installing solar panels increase my home’s value in Coimbatore?", 
               answer: "Yes, installing solar panels can increase the resale value of your home, as many buyers look for homes with energy-efficient features." 
             }
+          ],
+          contents: [
+            "Located in the vibrant city of Coimbatore, GetIn Solar is proud to serve the ‘Manchester of South India’ with cutting-edge and sustainable solar energy solutions. As a trusted solar provider in Tamil Nadu, we specialize in designing and delivering customized solar systems for homes, small businesses, and commercial properties across Coimbatore.",
+            "With its favorable climate and growing focus on green energy, Coimbatore is well-suited to reap the benefits of solar power. At GetIn Solar, we enable residents and businesses to lower energy expenses, reduce their environmental impact, and embrace energy independence. From personalized consultations and system designs to expert installations and dependable maintenance, our Coimbatore team ensures a seamless switch to solar energy.",
+            "Whether you’re looking to power your home, optimize operational costs for your business, or champion a more sustainable future, GetIn Solar Coimbatore is here to assist you every step of the way. Together, let’s utilize Coimbatore’s abundant sunlight to build a cleaner, greener future."
           ]
+          
     },
     madurai:{
         title:"Madurai",
+        image:madurai,
         reviews:[
             {reviewimage:dummy,name:"Suresh A.",Location: "Madurai",Review: "Getin Solar has exceeded my expectations. The panels are efficient, and the team was incredibly professional."},
             {reviewimage:dummy,name:"Anitha K.",Location: "Madurai",Review: "I’m thrilled with the service provided by Getin Solar. They made the entire process hassle-free and affordable. "},
@@ -200,10 +228,17 @@ export const pageData = {
               question: "Do solar panels increase property value in Madurai?", 
               answer: "Yes, homes with solar panels can see an increase in value, as they offer long-term savings on electricity and attract eco-conscious buyers." 
             }
+          ],
+          contents: [
+            "Located in the historic city of Madurai, GetIn Solar is proud to bring sustainable and innovative solar energy solutions to the heart of Tamil Nadu. As a leading solar provider, we cater to the unique energy needs of homeowners, small businesses, and commercial properties across Madurai.",
+            "With its sunny weather and a growing commitment to renewable energy, Madurai is perfectly positioned to benefit from solar power. At GetIn Solar, we help individuals and businesses reduce energy costs, minimize environmental impact, and achieve energy independence. From personalized consultations and system designs to expert installations and reliable maintenance, our Madurai team ensures a smooth transition to solar energy.",
+            "Whether you want to power your home, cut operational costs for your business, or contribute to a sustainable tomorrow, GetIn Solar Madurai is here to support you at every step. Together, let’s harness Madurai’s abundant sunlight to create a greener and brighter future."
           ]
+          
     },
     virudhunagar:{
         title:"Virudhunagar",
+        image:virudhunagar,
         reviews:[
             {reviewimage:dummy,name:"Janani T",Location: "Virudhunagar",Review: "Getin Solar provided a quick and efficient solution for my energy needs. They handled everything with care and professionalism."},
             {reviewimage:dummy,name:"Hariharan D.",Location: "Virudhunagar",Review: "The subsidy options were explained thoroughly, and the installation was completed on time. Very happy with the results!"},
@@ -250,11 +285,18 @@ export const pageData = {
               question: "Will installing solar panels increase the value of my property in Virudhunagar?", 
               answer: "Yes, installing solar panels can increase the value of your property in Virudhunagar, as buyers find solar-equipped homes more attractive due to the long-term energy savings." 
             }
+          ],
+          contents: [
+            "Located in the vibrant district of Virudhunagar, GetIn Solar is committed to delivering cutting-edge and eco-friendly solar energy solutions to the community. As a trusted solar provider in Tamil Nadu, we specialize in designing solar systems tailored to the needs of homeowners, small businesses, and commercial properties in Virudhunagar.",
+            "With its ample sunlight and increasing focus on sustainability, Virudhunagar is an excellent location to embrace the benefits of solar power. At GetIn Solar, we enable individuals and businesses to lower their energy costs, reduce their carbon footprint, and achieve energy independence. From personalized consultations to seamless installations and dependable maintenance, our team in Virudhunagar ensures a hassle-free solar experience.",
+            "Whether you're looking to power your home, optimize business operations, or contribute to a cleaner planet, GetIn Solar Virudhunagar is dedicated to guiding you every step of the way. Together, let’s make the most of Virudhunagar’s solar potential and create a sustainable future."
           ]
+          
           
     },
     thirunelveli:{
         title:"Thirunelveli",
+        image:thirunelveli,
         reviews:[
             {reviewimage:dummy,name:"Vignesh V.",Location: "Thirunelveli",Review: "The solar panels are performing beyond my expectations. Great service and a sustainable solution for our energy needs."},
             {reviewimage:dummy,name:"Deepa N.",Location: "Thirunelveli",Review: "I couldn’t be happier with the choice to go solar. Getin Solar made the entire process stress-free and affordable. "},
@@ -301,11 +343,19 @@ export const pageData = {
               question: "How do I apply for a solar subsidy in Thirunelveli?", 
               answer: "To apply for a solar subsidy in Thirunelveli, visit the official solar subsidy website, fill out the application form, and submit the necessary documents like your Aadhaar number, address proof, and bank details." 
             }
+          ],
+          contents: [
+            "Located in the historic city of Thirunelveli, GetIn Solar is proud to bring innovative and sustainable solar energy solutions to this vibrant community. As a leading solar provider in Tamil Nadu, we design and deliver customized solar systems for homeowners, small businesses, and commercial properties across Thirunelveli.",
+            "With its abundant sunlight and growing interest in renewable energy, Thirunelveli is perfectly positioned to benefit from solar power. At GetIn Solar, we help individuals and businesses reduce energy costs, minimize their environmental impact, and achieve energy independence. From expert consultations to professional installations and reliable maintenance, our Thirunelveli team ensures a smooth transition to solar energy.",
+            "Whether you’re powering your home, optimizing business operations, or contributing to a greener world, GetIn Solar Thirunelveli is here to support your journey. Together, let’s harness the power of the sun to create a brighter, more sustainable Thirunelveli."
           ]
+          
+          
           
     },
     kovilpatti:{
         title:"KovilPatti",
+        image:kovilpatti,
         reviews:[
             {reviewimage:dummy,name:"Swetha R.",Location: "KovilPatti",Review: "The panels are of excellent quality, and the team ensured timely installation. Getin Solar is the best in the business!"},
             {reviewimage:dummy,name:"Manoj K.",Location: "KovilPatti",Review: "Their guidance and support through the process were commendable. I’m proud to have made the switch to solar energy."},
@@ -352,10 +402,16 @@ export const pageData = {
               question: "How do I apply for the solar subsidy in Kovilpatti?", 
               answer: "To apply for the solar subsidy in Kovilpatti, you need to visit the official government solar subsidy website, submit the necessary documentation, and complete the online application process." 
             }
+          ],
+          contents: [
+            "Located in the bustling town of Kovilpatti, GetIn Solar is proud to offer sustainable solar energy solutions to the local community. As a trusted solar provider in Tamil Nadu, we specialize in designing and installing customized solar systems for homes, small businesses, and commercial properties in Kovilpatti.",
+            "With its abundant sunshine and growing interest in renewable energy, Kovilpatti is an ideal location for solar power adoption. At GetIn Solar, we help individuals and businesses lower energy costs, reduce their environmental footprint, and achieve energy independence. Our Kovilpatti team provides expert consultations, tailored system designs, professional installation, and ongoing maintenance to ensure a seamless solar experience.",
+            "Whether you want to power your home, reduce business energy costs, or contribute to a cleaner future, GetIn Solar Kovilpatti is here to guide you. Let’s work together to tap into Kovilpatti’s solar potential and create a greener, more sustainable community."
           ]
           
     },
     kanniyakumari:{title:"Kanniyakumari",
+      image:kanniyakumari,
         reviews:[
             {reviewimage:dummy,name:"Selva N.",Location: "Chennai",Review: "SGetin Solar’s team is very professional and knowledgeable. My home is now energy-efficient, and I’m loving the benefits."},
             {reviewimage:dummy,name:"Revathi B.",Location: "Chennai",Review: "They made the process simple and transparent. From subsidy to installation, everything was handled seamlessly. "},
@@ -402,7 +458,11 @@ export const pageData = {
               question: "How can I apply for the solar panel subsidy in Kanniyakumari?", 
               answer: "To apply for the solar panel subsidy in Kanniyakumari, visit the official government website for solar subsidies, fill in the application form, and submit the required documents." 
             }
+          ],
+          contents: [
+            "Located in the picturesque town of Kanyakumari, GetIn Solar is excited to provide cutting-edge solar energy solutions to the region. As a leading provider of solar systems in Tamil Nadu, we specialize in offering tailored solar solutions for homes, small businesses, and commercial properties across Kanyakumari.",
+            "With its year-round sunny climate and growing focus on renewable energy, Kanyakumari is an ideal place for embracing solar power. At GetIn Solar, we assist homeowners and businesses in reducing electricity costs, minimizing their carbon footprint, and achieving energy independence. Our expert team in Kanyakumari offers comprehensive services, from consultation and customized system design to professional installation and ongoing support.",
+            "Whether you're looking to power your home, optimize energy usage for your business, or contribute to a cleaner future, GetIn Solar Kanyakumari is here to help. Let’s harness the power of the sun and create a more sustainable, eco-friendly Kanyakumari together."
           ]
-          
     },
 }
