@@ -70,43 +70,7 @@ function About() {
 
       </div>
 
-      <div className="work-with-us">
-    <h2 className='headings'>Why Work With Us?</h2>
-    <Container className="main-content">
-        <Row>
-            <Col lg={6} className="left-section">
-                <div className="card">
-                    <h3>Personalized Solutions, Not a One-Size-Fits-All Approach</h3>
-                    <p className="others">Many solar companies offer standard packages that might not fully address your unique needs.</p>
-                    <p className="us">Our custom-designed solar solutions maximize energy production and cost efficiency, tailored just for you.</p>
-                </div>
-          
-            </Col>
-            <Col>
-            <div className="card">
-                    <h3>Transparency and Trust Throughout the Process</h3>
-                    <p className="others">Solar providers often have hidden fees and unclear timelines.</p>
-                    <p className="us">We promise a clear breakdown of all costs, timelines, and work involved from start to finish.</p>
-                </div>
-            </Col>
-            <Col lg={6} className="right-section">
-                <div className="card">
-                    <h3>End-to-End Service with Comprehensive Support</h3>
-                    <p className="others">Many companies focus only on installation.</p>
-                    <p className="us">We provide ongoing support and system monitoring to ensure peak performance of your solar panels.</p>
-                </div>
 
-            </Col>
-            <Col>
-            <div className="card">
-                    <h3>Commitment to Sustainability and Quality</h3>
-                    <p className="others">Some companies prioritize rapid installations over quality.</p>
-                    <p className="us">We source high-quality materials and uphold stringent standards on every project.</p>
-                </div>
-            </Col>
-        </Row>
-    </Container>
-</div>
 
 
       <div className='made-easy-container'>
@@ -149,7 +113,43 @@ function About() {
 
         </Container>
       </div>
-      
+      <div className="work-with-us">
+    <h2 className='headings'>Why Work With Us?</h2>
+    <Container className="main-content">
+        <Row>
+            <Col lg={6} className="left-section">
+                <div className="card">
+                    <h3>Personalized Solutions, Not a One-Size-Fits-All Approach</h3>
+                    <p className="others">Many solar companies offer standard packages that might not fully address your unique needs.</p>
+                    <p className="us">Our custom-designed solar solutions maximize energy production and cost efficiency, tailored just for you.</p>
+                </div>
+          
+            </Col>
+            <Col>
+            <div className="card">
+                    <h3>Transparency and Trust Throughout the Process</h3>
+                    <p className="others">Solar providers often have hidden fees and unclear timelines.</p>
+                    <p className="us">We promise a clear breakdown of all costs, timelines, and work involved from start to finish.</p>
+                </div>
+            </Col>
+            <Col lg={6} className="right-section">
+                <div className="card">
+                    <h3>End-to-End Service with Comprehensive Support</h3>
+                    <p className="others">Many companies focus only on installation.</p>
+                    <p className="us">We provide ongoing support and system monitoring to ensure peak performance of your solar panels.</p>
+                </div>
+
+            </Col>
+            <Col>
+            <div className="card">
+                    <h3>Commitment to Sustainability and Quality</h3>
+                    <p className="others">Some companies prioritize rapid installations over quality.</p>
+                    <p className="us">We source high-quality materials and uphold stringent standards on every project.</p>
+                </div>
+            </Col>
+        </Row>
+    </Container>
+</div>
 
       <div className="meetourteam">
         <h2 className='headings'>Meet Our Team</h2>

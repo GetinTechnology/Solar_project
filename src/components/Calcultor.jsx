@@ -96,7 +96,7 @@ function Calculator() {
             <div className="calculate-box-1">
               <h3>Enter Electronic Items and Quantity</h3>
               <Form>
-                <div className='d-flex align-items-center' style={{gap:'20px'}}>
+                <div className='d-flex align-items-center ' style={{gap:'20px'}}>
                 <Form.Group>
                   <Form.Label>Electronic</Form.Label>
                   <Form.Control
@@ -107,7 +107,7 @@ function Calculator() {
                     {Object.keys(powerUsage).map((elc,index)=>(
                      <option value={elc} key={index}>{elc}</option>
                     ))}
-                  </Form.Control>
+                  </Form.Control >
                 </Form.Group>
 
                 <Form.Group>
@@ -116,7 +116,7 @@ function Calculator() {
                     type="number"
                     value={currentItem.quantity}
                     onChange={(e) => setCurrentItem({ ...currentItem, quantity: Number(e.target.value) })}
-                    min="1"
+                    min="1" max="10"
                   />
                 </Form.Group>
                 <Button onClick={handleAddItem} variant="primary" className='add-btn'>Add Item</Button>
@@ -155,7 +155,7 @@ function Calculator() {
                   <option value="smallBusiness">Small Business</option>
                 </Form.Control>
               </Form.Group>
-              <p> Calculate your savings with solar energy and take a step towards a greener future. Discover how much you can reduce your electricity costs while getting tailored recommendations for the ideal solar system based on your needs.
+              <p style={{padding:'10px'}}> Calculate your savings with solar energy and take a step towards a greener future. Discover how much you can reduce your electricity costs while getting tailored recommendations for the ideal solar system based on your needs.
               </p>
             </div>
           </Col>
@@ -175,7 +175,9 @@ function Calculator() {
                 <p>{systemSuggestions.spaceRequired} sq ft</p>
               </div>
               <div className="calculate-box">
-                <div>Annual Energy</div>
+                <div>
+                  <p>Annual Energy</p>
+                </div>
                 <p>{systemSuggestions.annualEnergy} kWh</p>
               </div>
               <div className="calculate-box">

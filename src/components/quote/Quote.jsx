@@ -5,7 +5,7 @@ function Quote({ setModalIsOpen }) {
   return (
     <div className='Quote'>
       <div className='close'>
-        <p>conect with us</p>
+        <p>Conect With Us</p>
         <span onClick={()=>{setModalIsOpen(false)}} style={{cursor:'pointer'}}>X</span>
       </div>
       <Form/>

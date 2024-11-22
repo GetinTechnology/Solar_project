@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route,Link} from 'react-router-dom';
 import { useEffect, useState, Suspense, lazy } from 'react';
 
 // Lazy loading components
@@ -117,9 +117,10 @@ function App() {
       </button>
 
       <div className="chat-box">
+        <Link to='https://api.whatsapp.com/send?phone=918925831826&text=Hi! Getin Solar' >
         <img src={require('./images/chat-bubble_11302438.png')} alt="chat-box" />
-        {showNotification && <span>1</span>}
-        {showNotification && <audio key={Date.now()} src={require('./images/notification.wav')} autoPlay />}
+        </Link>
+        <span>1</span>
       </div>
 
       <Footer />

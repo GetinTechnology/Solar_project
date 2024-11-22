@@ -46,18 +46,11 @@ function Contact() {
           <Col lg={6} className="contact-info">
             <h2>Get in Touch</h2>
             <p>Have questions or want to learn more about our solar solutions? Fill out the form, and we’ll get back to you shortly.</p>
-            <p><strong>Phone:</strong> 703-254-1991</p>
-            <p><strong>Email:</strong> info@getinsolar.com</p>
-            <p><strong>Address:</strong> 123 Solar St, Green City, Tamil Nadu</p>
+            <p><strong>Phone:</strong> +91 89258 31826</p>
+            <p><strong>Email:</strong> enquiry@getintech.in</p>
+            <p><strong>Address:</strong> 971G/6, Kalki Street, Manthithoppu Road, Krishna Nagar, Kovilpatti – 628502</p>
             
-            <iframe
-              className="contact-map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31109.934126236847!2d80.2082942688651!3d13.08268011388573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526e61a4cd2db9%3A0x5bf6d48b7f8bc0b9!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1636023793131!5m2!1sen!2sin"
-              width="100%"
-              height="600px"
-              allowFullScreen=""
-              loading="lazy"
-            ></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.0063810128936!2d77.85024967478219!3d9.153895390912508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xafc0deb432f728e7%3A0xab9157c9b333e21a!2sGetin%20Technologies%20Kovilpatti!5e0!3m2!1sen!2sin!4v1732256789635!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </Col>
 
           <Col lg={6} className="contact-info-1">

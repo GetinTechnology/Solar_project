@@ -56,9 +56,9 @@ function Footer() {
             <Col className='footer-section' md={3} lg={3}>
               <button className="quote-button" onClick={handleShow}>Get a Quote</button>
               <ul className='footer-contact'>
-                <li><LocalPhoneIcon /> +91 89258 31826</li>
-                <li><EmailIcon /> enquiry@getintech.in</li>
-                <li><LocationOnIcon /> 971G/6, Kalki Street, Manthithoppu Road,  Krishna Nagar, Kovilpatti – 628502</li>
+                <li style={{display:'flex'}}><LocalPhoneIcon /> +91 89258 31826</li>
+                <li style={{display:'flex'}}><EmailIcon /> enquiry@getintech.in</li>
+                <li style={{display:'flex'}}><LocationOnIcon /> 971G/6, Kalki Street, Manthithoppu Road,  Krishna Nagar, Kovilpatti – 628502</li>
               </ul>
               <div className='footer-social'>
                 <InstagramIcon />
@@ -70,7 +70,7 @@ function Footer() {
           </Row>
         </div>
         <hr />
-        <p ><Link to='termsofpolicy/'>Terms of Use</Link> | <Link to='disclaimer/'>Disculaimer</Link> | <Link to='privacy/'>Privacy Policy</Link>   </p>
+        <p ><Link to='termsofpolicy/'>Terms of Use</Link> | <Link to='disclaimer/'>Disclaimer</Link> | <Link to='privacy/'>Privacy Policy</Link>   </p>
         <p className="footer-copyright">
           &copy; 2024 Getin Solar | All Rights Reserved | Developed by Ramaussys Technologies
         </p>
