@@ -42,22 +42,22 @@ function Footer() {
 
             <Col className='footer-section' md={3} lg={3}>
               <ul className='footer-locations'>
-                <li><h2>Our Loaction</h2></li>
+                <li><h2>Our Location</h2></li>
                 <li><Link to='/location/chennai' className='footer-link'>Chennai</Link></li>
                 <li><Link to='/location/bengaluru' className='footer-link'>Bengaluru</Link></li>
                 <li><Link to='/location/coimbatore' className='footer-link'>Coimbatore</Link></li>
                 <li><Link to='/location/madurai' className='footer-link'>Madurai</Link></li>
                 <li><Link to='/location/kovilpatti' className='footer-link'>Kovilpatti</Link></li>
                 <li><Link to='/location/virudhunagar' className='footer-link'>Virudhunagar</Link></li>
-                <li><Link to='/location/Thirunelveli' className='footer-link'>Thirunelveli</Link></li>
-                <li><Link to='/location/Kanniyakumari' className='footer-link'>Kanniyakumari</Link></li>
+                <li><Link to='/location/thirunelveli' className='footer-link'>Thirunelveli</Link></li>
+                <li><Link to='/location/kanniyakumari' className='footer-link'>Kanniyakumari</Link></li>
               </ul>
             </Col>
             <Col className='footer-section' md={3} lg={3}>
               <button className="quote-button" onClick={handleShow}>Get a Quote</button>
               <ul className='footer-contact'>
                 <li><LocalPhoneIcon /> +91 89258 31826</li>
-                <li><EmailIcon />enquiry@getintech.in</li>
+                <li><EmailIcon /> enquiry@getintech.in</li>
                 <li><LocationOnIcon /> 971G/6, Kalki Street, Manthithoppu Road,  Krishna Nagar, Kovilpatti – 628502</li>
               </ul>
               <div className='footer-social'>

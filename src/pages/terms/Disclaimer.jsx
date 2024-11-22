@@ -33,7 +33,7 @@ function Disclaimer() {
                 <h3>No Liability
                 </h3>
                 <p>Getin Solar is not liable for any direct, indirect, incidental, or consequential damages arising from the use of this website, reliance on its content, or decisions made based on the information provided. Users assume full responsibility for their actions and any associated risks.</p>
-                <p>For further clarification, please contact us directly at [Insert Email] or [Insert Phone Number].</p>
+                <p>For further clarification, please contact us directly at enquiry@getintech.in or +91 89258 31826.</p>
             </div>
             </Container>
             

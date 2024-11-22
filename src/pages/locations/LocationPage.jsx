@@ -1,31 +1,30 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom'; // Import useParams to access URL params
 import { Container, Row, Col } from 'react-bootstrap';
 import { pageData } from '../../location'; // Ensure 'pageData' is structured correctly.
 import './location.css';
+import '../Venue/venue.css'
+import '../home/home.css'
 import eb from '../../images/bill-check-svgrepo-com.svg';
 import invesment from '../../images/location-in.svg';
 import subsidy from '../../images/allowance-svgrepo-com.svg';
 import maintenance from '../../images/location-maintenence.svg';
-import HomeRepairServiceIcon from '@mui/icons-material/HomeRepairService';
-import SavingsIcon from '@mui/icons-material/Savings';
-import SecurityIcon from '@mui/icons-material/Security';
-import HomeIcon from '@mui/icons-material/Home';
+import HomeRepairServiceIcon from '../../images/business-bag-svgrepo-com.svg';
+import SavingsIcon from '../../images/piggy-bank-check-svgrepo-com.svg';
+import SecurityIcon from '../../images/energy-svgrepo-com (1).svg';
+import HomeIcon from '../../images/home-1-svgrepo-com.svg';
 import WhyChooseUs from '../../components/Whychooseus';
-import EventAvailableIcon from '@mui/icons-material/EventAvailable';
-import AssignmentIcon from '@mui/icons-material/Assignment';
-import ConstructionIcon from '@mui/icons-material/Construction';
-import BoltIcon from '@mui/icons-material/Bolt';
+import booking from "../../images/booking.svg"
+import tracking from "../../images/track.svg"
+import reviewimg from '../../images/review.svg'
+import solar from "../../images/solar.svg"
 import Review from '../../components/review';
 import FAQ from '../../components/Faq';
 import { Link } from 'react-router-dom';
 
-function LocationPage() {
-  const { city } = useParams(); // Use useParams to get the 'city' parameter from the URL
-
+function LocationPage({ pagekey }) {
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top when the page is rendered or updated
-  }, [city]);
+  }, [pagekey]);
 
   const [formData, setFormData] = useState({
     name: '',
@@ -38,9 +37,9 @@ function LocationPage() {
     financeInterest: '',
   });
 
-  // Ensure 'pageData' exists and corresponds to the provided 'city'
-  const data = pageData[city];
-  if (!data) return <div>Page not found</div>;  // Fallback UI if no data is available for the city
+  // Ensure 'pageData' exists and corresponds to the provided 'pagekey'
+  const data = pageData[pagekey];
+  if (!data) return <div>Page not found</div>;  // Fallback UI if no data is available for the page
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -54,17 +53,17 @@ function LocationPage() {
   };
 
   const points = [
-    { icon: <HomeRepairServiceIcon />, title: 'Lower Your Bills', description: 'Reduce monthly costs by switching to efficient solar energy.' },
-    { icon: <SavingsIcon />, title: 'Eco-Friendly', description: 'Support a cleaner planet by reducing carbon footprint.' },
-    { icon: <HomeIcon />, title: 'Increased Home Value', description: 'Homes with solar panels have higher resale value.' },
-    { icon: <SecurityIcon />, title: 'Reliable Energy', description: 'Enjoy stable power with minimal maintenance.' },
+    { icon: HomeRepairServiceIcon , title: "Lower Your Bills", description: "Reduce monthly costs by switching to efficient solar energy." },
+    { icon: SavingsIcon, title: "Eco-Friendly", description: "Support a cleaner planet by reducing carbon footprint." },
+    { icon: HomeIcon , title: "Increased Home Value", description: "Homes with solar panels have higher resale value." },
+    { icon: SecurityIcon , title: "Reliable Energy", description: "Enjoy stable power with minimal maintenance." },
   ];
 
   const steps = [
-    { title: 'Book a Free Consultation', description: 'Schedule a consultation with our solar experts...', icon: <EventAvailableIcon /> },
-    { title: 'Review Proposal & Confirm Order', description: 'Receive a detailed proposal tailored to your site...', icon: <AssignmentIcon /> },
-    { title: 'Track Project Installation', description: 'Keep tabs on each stage of the installation process...', icon: <ConstructionIcon /> },
-    { title: 'Your Site is Solar Powered', description: 'Celebrate as your property begins harnessing the sun...', icon: <BoltIcon /> },
+    { title: "Book a Free Consultation", description: "Schedule a consultation with our solar experts.", icon: booking },
+    { title: "Review Proposal & Confirm Order", description: "Receive a detailed proposal tailored to your site.", icon: reviewimg },
+    { title: "Track Project Installation", description: "Keep tabs on each stage of the installation process.", icon: tracking },
+    { title: "Your Site is Solar Powered", description: "Celebrate as your property begins harnessing the sun.", icon: solar },
   ];
 
   return (
@@ -156,7 +155,9 @@ function LocationPage() {
             {steps.map((step) => (
               <Col key={step.title} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <div className="step-box">
-                  <div>{step.icon}</div>
+                  <div>
+                    <img src={step.icon} alt="" className='step-icon'/>
+                  </div>
                   <h3>{step.title}</h3>
                   <p>{step.description}</p>
                 </div>

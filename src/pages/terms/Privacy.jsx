@@ -92,8 +92,8 @@ function Privacy() {
                     <h3>Contact Us
                     </h3>
                     <p>If you have any questions or concerns about this Privacy Policy or how your data is handled, please contact us at:</p>
-                    <p><b>Email:</b></p>
-                    <p><b>Phone:</b></p>
+                    <p><b>Email:+91 89258 31826</b></p>
+                    <p><b>Phone:enquiry@getintech.in</b></p>
                 </div>
             </Container>
         </div>

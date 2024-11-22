@@ -155,7 +155,7 @@ function Calculator() {
                   <option value="smallBusiness">Small Business</option>
                 </Form.Control>
               </Form.Group>
-              <p> Sed dolore a recusandae vitae eveniet ullam veritatis omnis! Ut adipisci fugit eveniet neque! Nostrum maiores blanditiis voluptatum, sunt totam eos impedit.
+              <p> Calculate your savings with solar energy and take a step towards a greener future. Discover how much you can reduce your electricity costs while getting tailored recommendations for the ideal solar system based on your needs.
               </p>
             </div>
           </Col>

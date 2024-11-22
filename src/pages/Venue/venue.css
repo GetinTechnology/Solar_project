@@ -1,6 +1,5 @@
 .res-banner{
      
-  height: 50vh;
   background: rgb(102,143,212);
   background: linear-gradient(186deg, rgba(102,143,212,1) 0%, rgba(103,210,106,0.7232142857142857) 100%);
     background-size: cover !important;
@@ -43,7 +42,6 @@ padding: 5rem;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform .3s ease;
-  height: 200px;
 }
 .why-choose-box:hover{
   transform: scalex(0.9) ;
@@ -54,11 +52,9 @@ padding: 5rem;
 
 }
 .why-choose-icon img{
-  width: 50px;
+  width: 80px;
 }
-.why-choose-point-title{
-  white-space: nowrap;
-}
+
 .content-item {
   margin-bottom: 1.5rem;
   transition: max-height 0.5s ease-in-out; /* Smooth expand/collapse transition */

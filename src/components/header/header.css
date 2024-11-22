@@ -89,6 +89,7 @@
   transition: 0.5s all;
 
 }
+
 .head-quote span{
   width: 0;
   overflow: hidden;
@@ -96,7 +97,7 @@
   white-space: nowrap;
 }
 .head-quote:hover{
-  width: 160px;
+  width: 180px;
   border-radius: 50px;
 }
 .head-quote:hover span{

@@ -4,7 +4,6 @@
     margin-top: 6.6rem;
 }
 .about-banner {
-    height: 50vh;
     background: rgb(90,90,207);
     background: linear-gradient(186deg, rgba(90,90,207,1) 0%, rgba(103,210,106,0.7232142857142857) 100%);
     background-size: cover;

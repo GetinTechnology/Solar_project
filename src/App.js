@@ -92,9 +92,16 @@ function App() {
 
 
           {/* Location Routes */}
-          <Route path="/location">
-            <Route path=":city" element={<LocationPage />} />
-          </Route>
+          <Route path='/location'>
+            <Route path='chennai/' element={<LocationPage pagekey={'chennai'}/>}/>
+            <Route path='bengaluru/' element={<LocationPage pagekey={'bengaluru'}/>}/>
+            <Route path='coimbatore/' element={<LocationPage pagekey={'coimbatore'}/>}/>
+            <Route path='madurai/' element={<LocationPage pagekey={'madurai'}/>}/>
+            <Route path='virudhunagar/' element={<LocationPage pagekey={'virudhunagar'}/>}/>
+            <Route path='thirunelveli/' element={<LocationPage pagekey={'thirunelveli'}/>}/>
+            <Route path='kovilpatti/' element={<LocationPage pagekey={'kovilpatti'}/>}/>
+            <Route path='kanniyakumari/' element={<LocationPage pagekey={'kanniyakumari'}/>}/>
+            </Route>
 
           {/* Fallback Route */}
           <Route path="*" element={<Fnf />} />

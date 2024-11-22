@@ -71,7 +71,7 @@ function Policy() {
                     <h3>Dispute Resolution
                     </h3>
                     <p>In the unlikely event of a dispute, we encourage resolution through open communication. If necessary, disputes may be resolved through arbitration or legal channels, as specified in your agreement.</p>
-                    <p>By understanding and adhering to these terms, you help us provide seamless solar energy solutions while contributing to a greener future. For any questions, contact us at [Insert Email] or [Insert Phone Number].</p>
+                    <p>By understanding and adhering to these terms, you help us provide seamless solar energy solutions while contributing to a greener future. For any questions, contact us at enquiry@getintech.in or +91 89258 31826.</p>
                 </div>
             </Container>
 

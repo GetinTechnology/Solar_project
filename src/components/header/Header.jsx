@@ -34,7 +34,7 @@ function Header() {
           </Nav>
           <Nav>
             <Nav.Link as={Link} to='https://api.whatsapp.com/send?phone=918925831826&text=Hi! Getin Solar' className="head-quote"><WhatsAppIcon className='head-icon'/><span>+91 89258 31826</span></Nav.Link>
-            <button  className="head-quote" onClick={handleShow}><RequestQuoteIcon className='head-icon' /><span>Get a Quote</span></button>
+            <button  className="quote" onClick={handleShow}>Get a Quote</button>
           </Nav>
         </Navbar.Collapse>
       </Container>

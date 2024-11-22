@@ -71,7 +71,7 @@ function About() {
       </div>
 
       <div className="work-with-us">
-    <h2 className='headings'>Why Work with Us?</h2>
+    <h2 className='headings'>Why Work With Us?</h2>
     <Container className="main-content">
         <Row>
             <Col lg={6} className="left-section">
