@@ -63,9 +63,10 @@
 }
 .headings{
   font-size: 2.5rem;
-  color: #2E7D32; /* Primary color for heading */
+  color:#FF7043; /* Primary color for heading */
   font-weight: bold;
   margin-bottom: 1rem;
+  text-align: center;
 }
 .fnf{
   margin: 6rem;

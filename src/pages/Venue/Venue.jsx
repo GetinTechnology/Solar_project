@@ -6,6 +6,8 @@ import { pageData} from '../../venue';
 import './venue.css'
 import Review from '../../components/review'
 import FAQ from '../../components/Faq';
+import '../home/home.css'
+import Services from '../../components/Services';
 
 function DynamicPage({ pageKey }) {
   useEffect(() => {
@@ -21,7 +23,15 @@ function DynamicPage({ pageKey }) {
 
   return (
     <div className="dynamic-page">
-      <div className="res-banner">
+  <div 
+  className="res-banner" 
+  style={{
+    background: `linear-gradient(180deg, rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.568)), 
+                 url(${data.bannerBackground})`,
+    backgroundSize: "cover", // Optional: ensures the image covers the div
+    backgroundPosition: "center" // Optional: positions the image in the center
+  }}
+>
         <h1>{data.title}</h1>
         <p>{data.paragraph}</p>
       </div>
@@ -108,6 +118,7 @@ function DynamicPage({ pageKey }) {
       </div>
 
       <WhyChooseUs title={`Why Choose Us for ${data.title}`} points={data.points} />
+      <Services Services={data.services} head={data.title}/>
       <Review reviews={data.reviews}/>
       <FAQ faqs={data.faqs}/>
     </div>

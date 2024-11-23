@@ -10,9 +10,9 @@ import BusinessIcon from './images/building-svgrepo-com (1).svg';
 import LocalAtmIcon from './images/dollar-square-svgrepo-com.svg';
 import StarIcon from './images/star-svgrepo-com.svg';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
-import Residential from './images/residential.jpg';
-import Commercial from './images/commercial.jpg';
-import sb from './images/small-business.jpg'
+import Residential from './images/Residental.png';
+import Commercial from './images/Commercial.png';
+import sb from './images/Small Business.png'
 import dummy from './images/dummy.jpg'
 import venue_home from './images/venue-home.png'
 import venueresolar from './images/venue-re-solar.png'
@@ -29,6 +29,35 @@ import c2 from './images/c2.png'
 import c3 from './images/c3.png'
 import c4 from './images/c4.jpg'
 import c5 from './images/c5.jpg'
+import Rooftop from './images/Solar Rooftop Installation.png'
+import On_Grid_Rooftop from './images/On-Grid Rooftop Solar Solutions.png'
+import Off_Grid_Rooftop from './images/Off-Grid Rooftop Solar Solutions.png'
+import Water_Heaters from './images/Solar Water Heaters.png'
+import Water_Pumps from './images/Solar Water Pumps.png'
+import Rain_Water_Harvesting from './images/Rain Water Harvesting.png'
+import EV_Charging_Station from './images/EV Charging Station (Home Use).png'
+import Cleaning_AMC from './images/Cleaning AMC (Annual Maintenance Contract).png'
+import Ground_Mounted_Solutions from './images/Solar Ground Mounted Solutions.png'
+import Commercial_Solar_Systems from './images/Commercial Solar Systems.png'
+import Solar_Street_Lights from './images/Solar Street Lights.png'
+import Power_Trading from './images/Power Trading (For Businesses with Excess Energy).png'
+import  CT_PT_Distribution_Boxes from './images/CT PT & Distribution Boxes.png'
+import EV_Charging_Stations from './images/EV Charging Station (Home Use).png'
+import Industry_Water_Treatment from './images/Industry Water Treatment (For Small-Scale Operations).png'
+import { 
+  SolarPower, 
+  ElectricBolt, 
+  BatteryChargingFull, 
+  Opacity, 
+  CleaningServices, 
+  EvStation, 
+  ThunderstormOutlined 
+} from '@mui/icons-material';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUpFromWaterPump } from '@fortawesome/free-solid-svg-icons';
+
+
 
 export const pageData = {
     residential: {
@@ -63,6 +92,88 @@ export const pageData = {
         { question: "Will my system need to be connected to the grid?", answer: "Most residential systems remain connected to the grid for reliability. However, with battery storage, you can reduce reliance on the grid and store excess energy for later use." },
         { question: "Do solar panels require a lot of maintenance?", answer: "Solar panels require minimal maintenance—typically just regular cleaning and annual inspections. Most systems include warranties that cover long-term performance." },
         { question: "How will I know if my solar panels are working properly?", answer: "Most systems come with monitoring software that allows you to track your energy production in real time. This ensures your system is working at peak efficiency." }
+      ],
+      services : [
+        {
+          title: (
+            <>
+              Solar <span>Rooftop Installation</span>
+            </>
+          ),
+          icimg: SolarPower, // Material-UI Icon
+          img: Rooftop,
+          content: "Make your home energy-efficient with our tailored Solar Rooftop Installation services."
+        },
+        {
+          title: (
+            <>
+              Solar <span>On-Grid Rooftop</span>
+            </>
+          ),
+          icimg: ElectricBolt, // Material-UI Icon
+          img: On_Grid_Rooftop,
+          content: "Optimize your energy use with our On-Grid Rooftop Solar Solutions."
+        },
+        {
+          title: (
+            <>
+              Solar <span>Off-Grid Rooftop</span>
+            </>
+          ),
+          icimg: BatteryChargingFull, // Material-UI Icon
+          img: Off_Grid_Rooftop,
+          content: "Achieve energy independence with our Off-Grid Rooftop Solar Solutions."
+        },
+        {
+          title: (
+            <>
+              Solar <span>Water Heaters</span>
+            </>
+          ),
+          icimg: Opacity, // Material-UI Icon
+          img: Water_Heaters,
+          content: "Reduce energy costs and enjoy hot water year-round with our Solar Water Heaters."
+        },
+        {
+          title: (
+            <>
+              Solar <span>Water Pumps</span>
+            </>
+          ),
+          icimg: () => <FontAwesomeIcon icon={faArrowUpFromWaterPump} style={{color:'#fff',fontSize:'2rem'}}/>, // FontAwesome Icon wrapped in a function
+          img: Water_Pumps,
+          content: "Empower your water management needs with our Solar Water Pumps."
+        },
+        {
+          title: (
+            <>
+              Solar <span>Rain Water Harvesting</span>
+            </>
+          ),
+          icimg: ThunderstormOutlined, // Material-UI Icon
+          img: Rain_Water_Harvesting,
+          content: "Conserve water and protect natural resources with our Rainwater Harvesting solutions."
+        },
+        {
+          title: (
+            <>
+              Solar <span>EV Charging Station</span>
+            </>
+          ),
+          icimg: EvStation, // Material-UI Icon
+          img: EV_Charging_Station,
+          content: "Make your home or business future-ready with our EV Charging Station installation services."
+        },
+        {
+          title: (
+            <>
+              Solar <span>Cleaning AMC</span>
+            </>
+          ),
+          icimg: CleaningServices, // Material-UI Icon
+          img: Cleaning_AMC,
+          content: "Ensure the longevity and efficiency of your solar system with our Cleaning AMC services."
+        }
       ]
     },
     smallBusiness: {
@@ -140,7 +251,91 @@ export const pageData = {
             question: "Are there environmental benefits to using solar for small businesses?", 
             answer: "Absolutely. By using solar, your business reduces its carbon footprint, helping combat climate change and supporting a cleaner environment." 
         }
+    ],
+    services: [
+      {
+        title: (
+          <>
+            Solar <span>Rooftop Installation</span>
+          </>
+        ),
+        icimg: SolarPower, // Material-UI Icon
+        img: Rooftop,
+        content: "Make your home or business energy-efficient with our Solar Rooftop Installation services."
+      },
+      {
+        title: (
+          <>
+            Solar <span>On-Grid Rooftop</span>
+          </>
+        ),
+        icimg: ElectricBolt, // Material-UI Icon
+        img: On_Grid_Rooftop,
+        content: "Optimize energy use with our cost-effective On-Grid Rooftop Solar Solutions."
+      },
+      {
+        title: (
+          <>
+            Solar <span>Off-Grid Rooftop</span>
+          </>
+        ),
+        icimg: BatteryChargingFull, // Material-UI Icon
+        img: Off_Grid_Rooftop,
+        content: "Achieve energy independence with our reliable Off-Grid Rooftop Solar Solutions."
+      },
+      {
+        title: (
+          <>
+            Solar <span>Water Pumps</span>
+          </>
+        ),
+        icimg: () => <FontAwesomeIcon icon={faArrowUpFromWaterPump} style={{color:'#fff',fontSize:'2rem'}}/>, // FontAwesome Icon
+        img: Water_Pumps,
+        content: "Efficiently manage water supply for small-scale applications with our Solar Water Pumps."
+      },
+      {
+        title: (
+          <>
+            EV Charging Stations <span>(Small Parking Lots)</span>
+          </>
+        ),
+        icimg: EvStation, // Material-UI Icon
+        img: EV_Charging_Stations,
+        content: "Upgrade parking lots with EV Charging Stations designed for small spaces."
+      },
+      {
+        title: (
+          <>
+            Solar <span>Street Lights</span>
+          </>
+        ),
+        icimg: ThunderstormOutlined, // Material-UI Icon
+        img: Solar_Street_Lights,
+        content: "Illuminate pathways and public areas with our energy-efficient Solar Street Lights."
+      },
+      {
+        title: (
+          <>
+            Industry <span>Water Treatment</span>
+          </>
+        ),
+        icimg: Opacity, // Material-UI Icon
+        img: Industry_Water_Treatment,
+        content: "Ensure sustainable water management with our Industry Water Treatment solutions."
+      },
+      {
+        title: (
+          <>
+            Cleaning <span>AMC</span>
+          </>
+        ),
+        icimg: CleaningServices, // Material-UI Icon
+        img: Cleaning_AMC,
+        content: "Extend the life of your solar systems with our Cleaning AMC services."
+      }
     ]
+    
+    
     },
     commercial: {
       title: "Commercial",
@@ -218,6 +413,107 @@ export const pageData = {
             question: "What are the warranties like for commercial solar systems?", 
             answer: "Commercial solar systems typically come with warranties covering 20-25 years for panels and 10-15 years for inverters, ensuring reliability and performance over time." 
         }
+    ], services: [
+      {
+        title: (
+          <>
+            Solar <span>Ground Mounted</span>
+          </>
+        ),
+        icimg: SolarPower, // Material-UI Icon
+        img: Ground_Mounted_Solutions,
+        content: "Maximize energy generation with our reliable Solar Ground Mounted Solutions designed for open spaces."
+      },
+      {
+        title: (
+          <>
+            Commercial <span>Solar Systems</span>
+          </>
+        ),
+        icimg: BatteryChargingFull, // Material-UI Icon
+        img: Commercial_Solar_Systems,
+        content: "Empower your business with our efficient and cost-saving Commercial Solar Systems."
+      },
+      {
+        title: (
+          <>
+            Solar <span>On-Grid Rooftop</span>
+          </>
+        ),
+        icimg: ElectricBolt, // Material-UI Icon
+        img: On_Grid_Rooftop,
+        content: "Optimize energy usage and reduce costs with our On-Grid Rooftop Solar Solutions."
+      },
+      {
+        title: (
+          <>
+            Solar <span>Off-Grid Rooftop</span>
+          </>
+        ),
+        icimg: BatteryChargingFull, // Material-UI Icon
+        img: Off_Grid_Rooftop,
+        content: "Achieve complete energy independence with our Off-Grid Rooftop Solar Solutions."
+      },
+      {
+        title: (
+          <>
+            Solar <span>Street Lights</span>
+          </>
+        ),
+        icimg: ThunderstormOutlined, // Material-UI Icon
+        img: Solar_Street_Lights,
+        content: "Illuminate your streets and pathways with our energy-efficient Solar Street Lights."
+      },
+      {
+        title: (
+          <>
+            Power <span>Trading</span>
+          </>
+        ),
+        icimg: ElectricBolt, // Material-UI Icon
+        img: Power_Trading,
+        content: "Generate extra revenue by trading excess energy with our Power Trading solutions."
+      },
+      {
+        title: (
+          <>
+            CT PT & <span>Distribution Boxes</span>
+          </>
+        ),
+        icimg: () => <FontAwesomeIcon icon="fa-box" style={{ color: '#fff', fontSize: '2rem' }} />, // FontAwesome Icon
+        img: CT_PT_Distribution_Boxes,
+        content: "Ensure efficient energy distribution with our CT PT & Distribution Boxes."
+      },
+      {
+        title: (
+          <>
+            Solar <span>Rain Water Harvesting</span>
+          </>
+        ),
+        icimg: Opacity, // Material-UI Icon
+        img: Rain_Water_Harvesting,
+        content: "Conserve water and contribute to sustainable practices with our Rainwater Harvesting solutions."
+      },
+      {
+        title: (
+          <>
+            EV Charging Stations <span>(Commercial Use)</span>
+          </>
+        ),
+        icimg: EvStation, // Material-UI Icon
+        img: EV_Charging_Stations,
+        content: "Prepare your business for the EV revolution with our Commercial EV Charging Stations."
+      },
+      {
+        title: (
+          <>
+            Cleaning <span>AMC</span>
+          </>
+        ),
+        icimg: CleaningServices, // Material-UI Icon
+        img: Cleaning_AMC,
+        content: "Maintain your solar systems at peak performance with our Cleaning AMC services."
+      }
     ]
     
     },

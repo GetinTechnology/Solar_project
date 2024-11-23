@@ -1,7 +1,4 @@
 .res-banner{
-     
-  background: rgb(102,143,212);
-  background: linear-gradient(186deg, rgba(102,143,212,1) 0%, rgba(103,210,106,0.7232142857142857) 100%);
     background-size: cover !important;
   background-position: center !important; 
   background-repeat: no-repeat; 
@@ -173,6 +170,54 @@ padding: 5rem;
   height: 300px;
   width: 300px;
   border-radius: 50%;
+}
+/*services*/
+.services-container{
+  margin-top: 2rem;
+}
+.services-box{
+  padding: 10px;
+  text-align: center;
+  margin: 40px 0;
+  box-shadow: 0 0 4px 4px #ff6f432c;
+  position: relative;
+  height: 450px;
+}
+.service-box-svg{
+ background-color: #2E7D32;
+ padding: 20px;
+ border-radius:50% ;
+}
+.service-box-1{
+  padding: 50px 0 0 0;
+}
+
+.service-box-1 h3{
+  color: #2E7D32;
+  text-align: center;
+  font-size: 24px;
+}
+.service-box-1 h3>span{
+  color: #FF7043;
+  display: block;
+}
+.service-box-1 img{
+  width: 100%;
+}
+.service-box-1 p{
+  padding: 10px 0;
+  margin: 0;
+  height: 100px;
+}
+.service-box-svg{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-40%);
+}
+.services-box-btn{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
 @media (max-width:750px) {
   .res-banner{

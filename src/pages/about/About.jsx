@@ -69,10 +69,6 @@ function About() {
         <p>Getin Solar is a leading provider of clean, sustainable energy solutions, helping homeowners, businesses, and communities transition to renewable solar power. With years of expertise, we offer tailored solar solutions that promote energy independence and cost savings. </p>
 
       </div>
-
-
-
-
       <div className='made-easy-container'>
       <h2 className='headings'>Switch to Solar Made Easy</h2>
 

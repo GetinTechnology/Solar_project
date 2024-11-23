@@ -120,7 +120,7 @@ function App() {
         <Link to='https://api.whatsapp.com/send?phone=918925831826&text=Hi! Getin Solar' >
         <img src={require('./images/chat-bubble_11302438.png')} alt="chat-box" />
         </Link>
-        <span>1</span>
+      
       </div>
 
       <Footer />

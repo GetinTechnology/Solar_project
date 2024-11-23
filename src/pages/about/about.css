@@ -4,8 +4,9 @@
     margin-top: 6.6rem;
 }
 .about-banner {
-    background: rgb(90,90,207);
-    background: linear-gradient(186deg, rgba(90,90,207,1) 0%, rgba(103,210,106,0.7232142857142857) 100%);
+  background: 
+  linear-gradient(180deg, rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.568)),
+  url("../../images/Solar 1.png");
     background-size: cover;
     background-position:bottom !important;
     color: #fff;
