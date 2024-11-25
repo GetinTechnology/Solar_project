@@ -1,0 +1,56 @@
+.service{
+    margin-top: 6.5rem;
+}
+.service-hero{
+    height:63vh;
+    background-image: url(../../images/Solar-service.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.service-hero h1{
+    color: #fff;
+    font-size: 64px;
+}
+
+.service-content img{
+    width: 100%;
+    padding: 20px;
+}   
+.service-content-box{
+    margin: 2rem 0;
+    padding: 10px;
+}
+.service-contents{
+    padding: 20px;
+}
+.service-contents p{
+    color: gray;
+    padding: 10px;
+}
+.service-contents h2{
+    color:#FF7043;
+ 
+    padding: 10px;
+}
+.service-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-head{
+    text-align: center;
+    color: #2E7D32;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 24px 0;
+}
+.service-content>p{
+    padding: 0 20px;
+    text-align: center;
+    margin: 0 40px;
+}

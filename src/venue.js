@@ -12,7 +12,7 @@ import StarIcon from './images/star-svgrepo-com.svg';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import Residential from './images/Residental.png';
 import Commercial from './images/Commercial.png';
-import sb from './images/Small Business.png'
+import smallBusiness from './images/Small-Business.png'
 import dummy from './images/dummy.jpg'
 import venue_home from './images/venue-home.png'
 import venueresolar from './images/venue-re-solar.png'
@@ -95,6 +95,7 @@ export const pageData = {
       ],
       services : [
         {
+          heading:"Solar_Rooftop_Installation",
           title: (
             <>
               Solar <span>Rooftop Installation</span>
@@ -105,6 +106,7 @@ export const pageData = {
           content: "Make your home energy-efficient with our tailored Solar Rooftop Installation services."
         },
         {
+          heading:"Solar_On_Grid_Rooftop",
           title: (
             <>
               Solar <span>On-Grid Rooftop</span>
@@ -115,6 +117,7 @@ export const pageData = {
           content: "Optimize your energy use with our On-Grid Rooftop Solar Solutions."
         },
         {
+          heading:"Solar_Off_Grid_Rooftop",
           title: (
             <>
               Solar <span>Off-Grid Rooftop</span>
@@ -125,6 +128,7 @@ export const pageData = {
           content: "Achieve energy independence with our Off-Grid Rooftop Solar Solutions."
         },
         {
+          heading:"Solar_Water_Heaters",
           title: (
             <>
               Solar <span>Water Heaters</span>
@@ -135,6 +139,7 @@ export const pageData = {
           content: "Reduce energy costs and enjoy hot water year-round with our Solar Water Heaters."
         },
         {
+          heading:"Solar_Water_Pumps",
           title: (
             <>
               Solar <span>Water Pumps</span>
@@ -145,6 +150,7 @@ export const pageData = {
           content: "Empower your water management needs with our Solar Water Pumps."
         },
         {
+          heading:"Solar_Rain_Water_Harvesting",
           title: (
             <>
               Solar <span>Rain Water Harvesting</span>
@@ -155,6 +161,7 @@ export const pageData = {
           content: "Conserve water and protect natural resources with our Rainwater Harvesting solutions."
         },
         {
+          heading:"Solar_EV_Charging_Station",
           title: (
             <>
               Solar <span>EV Charging Station</span>
@@ -165,6 +172,7 @@ export const pageData = {
           content: "Make your home or business future-ready with our EV Charging Station installation services."
         },
         {
+          heading:"Solar_Cleaning_AMC",
           title: (
             <>
               Solar <span>Cleaning AMC</span>
@@ -178,7 +186,7 @@ export const pageData = {
     },
     smallBusiness: {
       title: "Small Business",
-      bannerBackground: sb,
+      bannerBackground: smallBusiness,
       description: "Solar Power for Small Businesses: Energize Your Business Sustainably",
       paragraph: "As businesses seek more sustainable operations, solar energy is becoming a popular solution for small businesses aiming to cut energy costs and enhance environmental responsibility. Installing solar panels helps reduce long-term electricity expenses while boosting green credentials, attracting eco-conscious customers, and improving public image. ",
     title1:{title:"What is Small Business Solar Power?",content:"Small business solar power refers to the use of solar panels to generate electricity for business operations. Just like residential systems, solar energy can be harnessed by installing photovoltaic (PV) panels on business rooftops or other open spaces with good sunlight exposure. This electricity can power a range of business activities, from lighting and heating to machinery and office equipment. Excess power produced by the solar system can often be sold back to the grid through net metering, providing additional income or savings.",img:smsolar},
@@ -254,6 +262,7 @@ export const pageData = {
     ],
     services: [
       {
+        heading:"Solar_Rooftop_Installation",
         title: (
           <>
             Solar <span>Rooftop Installation</span>
@@ -264,6 +273,7 @@ export const pageData = {
         content: "Make your home or business energy-efficient with our Solar Rooftop Installation services."
       },
       {
+         heading:"Solar_On_Grid_Rooftop",
         title: (
           <>
             Solar <span>On-Grid Rooftop</span>
@@ -274,6 +284,7 @@ export const pageData = {
         content: "Optimize energy use with our cost-effective On-Grid Rooftop Solar Solutions."
       },
       {
+         heading:"Solar_Off_Grid_Rooftop",
         title: (
           <>
             Solar <span>Off-Grid Rooftop</span>
@@ -284,6 +295,7 @@ export const pageData = {
         content: "Achieve energy independence with our reliable Off-Grid Rooftop Solar Solutions."
       },
       {
+        heading:"Solar_Water_Pumps",
         title: (
           <>
             Solar <span>Water Pumps</span>
@@ -294,6 +306,7 @@ export const pageData = {
         content: "Efficiently manage water supply for small-scale applications with our Solar Water Pumps."
       },
       {
+        heading:"Solar_EV_Charging_Station",
         title: (
           <>
             EV Charging Stations <span>(Small Parking Lots)</span>
@@ -304,6 +317,7 @@ export const pageData = {
         content: "Upgrade parking lots with EV Charging Stations designed for small spaces."
       },
       {
+        heading:"Solar_Street_Lights",
         title: (
           <>
             Solar <span>Street Lights</span>
@@ -314,6 +328,7 @@ export const pageData = {
         content: "Illuminate pathways and public areas with our energy-efficient Solar Street Lights."
       },
       {
+        heading:"Industry_Water_Treatment",
         title: (
           <>
             Industry <span>Water Treatment</span>
@@ -324,6 +339,7 @@ export const pageData = {
         content: "Ensure sustainable water management with our Industry Water Treatment solutions."
       },
       {
+        heading:"Cleaning_AMC",
         title: (
           <>
             Cleaning <span>AMC</span>
@@ -415,6 +431,7 @@ export const pageData = {
         }
     ], services: [
       {
+        heading:"Solar_Ground_Mounted",
         title: (
           <>
             Solar <span>Ground Mounted</span>
@@ -425,6 +442,7 @@ export const pageData = {
         content: "Maximize energy generation with our reliable Solar Ground Mounted Solutions designed for open spaces."
       },
       {
+        heading:"Commercial_Solar_Systems",
         title: (
           <>
             Commercial <span>Solar Systems</span>
@@ -435,6 +453,7 @@ export const pageData = {
         content: "Empower your business with our efficient and cost-saving Commercial Solar Systems."
       },
       {
+         heading:"Solar_On_Grid_Rooftop",
         title: (
           <>
             Solar <span>On-Grid Rooftop</span>
@@ -445,6 +464,7 @@ export const pageData = {
         content: "Optimize energy usage and reduce costs with our On-Grid Rooftop Solar Solutions."
       },
       {
+        heading:"Solar_Off_Grid_Rooftop",
         title: (
           <>
             Solar <span>Off-Grid Rooftop</span>
@@ -455,6 +475,7 @@ export const pageData = {
         content: "Achieve complete energy independence with our Off-Grid Rooftop Solar Solutions."
       },
       {
+        heading:"Solar_Street_Lights",
         title: (
           <>
             Solar <span>Street Lights</span>
@@ -465,6 +486,7 @@ export const pageData = {
         content: "Illuminate your streets and pathways with our energy-efficient Solar Street Lights."
       },
       {
+        heading:"Power_Trading",
         title: (
           <>
             Power <span>Trading</span>
@@ -475,6 +497,7 @@ export const pageData = {
         content: "Generate extra revenue by trading excess energy with our Power Trading solutions."
       },
       {
+        heading:"CT_PT_Distribution_Boxes",
         title: (
           <>
             CT PT & <span>Distribution Boxes</span>
@@ -485,6 +508,7 @@ export const pageData = {
         content: "Ensure efficient energy distribution with our CT PT & Distribution Boxes."
       },
       {
+        heading:"Solar_Rain_Water_Harvesting",
         title: (
           <>
             Solar <span>Rain Water Harvesting</span>
@@ -495,6 +519,7 @@ export const pageData = {
         content: "Conserve water and contribute to sustainable practices with our Rainwater Harvesting solutions."
       },
       {
+      heading:"Solar_EV_Charging_Station",
         title: (
           <>
             EV Charging Stations <span>(Commercial Use)</span>

@@ -3,6 +3,7 @@ import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import { BrowserRouter, Routes, Route,Link} from 'react-router-dom';
 import { useEffect, useState, Suspense, lazy } from 'react';
+import Service from './pages/sevices/Service.jsx';
 
 // Lazy loading components
 const Home = lazy(() => import('./pages/home/Home'));
@@ -101,6 +102,24 @@ function App() {
             <Route path='thirunelveli/' element={<LocationPage pagekey={'thirunelveli'}/>}/>
             <Route path='kovilpatti/' element={<LocationPage pagekey={'kovilpatti'}/>}/>
             <Route path='kanniyakumari/' element={<LocationPage pagekey={'kanniyakumari'}/>}/>
+            </Route>
+
+            {/* service Routes */}
+            <Route path='/service'>
+              <Route path='Solar_Rooftop_Installation/'  element={<Service pageKey={'Solar_Rooftop_Installation'}/>}/>
+              <Route path='Solar_On_Grid_Rooftop/'  element={<Service pageKey={'Solar_On_Grid_Rooftop'}/>}/>
+              <Route path='Solar_Off_Grid_Rooftop/'  element={<Service pageKey={'Solar_Off_Grid_Rooftop'}/>}/>
+              <Route path='Solar_Water_Heaters/'  element={<Service pageKey={'Solar_Water_Heaters'}/>}/>
+              <Route path='Solar_Water_Pumps/'  element={<Service pageKey={'Solar_Water_Pumps'}/>}/>
+              <Route path='Solar_Rain_Water_Harvesting/'  element={<Service pageKey={'Solar_Rain_Water_Harvesting'}/>}/>
+              <Route path='Solar_EV_Charging_Station/'  element={<Service pageKey={'Solar_EV_Charging_Station'}/>}/>
+              <Route path='Solar_Cleaning_AMC/'  element={<Service pageKey={'Solar_Cleaning_AMC'}/>}/>
+              <Route path='Solar_Street_Lights/'  element={<Service pageKey={'Solar_Street_Lights'}/>}/>
+              <Route path='Industry_Water_Treatment/'  element={<Service pageKey={'Industry_Water_Treatment'}/>}/>
+              <Route path='Cleaning_AMC/'  element={<Service pageKey={'Cleaning_AMC'}/>}/>
+              <Route path='Commercial_Solar_Systems/'  element={<Service pageKey={'Commercial_Solar_Systems'}/>}/>
+              <Route path='Power_Trading/'  element={<Service pageKey={'Power_Trading'}/>}/>
+              <Route path='CT_PT_Distribution_Boxes/'  element={<Service pageKey={'CT_PT_Distribution_Boxes'}/>}/>
             </Route>
 
           {/* Fallback Route */}

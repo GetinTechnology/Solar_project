@@ -1,7 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 function Services({ Services, head }) {
+  const navigate = useNavigate()
   return (
     <div className="services-container">
       <h2 className="headings">Our Services In {head}</h2>
@@ -28,7 +30,7 @@ function Services({ Services, head }) {
                   </div>
                   {/* Button */}
                   <div className="services-box-btn">
-                    <button className="quote">Read More</button>
+                    <button className="quote" onClick={()=>{navigate(`/service/${service.heading}`)}}>Read More</button>
                   </div>
                 </div>
               </Col>

@@ -49,6 +49,7 @@ border-radius: 30px;
 .banner-bottom-box-icon {
   transition: transform 1s ease-in;
   display: inline-block;
+  font-size: 3.5rem;
 }
 
 .banner-bottom-box:hover .banner-bottom-box-icon {

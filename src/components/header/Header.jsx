@@ -25,9 +25,9 @@ function Header() {
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="About/">About Us</Nav.Link>
             <NavDropdown title="Venue" id="collapsible-nav-dropdown">
-              <NavDropdown.Item as={Link} to='/venue/residential'>Residential</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/venue/smallbusiness">Small Business</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/venue/commercial">Commercial</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to='/venue/residential/'>Residential</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/venue/smallbusiness/">Small Business</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/venue/commercial/">Commercial</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="career/">Careers</Nav.Link>
             <Nav.Link as={Link} to="contact/">Contact</Nav.Link>
