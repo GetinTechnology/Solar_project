@@ -339,7 +339,7 @@ export const pageData = {
         content: "Ensure sustainable water management with our Industry Water Treatment solutions."
       },
       {
-        heading:"Cleaning_AMC",
+        heading:"Solar_Cleaning_AMC",
         title: (
           <>
             Cleaning <span>AMC</span>

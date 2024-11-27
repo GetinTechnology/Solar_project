@@ -29,6 +29,9 @@ import booking from "../../images/booking.svg"
 import tracking from "../../images/track.svg"
 import reviewimg from '../../images/review.svg'
 import solar from "../../images/solar.svg"
+import HomeIcon from '@mui/icons-material/Home';
+import CorporateFareIcon from '@mui/icons-material/CorporateFare';
+import StoreMallDirectoryIcon from '@mui/icons-material/StoreMallDirectory';
 
 function Home() {
   useEffect(() => {
@@ -174,7 +177,14 @@ function Home() {
                 <div className='segment'>
                   <img src={res} alt="" />
                   <div className='se-name'>
-                    <h3>Residential</h3>
+                  <div>
+                    <HomeIcon className='segment-icon'></HomeIcon>
+                  </div>
+                  <div>
+                  <h3>Residential</h3>
+                  <p className='se-name-con'>Tempora quibusdam numquam doloribus quisquam sapiente!</p>
+                  </div>
+               
                   </div>
                 </div>
               </Link>
@@ -185,7 +195,15 @@ function Home() {
                 <div className='segment'>
                   <img src={commercial} alt="" />
                   <div className='se-name'>
+                    <div>
+                    <CorporateFareIcon className='segment-icon'/>
+                    </div>
+                    <div>
                     <h3>Commercial</h3>
+                    <p className='se-name-con'>Tempora quibusdam numquam doloribus quisquam sapiente!</p>
+
+                    </div>
+                   
                   </div>
                 </div>
               </Link>
@@ -195,7 +213,15 @@ function Home() {
                 <div className='segment'>
                   <img src={small} alt="" />
                   <div className='se-name'>
+                    <div>
+                    <StoreMallDirectoryIcon className='segment-icon'/>
+                    </div>
+                    <div>
                     <h3>Small Bussiness</h3>
+                    <p className='se-name-con'>Tempora quibusdam numquam doloribus quisquam sapiente!</p>
+                    </div>
+                    
+
                   </div>
                 </div>
               </Link>

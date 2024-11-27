@@ -53,4 +53,91 @@
     padding: 0 20px;
     text-align: center;
     margin: 0 40px;
+   
+}
+.service-item {
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.5s ease;
+  }
+  .service-item .service-item-title{
+    margin: 0;
+    transition: all 0.2s ease;
+    font-weight: 700;
+   
+  }
+  .service-item.open .service-item-title{
+    color: #2E7D32;
+  }
+  .service-item.open {
+    height: auto;
+  }
+
+  .service-item-content {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.8s ease, max-height 0.8s ease;
+  }
+  
+  .service-item.open .service-item-content {
+    opacity: 1;
+    max-height: 200px; /* Adjust based on content size */
+  }
+  
+  .arrow-icon {
+    transition: all 0.3s ease;
+    margin-right:20px ;
+  }
+  
+  .service-item.open .arrow-icon {
+    transform: rotate(90deg); /* Rotate arrow on open */
+  }
+.service-li li{
+  padding: 10px;
+} 
+.service-types{
+  margin: 4rem 0;
+}
+.service-types-box{
+  background-color: #2E7D32;
+  padding: 40px;
+    transition: .3s all ease-in;
+    position: relative;
+    border-radius: 30px;
+    color: #fff;
+
+}
+.service-types-box-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #FF7043;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  opacity: 1;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  border-radius: 30px;
+  opacity: 0;
+  transition: 0.5s opacity ease-in ;
+} 
+.service-types-box-overlay button{
+  width: 200px;
+  padding: 10px;
+  background-color: #2E7D32;
+  border: none;
+  border-radius:30px ;
+  color: #fff;
+}
+.service-types-box:hover .service-types-box-overlay{
+  opacity: 1;
 }

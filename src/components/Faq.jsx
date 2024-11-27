@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 
 const FAQ = ({faqs}) => {
-
-
   return (
     <div className="faq-container">
       <h2 className='headings'>Frequently Asked Questions</h2>

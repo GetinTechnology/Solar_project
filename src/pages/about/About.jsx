@@ -74,14 +74,14 @@ function About() {
 
         <Container>
         <Row>
-        <Col>
+        <Col md={6} lg={3}>
           <div className='made-easy'>
           <img src={et} alt="" />
           <h4>Existing Grid</h4>
           <p>The traditional power grid relies heavily on non-renewable energy sources like coal, gas, and oil, which contribute significantly to air pollution and global warming. Moreover, the costs of grid electricity have been rising steadily, leaving customers with no control over their energy expenses. This outdated system is not only expensive but also harmful to the environment, limiting customer choice and sustainability..</p>
           </div>
         </Col>
-        <Col>
+        <Col md={6 } lg={3}>
         <div className='made-easy'>
         <img src={ss} alt="" />
 
@@ -89,7 +89,7 @@ function About() {
           <p>The traditional power grid relies heavily on non-renewable energy sources like coal, gas, and oil, which contribute significantly to air pollution and global warming. Moreover, the costs of grid electricity have been rising steadily, leaving customers with no control over their energy expenses. This outdated system is not only expensive but also harmful to the environment, limiting customer choice and sustainability..</p>
           </div>
         </Col>
-        <Col>
+        <Col md={6} lg={3}>
         <div className='made-easy'>
         <img src={home} alt="" />
 
@@ -97,7 +97,7 @@ function About() {
           <p>Imagine a decentralized energy system where power is generated and consumed locally. Solar power enables a clean and sustainable energy future by reducing dependence on centralized grids. By harnessing sunlight, you not only reduce your carbon footprint but also contribute to a greener, more resilient power network. This transformation makes solar energy the cornerstone of a reliable and eco-friendly grid.</p>
           </div>
         </Col>
-        <Col>
+        <Col md={6} lg={3}>
         <div className='made-easy'>
         <img src={cs} alt="" />
 

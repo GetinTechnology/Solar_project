@@ -33,9 +33,12 @@
   .made-easy {
     text-align: center;
     padding: 10px;
-    box-shadow: 0 0 3px 3px #ff6f4365;
+    box-shadow: 0 0 3px 3px #8fcd9249;
     border-radius: 10px;
     transition: .3s all;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    margin-bottom: 1rem;
   }
   .made-easy:hover{
     scale: 0.9;

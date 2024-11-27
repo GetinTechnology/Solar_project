@@ -116,7 +116,7 @@ function App() {
               <Route path='Solar_Cleaning_AMC/'  element={<Service pageKey={'Solar_Cleaning_AMC'}/>}/>
               <Route path='Solar_Street_Lights/'  element={<Service pageKey={'Solar_Street_Lights'}/>}/>
               <Route path='Industry_Water_Treatment/'  element={<Service pageKey={'Industry_Water_Treatment'}/>}/>
-              <Route path='Cleaning_AMC/'  element={<Service pageKey={'Cleaning_AMC'}/>}/>
+              <Route path='Solar_Ground_Mounted/'  element={<Service pageKey={'Solar_Ground_Mounted'}/>}/>
               <Route path='Commercial_Solar_Systems/'  element={<Service pageKey={'Commercial_Solar_Systems'}/>}/>
               <Route path='Power_Trading/'  element={<Service pageKey={'Power_Trading'}/>}/>
               <Route path='CT_PT_Distribution_Boxes/'  element={<Service pageKey={'CT_PT_Distribution_Boxes'}/>}/>

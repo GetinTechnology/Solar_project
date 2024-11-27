@@ -91,7 +91,7 @@ function Calculator() {
     <Container>
       <div className="calculator">
         <Row>
-          <h2  className='headings'>Calculate Your Savings</h2>
+          <h2 className='headings'>Calculate Your Savings</h2>
           <Col>
             <div className="calculate-box-1">
               <h3>Enter Electronic Items and Quantity</h3>
