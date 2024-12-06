@@ -545,3 +545,13 @@ border-radius: 30px;
   }
 
 }
+.blur-content {
+  filter: blur(10px);
+  transition: filter 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.content-visible {
+  filter: blur(0);
+  opacity: 1;
+}

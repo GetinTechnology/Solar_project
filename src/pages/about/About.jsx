@@ -61,7 +61,25 @@ function About() {
       },
     ],
   };
+  useEffect(() => {
+    const handleScroll = () => {
+      const elements = document.querySelectorAll('.blur-content');
+      elements.forEach((element) => {
+        const rect = element.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+        if (rect.top < windowHeight - 100) {
+          element.classList.add('content-visible');
+        } else {
+          element.classList.remove('content-visible');
+        }
+      });
+    };
 
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <div className='about'>
       <div className='about-banner'>
@@ -69,7 +87,7 @@ function About() {
         <p>Getin Solar is a leading provider of clean, sustainable energy solutions, helping homeowners, businesses, and communities transition to renewable solar power. With years of expertise, we offer tailored solar solutions that promote energy independence and cost savings. </p>
 
       </div>
-      <div className='made-easy-container'>
+      <div className='made-easy-container blur-content'>
       <h2 className='headings'>Switch to Solar Made Easy</h2>
 
         <Container>
@@ -109,7 +127,7 @@ function About() {
 
         </Container>
       </div>
-      <div className="work-with-us">
+      <div className="work-with-us blur-content">
     <h2 className='headings'>Why Work With Us?</h2>
     <Container className="main-content">
         <Row>
@@ -147,7 +165,7 @@ function About() {
     </Container>
 </div>
 
-      <div className="meetourteam">
+      <div className="meetourteam blur-content">
         <h2 className='headings'>Meet Our Team</h2>
 
         {/* Custom Arrows */}

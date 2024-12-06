@@ -105,11 +105,31 @@ function Home() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const handleClose = () => setModalIsOpen(false);
   const handleShow = () => setModalIsOpen(true);
+  useEffect(() => {
+    const handleScroll = () => {
+      const elements = document.querySelectorAll('.blur-content');
+      elements.forEach((element) => {
+        const rect = element.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+        if (rect.top < windowHeight - 100) {
+          element.classList.add('content-visible');
+        } else {
+          element.classList.remove('content-visible');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <>
     <Helmet>
       
     </Helmet>
+
       <div className='banner'>
         <Container>
           <div className='banner-content'>
@@ -147,10 +167,10 @@ function Home() {
         </Container>
 
       </div>
-      <div className="saving-calculater">
+      <div className="saving-calculater blur-content">
         <Calculator />
       </div>
-      <div className="why-choose-us">
+      <div className="why-choose-us blur-content">
         <Container>
           <h2 className='headings'>Why Choose Us</h2>
           <p>At Getin, we’re committed to making clean energy accessible, affordable, and easy for everyone. With a dedicated team, cutting-edge technology, and customized solutions tailored to your specific needs, we ensure a seamless transition to solar power. Trust us to help you achieve energy independence while contributing to a sustainable future.</p>
@@ -168,7 +188,7 @@ function Home() {
           </Row>
         </Container>
       </div>
-      <div className='segments'>
+      <div className='segments blur-content'>
         <Container>
           <h2 className='headings'>Our Segments</h2>
           <Row>
@@ -230,7 +250,7 @@ function Home() {
           </Row>
         </Container>
       </div>
-      <div className='solar-steps'>
+      <div className='solar-steps blur-content'>
         <Container>
           <Row>
             <h2 className='headings'>Get Your Solar in Steps</h2>
@@ -248,7 +268,7 @@ function Home() {
           </Row>
         </Container>
       </div>
-      <div className="review">
+      <div className="review blur-content">
         <h2 className='headings'>Customers Review</h2>
         <Container>
           <Row className='review-container'>
@@ -278,7 +298,10 @@ function Home() {
           </Row>
         </Container>
       </div>
+      <div className='blur-content'>
       <FAQ faqs={faqs} />
+      </div>
+    
       <Modal show={modalIsOpen} onHide={handleClose}>
         <Quote setModalIsOpen={setModalIsOpen} />
       </Modal>

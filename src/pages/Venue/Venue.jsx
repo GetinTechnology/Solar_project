@@ -18,6 +18,25 @@ function DynamicPage({ pageKey }) {
   const toggleShowAll = () => {
     setShowAll(!showAll);
   };
+  useEffect(() => {
+    const handleScroll = () => {
+      const elements = document.querySelectorAll('.blur-content');
+      elements.forEach((element) => {
+        const rect = element.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+        if (rect.top < windowHeight - 100) {
+          element.classList.add('content-visible');
+        } else {
+          element.classList.remove('content-visible');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   if (!data) return null;
 
@@ -36,10 +55,10 @@ function DynamicPage({ pageKey }) {
         <p>{data.paragraph}</p>
       </div>
 
-      <div style={{ marginTop: '4rem' }}>
+      <div style={{ marginTop: '4rem' }} className='blur-content'>
         <Calculater />
       </div>
-      <div className='venue-content'>
+      <div className='venue-content blur-content'>
         <h2>Harnessing the Power of the Sun: Residential Solar Energy Explained</h2>
         <Container>
         <Row className="venue-row-content">
@@ -116,11 +135,21 @@ function DynamicPage({ pageKey }) {
         </Row>
         </Container>
       </div>
-
+      <div className='blur-content'>
       <WhyChooseUs title={`Why Choose Us for ${data.title}`} points={data.points} />
+
+      </div>
+      <div className='blur-content'>
       <Services Services={data.services} head={data.title}/>
+      </div>
+      <div className='blur-content'>
       <Review reviews={data.reviews}/>
+
+      </div>
+      <div className='blur-content'>
       <FAQ faqs={data.faqs}/>
+
+      </div>
     </div>
   );
 }

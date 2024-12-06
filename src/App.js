@@ -4,7 +4,7 @@ import Footer from './components/footer/Footer';
 import { BrowserRouter, Routes, Route,Link} from 'react-router-dom';
 import { useEffect, useState, Suspense, lazy } from 'react';
 import Service from './pages/sevices/Service.jsx';
-
+import Loader from './components/Loader.jsx'
 // Lazy loading components
 const Home = lazy(() => import('./pages/home/Home'));
 const Contact = lazy(() => import('./pages/Contact/Contact'));
@@ -71,7 +71,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<Loader/>}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />

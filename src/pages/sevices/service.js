@@ -1,23 +1,92 @@
 import dummy from '../../images/dummy.jpg'
-import CT1 from '../../images/service/CT PT Distribution Boxes 1.jpg'
-import CT2 from '../../images/service/CT PT Distribution Boxes 2.jpg'
 import Rooftop1 from '../../images/service/Solar Rooftop Installation 1.jpg'
 import Rooftop2 from '../../images/service/Solar Rooftop Installation 2.jpg'
+import Rooftop3 from '../../images/service/Solar Rooftop Installation 3.png'
+import Rooftop4 from '../../images/service/Solar Rooftop Installation 4.png'
+import Rooftop5 from '../../images/service/Solar Rooftop Installation 5.png'
+import Rooftop6 from '../../images/service/Solar Rooftop Installation 6.png'
 import On_Grid1 from '../../images/service/OnGrid Rooftop 1.jpg'
 import On_Grid2 from '../../images/service/OnGrid Rooftop 2.jpg'
+import On_Grid3 from '../../images/service/OnGrid Rooftop 3.png'
+import On_Grid4 from '../../images/service/OnGrid Rooftop 4.png'
+import On_Grid5 from '../../images/service/OnGrid Rooftop 5.png'
+import On_Grid6 from '../../images/service/OnGrid Rooftop 6.png'
 import Off_Grid1 from '../../images/service/Off Grid Rooftop 1.jpg'
 import Off_Grid2 from '../../images/service/Off Grid Rooftop 2.jpg'
+import Off_Grid3 from '../../images/service/Off Grid Rooftop 3.png'
+import Off_Grid4 from '../../images/service/Off Grid Rooftop 4.png'
+import Off_Grid5 from '../../images/service/Off Grid Rooftop 5.png'
+import Off_Grid6 from '../../images/service/Off Grid Rooftop 6.png'
 import Water_Heaters1 from '../../images/service/SolarWater Heaters  1.jpg'
 import Water_Heaters2 from '../../images/service/SolarWater Heaters 2.jpg'
+import Water_Heaters3 from '../../images/service/SolarWater Heaters 3.png'
+import Water_Heaters4 from '../../images/service/SolarWater Heaters 4.png'
+import Water_Heaters5 from '../../images/service/SolarWater Heaters 5.png'
+import Water_Heaters6 from '../../images/service/SolarWater Heaters 6.png'
 import Water_Pumps1 from '../../images/service/Solar WaterPumps  1.jpg'
 import Water_Pumps2 from '../../images/service/Solar WaterPumps  2.jpg'
+import Water_Pumps3 from '../../images/service/Solar WaterPumps  3.png'
+import Water_Pumps4 from '../../images/service/Solar WaterPumps  4.png'
+import Water_Pumps5 from '../../images/service/Solar WaterPumps  5.png'
+import Water_Pumps6 from '../../images/service/Solar WaterPumps  6.png'
 import Water_Harvesting1 from '../../images/service/Solar RainWater Harvesting 1.jpg'
 import Water_Harvesting2 from '../../images/service/Solar RainWater Harvesting 2.jpg'
+import Water_Harvesting3 from '../../images/service/Solar RainWater Harvesting 3.png'
+import Water_Harvesting4 from '../../images/service/Solar RainWater Harvesting 4.png'
+import Water_Harvesting5 from '../../images/service/Solar RainWater Harvesting 5.png'
+import Water_Harvesting6 from '../../images/service/Solar RainWater Harvesting 6.png'
 import EV_Charging_Station1 from '../../images/service/Solar EV Charging Station 1.jpg'
 import EV_Charging_Station2 from '../../images/service/Solar EV Charging Station 2.jpg'
+import EV_Charging_Station3 from '../../images/service/Solar EV Charging Station 3.png'
+import EV_Charging_Station4 from '../../images/service/Solar EV Charging Station 4.png'
+import EV_Charging_Station5 from '../../images/service/Solar EV Charging Station 5.png'
+import EV_Charging_Station6 from '../../images/service/Solar EV Charging Station 6.png'
 import on_grid_type from '../../images/service/On Grid - Solar.gif'
 import off_grid_type from '../../images/service/Off Grid - Soalr.gif'
 import Hybrid_type from '../../images/service/HYBRID _ SOLAR.gif'
+import Solar_Cleaning_AMC1 from '../../images/service/Solar Cleaning AMC 1.jpg'
+import Solar_Cleaning_AMC2 from '../../images/service/Solar Cleaning AMC 1 (2).jpg'
+import Solar_Cleaning_AMC3 from '../../images/service/Solar Cleaning AMC 3.png'
+import Solar_Cleaning_AMC4 from '../../images/service/Solar Cleaning AMC 4.png'
+import Solar_Cleaning_AMC5 from '../../images/service/Solar Cleaning AMC 5.png'
+import Solar_Cleaning_AMC6 from '../../images/service/Solar Cleaning AMC 6.png'
+import Solar_Street_Lights1 from '../../images/service/Solar Street Lights 1.jpg'
+import Solar_Street_Lights2 from '../../images/service/Solar Street Lights 2.jpg'
+import Solar_Street_Lights3 from '../../images/service/Solar Street Lights 3.png'
+import Solar_Street_Lights4 from '../../images/service/Solar Street Lights 4.png'
+import Solar_Street_Lights5 from '../../images/service/Solar Street Lights 5.png'
+import Solar_Street_Lights6 from '../../images/service/Solar Street Lights 6.png'
+import Industry_Water_Treatment1 from '../../images/service/Industry Water Treatment 1.jpg'
+import Industry_Water_Treatment2 from '../../images/service/Industry Water Treatment 2.jpg'
+import Industry_Water_Treatment3 from '../../images/service/Industry Water Treatment 3.png'
+import Industry_Water_Treatment4 from '../../images/service/Industry Water Treatment 4.png'
+import Industry_Water_Treatment5 from '../../images/service/Industry Water Treatment 5.png'
+import Industry_Water_Treatment6 from '../../images/service/Industry Water Treatment 6.png'
+import Solar_Ground_Mounted1 from '../../images/service/Solar Ground Mounted 1.jpg'
+import Solar_Ground_Mounted2 from '../../images/service/Solar Ground Mounted 2.jpg'
+import Solar_Ground_Mounted3 from '../../images/service/Solar Ground Mounted 3.png'
+import Solar_Ground_Mounted4 from '../../images/service/Solar Ground Mounted 4.png'
+import Solar_Ground_Mounted5 from '../../images/service/Solar Ground Mounted 5.png'
+import Solar_Ground_Mounted6 from '../../images/service/Solar Ground Mounted 6.png'
+import Commercial_Solar_Systems1 from '../../images/service/Commercial Solar System 1.jpg'
+import Commercial_Solar_Systems2 from '../../images/service/Commercial Solar System 2.jpg'
+import Commercial_Solar_Systems3 from '../../images/service/Commercial Solar System 3.png'
+import Commercial_Solar_Systems4 from '../../images/service/Commercial Solar System 4.png'
+import Commercial_Solar_Systems5 from '../../images/service/Commercial Solar System 5.png'
+import Commercial_Solar_Systems6 from '../../images/service/Commercial Solar System 6.png'
+import Power_Trading1 from '../../images/service/Power Trading  1.jpg'
+import Power_Trading2 from '../../images/service/Power Trading  2.jpg'
+import Power_Trading3 from '../../images/service/Power Trading  3.png'
+import Power_Trading4 from '../../images/service/Power Trading  4.png'
+import Power_Trading5 from '../../images/service/Power Trading  5.png'
+import Power_Trading6 from '../../images/service/Power Trading  6.png'
+import CT_PT_Distribution_Boxes1 from '../../images/service/CT PT Distribution Boxes 1.jpg'
+import CT_PT_Distribution_Boxes2 from '../../images/service/CT PT Distribution Boxes 2.jpg'
+import CT_PT_Distribution_Boxes3 from '../../images/service/CT PT Distribution Boxes 3.png'
+import CT_PT_Distribution_Boxes4 from '../../images/service/CT PT Distribution Boxes 4.png'
+import CT_PT_Distribution_Boxes5 from '../../images/service/CT PT Distribution Boxes 5.png'
+import CT_PT_Distribution_Boxes6 from '../../images/service/CT PT Distribution Boxes 6.png'
+
 import { Container, Row, Col } from 'react-bootstrap'
 export const pageData = {
     Solar_Rooftop_Installation: {
@@ -58,6 +127,7 @@ export const pageData = {
         },
         types: (
             <>
+                <h2 className='headings'>Rooftop Types</h2>
                 <Container>
                     <Row>
                         <Col><div className='service-types-box'>
@@ -102,9 +172,16 @@ export const pageData = {
                     </Row>
                 </Container>
             </>
-        )
+        ),
+        slides:[
+            Rooftop3,
+            Rooftop4,
+            Rooftop5,
+            Rooftop6
+        ]
 
-    }, Solar_On_Grid_Rooftop: {
+    }, 
+    Solar_On_Grid_Rooftop: {
         title: "Solar On-Grid Rooftop Solutions",
         para: "At GetInSolar, we bring you the latest in renewable energy technology with our Solar On-Grid Rooftop Systems. These advanced systems are designed to help you reduce energy costs, optimize power usage, and contribute to a greener planet. By seamlessly integrating your rooftop with the utility grid, our on-grid solutions ensure uninterrupted power supply and unmatched efficiency.",
         content1: {
@@ -125,7 +202,16 @@ export const pageData = {
                 { contenttitle: "Transform Rooftop Spaces into Energy Hubs with Advanced Photovoltaic Technology", content: "Advanced photovoltaic technology converts spaces on rooftops that otherwise appear useless into productive energy hubs, directly connecting to the grid for a steady supply of electricity that diminishes dependence on costly fossil fuels. The surplus energy produced can also be sold back to the grid, providing another source of income for industrial units." },
                 { contenttitle: "Achieve Sustainability and Savings with GetInSolar's Industrial On-Grid Solutions", content: "As sustainability becomes a business necessity, this provides great opportunities for industries to reduce their carbon footprint and enjoy long-term energy savings. Trust GetInSolar to provide reliable, scalable, and efficient on-grid solutions that cater to your industrial energy goals." },
             ]
-        }
+        },
+        slides:[
+            On_Grid3,
+            On_Grid4,
+            On_Grid5,
+            On_Grid6,
+    
+        ]
+     
+
     }, Solar_Off_Grid_Rooftop: {
         title: "Solar Off Grid Rooftop",
         para: "Uninterrupted Power Through Solar Off-Grid Rooftop SystemsGetInSolar, these are Off-Grid Rooftop Systems meant for locations where the grid cannot provide reliable connectivity or connectivity at all. These utilize state-of-the-art photovoltaic panels that capture the energy from sunlight to generate electricity and also include battery storage solutions for continuous power supply. ",
@@ -146,7 +232,14 @@ export const pageData = {
                 },
                 { contenttitle: "Empowering Industries with Scalable Off-Grid Solar Solutions", content: "Scalable designs make our systems suitable for meeting the high energy requirements of warehouses, workshops, and industrial units. It also saves this excess energy produced during peak sunlight hours for later usage, keeping the operations uninterrupted with substantial savings in the long run. Thus, through our off-grid solutions, industries are investing into a step towards energy security and environmental stewardship." },
             ]
-        }
+        },
+        slides:[
+            Off_Grid3,
+            Off_Grid4,
+            Off_Grid5,
+            Off_Grid6,
+    
+        ]
 
     }, Solar_Water_Heaters: {
         title: "Solar Water Heaters",
@@ -168,7 +261,14 @@ export const pageData = {
                 ,
                 {contenttitle:"Efficient and Sustainable Solar Water Heaters for Industrial Use",content:"This advanced design of our solar heaters ensures optimum heat retention with minimal energy loss even in regions with changed availability of sunlight. Solar heating systems can also be part of the green-manufacturing commitment made by industries to save energy and reduce the carbon footprint. By harnessing renewable energy, industries also safeguard themselves from volatile fuel prices, ensuring stable operational costs over time. Our solar water heaters are manufactured with sturdy construction and custom-made configurations to meet the special requirements of industrial clients. These are consistent performers for years."}
             ]
-        }
+        },
+        slides:[
+            Water_Heaters3,
+            Water_Heaters4,
+            Water_Heaters5,
+            Water_Heaters6,
+    
+        ]
     }, Solar_Water_Pumps: {
         title: "Solar Water Pumps",
         para: "At GetInSolar, our Solar Water Pumps are indeed the paradigm of water management's sustainable solutions, designed to address agricultural, industrial, and domestic water requirements. These pumps harness the power of solar energy to fuel the efficient pumping systems of water, therefore doing without the reliance on conventional electricity or diesel. Our utilization of photovoltaic technology in these systems ensures a reliable supply of water even in places with limited access to power.",
@@ -188,7 +288,14 @@ export const pageData = {
                 {contenttitle:"Revolutionizing Industrial Water Systems with Solar Water Pumps",content:"The Solar Water Pumps are one solution for transformation of industrial and domestic needs beyond agriculture. Reliable water pumping for processes involving cooling, cleaning, and wastewater management to ensure uninterrupted systems for industry would significantly be benefited by such solar-powered solutions. The pumps ensure a steady performance, cut operational costs, and align with environmental compliance goals, making them practical for industrial use."}
                 ,{contenttitle:"Empowering Communities with Reliable Solar Water Pumps",content:"In residential and community contexts, Solar Water Pumps will guarantee ample water supply access for drinking, sanitation, and other household functions. In rural villages and off-grid localities, the systems act as a lifesaving system by ensuring supply without using expensive infrastructure. Durable designs against wear out ensure that GetInSolar's Solar Water Pumps deliver prompt operational requirements to last longer and provide a long-term and eco-friendly water management solution for all users."}
             ]
-        }
+        },
+        slides:[
+            Water_Pumps3,
+            Water_Pumps4,
+            Water_Pumps5,
+            Water_Pumps6,
+    
+        ]
 
     }, Solar_Rain_Water_Harvesting: {
         title: "Solar Rain Water Harvesting",
@@ -209,7 +316,14 @@ export const pageData = {
                 {contenttitle:"Reliable Water Supply for Agriculture through Solar Rainwater Harvesting",content:"Access to water would thus be vital to maintaining high yields in crops, especially in drought-prone or erratically rainy areas. GetInSolar's Solar Rainwater Harvesting systems are a dependable source of saving and storing rainwater for irrigation. With good water circulation directly or through solar-powered pumps in the fields, areas not enjoying electricity can equally benefit from this technology."},
                 {contenttitle:"Sustainable Agriculture with Solar-Powered Rainwater Harvesting",content: "This practice does not only consume less water but also decreases dependence on ground supplies in the long run. Farmers can consume the water captured during dry seasons, ensuring continuous growth and increased production of crops. Further, the utilization of solar power in rainwater harvesting reduces operational costs for farmers as they convert to resource-friendly farming practices. Farming has become more reliable and sustainable with solar-rainwater harvesting because it meets current and future generations' demands."}
             ]
-        }
+        },
+        slides:[
+            Water_Harvesting3,
+            Water_Harvesting4,
+            Water_Harvesting5,
+            Water_Harvesting6,
+    
+        ]
     }, Solar_EV_Charging_Station: {
         title: "Solar EV Charging Station",
         para: "GetInSolar's Solar EV Charging Stations allow blending of renewable energy and electric vehicle technologies for green mobility to the doorstep of individuals and businesses. The charging stations offer a sustainable and cost-effective solution to charge EVs by harnessing solar power and thereby reducing dependency on grid electricity.",
@@ -229,147 +343,203 @@ export const pageData = {
                 {contenttitle:"Eco-Friendly EV Charging Solutions for Businesses and Public Spaces",content:"The Solar EV Charging Stations by GetInSolar offer businesses and public spaces with a practical, eco-friendly solution for balancing the ever-rising demand for infrastructure and charging stations for electric vehicles. These facilities can be included in shopping malls, office complexes, or parking lots to attract this set of users while at the same time showing their commitment to sustainability."},
                 {contenttitle:"Eco-Friendly EV Charging Solutions for Businesses and Public Spaces",content:"The use of solar power will enable businesses to reduce the expense associated with the operation of EV charging stations. These types of charging stations can be designed to accept multiple vehicles at one time, creating rapid service during peak times. Public charging facilities also have the added attraction of renewable energy-powered charging for the widespread adoption of EVs and the promotion of environmental stewardship. With GetInSolar, commercial and public environments can take steps toward green mobility and renewable energy solutions."}
             ]
-        }
+        },
+        slides:[
+            EV_Charging_Station3,
+            EV_Charging_Station4,
+            EV_Charging_Station5,
+            EV_Charging_Station6,
+    
+        ]
     }, Solar_Cleaning_AMC: {
         title: "Solar Cleaning AMC",
         para: "In addition to installation, maintenance is crucial to sustaining the effectiveness of your solar panels. Dust, debris, and environmental pollution can drastically reduce energy output. With GetInSolar's Cleaning AMC, we keep your solar system performing at peak efficiency throughout the year. Our professional cleaning services are designed to extend the life of your solar panels, improve energy efficiency, and safeguard your investment.",
         content1: {
-            img: dummy,
+            img: Solar_Cleaning_AMC1,
             contenthead: "Enhancing Solar Panel Longevity",
             contentpara: [
-                "Cleaning is a regular activity to ensure long-term efficiency of your solar panel. Our AMC services on cleaning are far from merely brushing the surface. We review every detail of the system carefully and determine any potential rectifiable issues that may thwart optimal performance.",
-                "Over time, dust and grime can settle on the system, slowing down sunlight's passing, hence reducing energy output. Our team effectively removes these layers, restoring your system's capacity to generate clean energy. Whether for residential, commercial, or industrial solar installations, our Cleaning AMC guarantees improved energy efficiency and cost savings."
+                 {contenttitle:"Tailored AMC Plans for Hassle-Free Solar Maintenance",content:"Cleaning is a regular activity to ensure long-term efficiency of your solar panel. Our AMC services on cleaning are far from merely brushing the surface. We review every detail of the system carefully and determine any potential rectifiable issues that may thwart optimal performance."},
+                 {contenttitle:"Tailored AMC Plans for Hassle-Free Solar Maintenance",content:"Over time, dust and grime can settle on the system, slowing down sunlight's passing, hence reducing energy output. Our team effectively removes these layers, restoring your system's capacity to generate clean energy. Whether for residential, commercial, or industrial solar installations, our Cleaning AMC guarantees improved energy efficiency and cost savings."}
             ],
 
         },
         content2: {
-            img: dummy,
+            img: Solar_Cleaning_AMC2,
             contenthead: "Customizable maintenance plans",
             contentpara: [
-                "Each solar installation is different, hence the varied nature of its maintenance needs. GetInSolar offers flexible AMC plans concerning cleaning services based on your solar system's size and type. Monthly cleanings or twice-yearly inspections - we'll make sure that the schedule fits whatever needs you might have.",
-                "As part of our service, routine checks and performance testing will be made along with prompt service for operational concerns. With GetInSolar's Cleaning AMC, you are assured that your solar panel is professionally taken care of to deliver the optimal amount of energy and can continue helping you reach your sustainability goals uninterrupted."
+                {contenttitle:"Tailored AMC Plans for Hassle-Free Solar Maintenance",content:"Each solar installation is different, hence the varied nature of its maintenance needs. GetInSolar offers flexible AMC plans concerning cleaning services based on your solar system's size and type. Monthly cleanings or twice-yearly inspections - we'll make sure that the schedule fits whatever needs you might have."},
+                {contenttitle:"Comprehensive Cleaning AMC for Peak Solar Performance",content:"As part of our service, routine checks and performance testing will be made along with prompt service for operational concerns. With GetInSolar's Cleaning AMC, you are assured that your solar panel is professionally taken care of to deliver the optimal amount of energy and can continue helping you reach your sustainability goals uninterrupted."}
             ]
-        }
+        },
+        slides:[
+            Solar_Cleaning_AMC3,
+            Solar_Cleaning_AMC4,
+            Solar_Cleaning_AMC5,
+            Solar_Cleaning_AMC6,
+    
+        ]
     }, Solar_Street_Lights: {
         title: "Solar Street Lights",
         para: "GetInSolar solar street lights provide outdoor lighting solutions in an environmentally and cost-friendly way. Using direct solar energy, this produces reliable lighting with no connection to the power grid at all. Made from some of the most advanced photovoltaic panels, energy-saving LED technology, and durable long-lasting batteries, it's perfect for roads, pathways, parking lots, and public spaces. These lights describe the future for smart and sustainable urban and rural lighting, a mix of ruggedness with environmental consciousness.",
         content1: {
-            img: dummy,
+            img: Solar_Street_Lights1,
             contenthead: "Efficient Lighting for Urban and Rural Areas",
             contentpara: [
-                "By far, the three leading solar street lights under GetInSolar are the epitome of safety and innovation in urban and rural landscapes. These light up streets, parks, and commercial spaces in cities to ensure safe, well-lit environments for communities. For rural areas, there might be less grid electricity; these lights ensure a constant means of illumination powered entirely by solar energy.",
-                "Built with state-of-the-art technology, high-efficiency photovoltaic panels, and durable batteries, our lights can ensure peak performance through adverse weather conditions. Featuring sleek designs that resist weathering for their long-term ability, they are the perfect option for government projects, residential neighborhoods, and industrial hubs seeking eco-friendly solutions."
+                {contenttitle:"Illuminating Urban and Rural Spaces with Solar Street Lights",content:"By far, the three leading solar street lights under GetInSolar are the epitome of safety and innovation in urban and rural landscapes. These light up streets, parks, and commercial spaces in cities to ensure safe, well-lit environments for communities. For rural areas, there might be less grid electricity; these lights ensure a constant means of illumination powered entirely by solar energy."},
+                {contenttitle:"Durable and High-Performance Solar Street Lighting Solutions",content:"Built with state-of-the-art technology, high-efficiency photovoltaic panels, and durable batteries, our lights can ensure peak performance through adverse weather conditions. Featuring sleek designs that resist weathering for their long-term ability, they are the perfect option for government projects, residential neighborhoods, and industrial hubs seeking eco-friendly solutions."}
             ],
 
         },
         content2: {
-            img: dummy,
+            img: Solar_Street_Lights2,
             contenthead: "A Smart, Eco-Sensitive Alternative",
             contentpara: [
-                "GetInSolar's Solar Street Lights redefine the future of sustainable outdoor lighting as they eliminate the need for conventional power sources. These features do save energy by maximally using intelligent sensors for dusk-to-dawn operating modes, thereby minimizing waste. That means not just lowering electricity bills but cutting back on the environmentally destructive footprint of outdoor lighting.",
-                "With low installation costs, easy scalability, and minimal maintenance needs, these lights provide an excellent return on investment. From securing bustling city avenues to enhancing rural infrastructure, GetInSolar's Solar Street Lights empower communities towards a greener, brighter, and more sustainable future."
+                {contenttitle:"Tailored AMC Plans for Hassle-Free Solar Maintenance",content:"GetInSolar's Solar Street Lights redefine the future of sustainable outdoor lighting as they eliminate the need for conventional power sources. These features do save energy by maximally using intelligent sensors for dusk-to-dawn operating modes, thereby minimizing waste. That means not just lowering electricity bills but cutting back on the environmentally destructive footprint of outdoor lighting."},
+                {contenttitle:"Tailored AMC Plans for Hassle-Free Solar Maintenance",content:"With low installation costs, easy scalability, and minimal maintenance needs, these lights provide an excellent return on investment. From securing bustling city avenues to enhancing rural infrastructure, GetInSolar's Solar Street Lights empower communities towards a greener, brighter, and more sustainable future."}
             ]
-        }
+        },
+        slides:[
+            Solar_Street_Lights3,
+            Solar_Street_Lights4,
+            Solar_Street_Lights5,
+            Solar_Street_Lights6,
+    
+        ]
     }, Industry_Water_Treatment: {
         title: "Industry Water Treatment",
         para: "GetInSolar's Industry Water Treatment solutions are put together to manage the challenges of industries in water resource management. These systems utilize advanced treatment and recycling technologies for wastewater, ensuring that environmental regulations are met without increasing operational costs. This promotes sustainability in industries and conserves water supply, wastes, and productivity.",
         content1: {
-            img: dummy,
+            img: Industry_Water_Treatment1,
             contenthead: "Optimized Industrial Solution Toward Sustainability",
             contentpara: [
-                "Optimized Industrial Solution Toward SustainabilityHaving been valued as a precious commodity of most industrial processes, water can still waste or pollute in vast quantities. GetInSolar's Industry Water Treatment solution provides a set of top-notch filtration, chemical treatments, and purification technologies to overcome this challenge by turning wastewater into clean, reusable water. Our systems are very versatile and designed for various industries, such as manufacturing, textile production, food and beverages, and many others.",
-                "We assist industries in reducing their consumption of external water sources, minimizing the costs of new, fresh water purchases, and avoiding costly penalties for noncompliance with water discharge regulations. Whether it's cleaning, cooling, or other industrial processes, GetInSolar makes sure that treated water is available for use in any application. This way, industries are not only efficient but also environmentally sound and compliant – both with themselves and the planet."
+                {contenttitle:"Optimized Industrial Solutions for Sustainable Water Management",content:"Optimized Industrial Solution Toward SustainabilityHaving been valued as a precious commodity of most industrial processes, water can still waste or pollute in vast quantities. GetInSolar's Industry Water Treatment solution provides a set of top-notch filtration, chemical treatments, and purification technologies to overcome this challenge by turning wastewater into clean, reusable water. Our systems are very versatile and designed for various industries, such as manufacturing, textile production, food and beverages, and many others."},
+                {contenttitle:"Efficient Water Usage with GetInSolar's Industrial Water Treatment Solutions",content:"We assist industries in reducing their consumption of external water sources, minimizing the costs of new, fresh water purchases, and avoiding costly penalties for noncompliance with water discharge regulations. Whether it's cleaning, cooling, or other industrial processes, GetInSolar makes sure that treated water is available for use in any application. This way, industries are not only efficient but also environmentally sound and compliant – both with themselves and the planet."}
             ],
 
         },
         content2: {
-            img: dummy,
+            img: Industry_Water_Treatment2,
             contenthead: "Environmental Footprints Reduction",
             contentpara: [
-                "With the expansion of industries also comes increased water consumption and waste output, resulting in environmental degradation. GetInSolar's water treatments therefore aim to reduce the side effects it has on the environment through reducing the discharge of wastewater, ensuring the optimization of water usage within industrial operations. Our systems use advanced technologies like membrane filtration, reverse osmosis, and ultraviolet disinfection to ensure cleanup of the wastewater to make it suitable for reuse in industrial processes.",
-                "With our solutions, the industries adopting our solution can significantly reduce their carbon footprint as well as contribute to global sustainability goals by reducing waste and pollution of water. More so, through recycling and reusing water in their facilities, the industries can cut costs for procurement of water and the expenses for waste disposal. Our solutions are highly scalable, and thus they suit any size of operation-from small manufacturing plants to large chemical refineries. GetInSolar offers industries an energy-efficient design with automated features. Thus, industries are able to meet their water treatment goals while also reducing environmental and operational costs."
+                   {contenttitle:"Sustainable Water Management for Expanding Industries",content:"With the expansion of industries also comes increased water consumption and waste output, resulting in environmental degradation. GetInSolar's water treatments therefore aim to reduce the side effects it has on the environment through reducing the discharge of wastewater, ensuring the optimization of water usage within industrial operations. Our systems use advanced technologies like membrane filtration, reverse osmosis, and ultraviolet disinfection to ensure cleanup of the wastewater to make it suitable for reuse in industrial processes."},
+                   {contenttitle:"Cost-Effective and Scalable Water Solutions for Industries",content:"With our solutions, the industries adopting our solution can significantly reduce their carbon footprint as well as contribute to global sustainability goals by reducing waste and pollution of water. More so, through recycling and reusing water in their facilities, the industries can cut costs for procurement of water and the expenses for waste disposal. Our solutions are highly scalable, and thus they suit any size of operation-from small manufacturing plants to large chemical refineries. GetInSolar offers industries an energy-efficient design with automated features. Thus, industries are able to meet their water treatment goals while also reducing environmental and operational costs."}
             ]
-        }
+        },
+        slides:[
+            Industry_Water_Treatment3,
+            Industry_Water_Treatment4,
+            Industry_Water_Treatment5,
+            Industry_Water_Treatment6,
+    
+        ]
     }, Solar_Ground_Mounted: {
         title: "Solar Ground Mounted",
         para: "GetInSolar's Industry Water Treatment solutions are put together to manage the challenges of industries in water resource management. These systems utilize advanced treatment and recycling technologies for wastewater, ensuring that environmental regulations are met without increasing operational costs. This promotes sustainability in industries and conserves water supply, wastes, and productivity.",
         content1: {
-            img: dummy,
+            img: Solar_Ground_Mounted1,
             contenthead: "Optimized Industrial Solution Toward Sustainability",
             contentpara: [
-                "Optimized Industrial Solution Toward SustainabilityHaving been valued as a precious commodity of most industrial processes, water can still waste or pollute in vast quantities. GetInSolar's Industry Water Treatment solution provides a set of top-notch filtration, chemical treatments, and purification technologies to overcome this challenge by turning wastewater into clean, reusable water. Our systems are very versatile and designed for various industries, such as manufacturing, textile production, food and beverages, and many others.",
-                "We assist industries in reducing their consumption of external water sources, minimizing the costs of new, fresh water purchases, and avoiding costly penalties for noncompliance with water discharge regulations. Whether it's cleaning, cooling, or other industrial processes, GetInSolar makes sure that treated water is available for use in any application. This way, industries are not only efficient but also environmentally sound and compliant – both with themselves and the planet."
+                {contenttitle:"Sustainable Water Management for Expanding Industries",content:"Optimized Industrial Solution Toward SustainabilityHaving been valued as a precious commodity of most industrial processes, water can still waste or pollute in vast quantities. GetInSolar's Industry Water Treatment solution provides a set of top-notch filtration, chemical treatments, and purification technologies to overcome this challenge by turning wastewater into clean, reusable water. Our systems are very versatile and designed for various industries, such as manufacturing, textile production, food and beverages, and many others."},
+                {contenttitle:"Sustainable Water Management for Expanding Industries",content:"We assist industries in reducing their consumption of external water sources, minimizing the costs of new, fresh water purchases, and avoiding costly penalties for noncompliance with water discharge regulations. Whether it's cleaning, cooling, or other industrial processes, GetInSolar makes sure that treated water is available for use in any application. This way, industries are not only efficient but also environmentally sound and compliant – both with themselves and the planet."}
             ],
 
         },
         content2: {
-            img: dummy,
+            img: Solar_Ground_Mounted2,
             contenthead: "Environmental Footprints Reduction",
             contentpara: [
-                "With the expansion of industries also comes increased water consumption and waste output, resulting in environmental degradation. GetInSolar's water treatments therefore aim to reduce the side effects it has on the environment through reducing the discharge of wastewater, ensuring the optimization of water usage within industrial operations. Our systems use advanced technologies like membrane filtration, reverse osmosis, and ultraviolet disinfection to ensure cleanup of the wastewater to make it suitable for reuse in industrial processes.",
-                "With our solutions, the industries adopting our solution can significantly reduce their carbon footprint as well as contribute to global sustainability goals by reducing waste and pollution of water. More so, through recycling and reusing water in their facilities, the industries can cut costs for procurement of water and the expenses for waste disposal. Our solutions are highly scalable, and thus they suit any size of operation-from small manufacturing plants to large chemical refineries. GetInSolar offers industries an energy-efficient design with automated features. Thus, industries are able to meet their water treatment goals while also reducing environmental and operational costs."
+                {contenttitle:"Advanced Water Treatment for Sustainable Industrial Growth",content:"With the expansion of industries also comes increased water consumption and waste output, resulting in environmental degradation. GetInSolar's water treatments therefore aim to reduce the side effects it has on the environment through reducing the discharge of wastewater, ensuring the optimization of water usage within industrial operations. Our systems use advanced technologies like membrane filtration, reverse osmosis, and ultraviolet disinfection to ensure cleanup of the wastewater to make it suitable for reuse in industrial processes."},
+                {contenttitle:"Scalable Water Treatment Solutions for Cost-Effective and Sustainable Industrial Operations",content:"With our solutions, the industries adopting our solution can significantly reduce their carbon footprint as well as contribute to global sustainability goals by reducing waste and pollution of water. More so, through recycling and reusing water in their facilities, the industries can cut costs for procurement of water and the expenses for waste disposal. Our solutions are highly scalable, and thus they suit any size of operation-from small manufacturing plants to large chemical refineries. GetInSolar offers industries an energy-efficient design with automated features. Thus, industries are able to meet their water treatment goals while also reducing environmental and operational costs."}
             ]
-        }
+        },
+        slides:[
+            Solar_Ground_Mounted3,
+            Solar_Ground_Mounted4,
+            Solar_Ground_Mounted5,
+            Solar_Ground_Mounted6,
+    
+        ]
     }, Commercial_Solar_Systems: {
         title: "Commercial Solar System",
         para: "At GetInSolar, our Commercial Solar Systems are designed to offer businesses an efficient, sustainable, and cost-effective energy solution. These systems harness the power of the sun to generate electricity for commercial establishments, from small offices to large industrial complexes. By integrating solar technology into your business, you not only reduce your reliance on conventional energy sources but also lower your electricity costs in the long term. Our commercial solar systems are designed to answer the specific requirements of every business and maximize energy production, savings, and minimal environmental footprint.",
         content1: {
-            img: dummy,
+            img:Commercial_Solar_Systems1 ,
             contenthead: "Maximizing Energy Efficiency for Businesses",
             contentpara: [
-                "Commercial solar systems have become integral to modern business practice as they enable businesses to take control of their energy needs and help them achieve sustainability goals. GetInSolar provides unique solar solutions for commercial properties that maximize energy efficiency and minimize operating costs. Regardless of whether your business is running a retail store, a warehouse, or a manufacturing facility, our solar systems are scalable to meet your specific energy needs.",
-                "With our commercial on-grid and off-grid solar power systems, businesses will enjoy a steady supply of power without hefty energy bills to pay. Moreover, any excess power produced during peak hours of sunlight can be fed back into the grid or stored for later use, thereby saving more through net metering programs. Our commercial solar power systems enable businesses to not only reap long-term savings but also showcase their commitment to clean energy and environmental sustainability. By embracing the use of solar technology, companies position themselves among the leaders in the growing green economy."
+                {contenttitle:"Empowering Businesses with Scalable and Cost-Efficient Commercial Solar Solutions",content:"Commercial solar systems have become integral to modern business practice as they enable businesses to take control of their energy needs and help them achieve sustainability goals. GetInSolar provides unique solar solutions for commercial properties that maximize energy efficiency and minimize operating costs. Regardless of whether your business is running a retail store, a warehouse, or a manufacturing facility, our solar systems are scalable to meet your specific energy needs."},
+                {contenttitle:"Boosting Business Efficiency and Sustainability with Commercial Solar Power Systems",content:"With our commercial on-grid and off-grid solar power systems, businesses will enjoy a steady supply of power without hefty energy bills to pay. Moreover, any excess power produced during peak hours of sunlight can be fed back into the grid or stored for later use, thereby saving more through net metering programs. Our commercial solar power systems enable businesses to not only reap long-term savings but also showcase their commitment to clean energy and environmental sustainability. By embracing the use of solar technology, companies position themselves among the leaders in the growing green economy."}
             ],
 
         },
+        slides:[
+            Commercial_Solar_Systems3,
+            Commercial_Solar_Systems4,
+            Commercial_Solar_Systems5,
+            Commercial_Solar_Systems6,
+    
+        ],
         content2: {
-            img: dummy,
+            img: Commercial_Solar_Systems2,
             contenthead: "Long-Term Benefits to Business Sustainability",
             contentpara: [
-                "Investment in a commercial solar system offers benefits that go beyond the saving of money on energy bills. It presents numerous other benefits that can better the sustainability efforts for your company and enhance its corporate image. Solar energy is a renewable resource, and it means that once the system is installed and up to run for decades, your business can enjoy free and steady power. With improved solar technology, lower costs continuously are being experienced. Plus, the consumer will surely see a positive return on his investment.",
-                "Besides direct cost savings, installing a commercial solar system can bring reputation for your brand, that it is an environmentally responsible organization. This can attract eco-conscious consumers and clients to help improve the competitiveness of your company in a sustainability-driven market. The installation of a solar system further enhances property value, making it an intelligent, forward-looking investment. Through GetInSolar, businesses not only profit financially from the use of solar energy but also support a cleaner and greener future for everyone."
+                {contenttitle:"Boosting Business Efficiency and Sustainability with Commercial Solar Power Systems",content:"Investment in a commercial solar system offers benefits that go beyond the saving of money on energy bills. It presents numerous other benefits that can better the sustainability efforts for your company and enhance its corporate image. Solar energy is a renewable resource, and it means that once the system is installed and up to run for decades, your business can enjoy free and steady power. With improved solar technology, lower costs continuously are being experienced. Plus, the consumer will surely see a positive return on his investment."},
+                {contenttitle:"Empowering Businesses with Scalable and Cost-Efficient Commercial Solar Solutions",content:"Besides direct cost savings, installing a commercial solar system can bring reputation for your brand, that it is an environmentally responsible organization. This can attract eco-conscious consumers and clients to help improve the competitiveness of your company in a sustainability-driven market. The installation of a solar system further enhances property value, making it an intelligent, forward-looking investment. Through GetInSolar, businesses not only profit financially from the use of solar energy but also support a cleaner and greener future for everyone."}
             ]
         }
     }, Power_Trading: {
         title: "Power Trading",
         para: "Power trading is a core aspect of the energy market, enabling businesses and utilities to sell and purchase electricity in an open market in order to optimize costs and supply. GetInSolar provides its clients with power trading solutions through which one can join energy trading platforms and capitalize on variations in energy prices. Businesses would leverage advanced technologies and market strategies to better manage energy procurement and optimize electricity expenditure, thereby guaranteeing a more efficient and sustainable model of energy usage. Our power trading services are designed to enable businesses to make informed decisions by providing them with real-time data and insights, helping them take the best advantage of any favorable market situations that might arise.",
         content1: {
-            img: dummy,
+            img: Power_Trading1,
             contenthead: "Maximizing Profit through Smart Energy Trading",
             contentpara: [
-                "To try and take full advantage of power market opportunities, businesses have to be responsive and strategic in this fast-moving landscape of the energy marketplace. Power trading has helped clients determine when it is the best time to sell or buy energy by harnessing market fluctuations. GetInSolar enables businesses to bring down energy costs, by purchasing electricity at lower prices and selling extra power at higher rates, using advanced analytics and forecasting tools.",
-                "Power trading is especially helpful to businesses with systems of renewable energy, such as solar. Power trading becomes a means of income for selling excessive portions that would not be used otherwise. With either net metering or direct sales to the grid, the company can collect revenue over and above investment in renewable energy - something that would otherwise be an intermittent expense. By using customized power trading solutions, companies can therefore have full control over the energy portfolio; reduce risks associated with price volatility; and thus, improve their overall energy management strategy."
+                {contenttitle:"Harnessing Power Market Opportunities: Strategic Energy Trading for Business Savings",content:"To try and take full advantage of power market opportunities, businesses have to be responsive and strategic in this fast-moving landscape of the energy marketplace. Power trading has helped clients determine when it is the best time to sell or buy energy by harnessing market fluctuations. GetInSolar enables businesses to bring down energy costs, by purchasing electricity at lower prices and selling extra power at higher rates, using advanced analytics and forecasting tools."},
+                {contenttitle:"Maximizing Revenue Through Power Trading: Enhancing Energy Management for Businesses",content:"Power trading is especially helpful to businesses with systems of renewable energy, such as solar. Power trading becomes a means of income for selling excessive portions that would not be used otherwise. With either net metering or direct sales to the grid, the company can collect revenue over and above investment in renewable energy - something that would otherwise be an intermittent expense. By using customized power trading solutions, companies can therefore have full control over the energy portfolio; reduce risks associated with price volatility; and thus, improve their overall energy management strategy."}
             ],
 
         },
         content2: {
-            img: dummy,
+            img: Power_Trading2,
             contenthead: "Power Trading: Improving Energy Sustainability",
             contentpara: [
-                "Power trading isn't just a source of cost savings; it also is an important aspect of greening the consumption of energy. Businesses by doing power trading contribute to effective and balanced energy dispatch. By trading their renewable energy sources like power from solar, businesses help to reduce fossil fuel dependency, thereby reducing carbon emissions and enabling greater ecological sustainability.",
-                "For companies committed to their green initiatives, power trading is an avenue that enables supporting and advancing those endeavours. Whether in surplus solar energy sales or purchasing green energy credits, power trading complements a company's eco-friendliness efforts and underscores the green credentials of such a company. GetInSolar makes sure the power trading solutions we develop for you would be in line with your sustainability objectives, thus helping contribute to a cleaner future while accruing long-term savings in energy cost. Our experience within the power market enables you to make most of the available opportunities that bring about good energy management, not only as a financial imperative but as an environmentally friendly practice as well."
+                {contenttitle:"Power Trading: A Strategic Move for Cost Savings and Environmental Sustainability",content: "Power trading isn't just a source of cost savings; it also is an important aspect of greening the consumption of energy. Businesses by doing power trading contribute to effective and balanced energy dispatch. By trading their renewable energy sources like power from solar, businesses help to reduce fossil fuel dependency, thereby reducing carbon emissions and enabling greater ecological sustainability."},
+                {contenttitle:"Power Trading: Advancing Green Initiatives and Achieving Long-Term Savings",content: "For companies committed to their green initiatives, power trading is an avenue that enables supporting and advancing those endeavours. Whether in surplus solar energy sales or purchasing green energy credits, power trading complements a company's eco-friendliness efforts and underscores the green credentials of such a company. GetInSolar makes sure the power trading solutions we develop for you would be in line with your sustainability objectives, thus helping contribute to a cleaner future while accruing long-term savings in energy cost. Our experience within the power market enables you to make most of the available opportunities that bring about good energy management, not only as a financial imperative but as an environmentally friendly practice as well."}
             ]
-        }
+        },
+        slides:[
+            Power_Trading3,
+            Power_Trading4,
+            Power_Trading5,
+            Power_Trading6,
+    
+        ]
 
     }, CT_PT_Distribution_Boxes: {
         title: "CT PT & Distribution Boxes",
         para: "At GetInSolar, we manufacture high-quality CT (Current Transformer) and PT (Potential Transformer) solutions, along with reliable distribution boxes, for your energy management needs. These components play a crucial role in measuring electrical parameters, safety, and efficient power distribution in various electrical systems. From homes to companies to industries, our CT PT, in addition to the distribution boxes, are designed with precision, strength, and easy maintenance in mind. These systems are critical to monitoring electrical circuits and ensuring the accuracy of current and voltage readings while safeguarding your equipment from overloads and short circuits. By choosing GetInSolar's CT PT and distribution box solutions, you'll rest assured that your power system is running optimally, and you're minimizing downtime as well as upgrading the overall efficiency of your electrical infrastructure.",
         content1: {
-            img: dummy,
+            img: CT_PT_Distribution_Boxes1,
             contenthead: "Reliable power monitoring using CT and PT transformers",
             contentpara: [
-                "In the monitoring of the flow of electricity within a system, CT and PT transformers are critical to allow for proper and accurate power measurement and management. Current transformers measure the current flowing through a conductor while potential transformers measure voltage in the system. Together they ensure the safe and precise operation of electrical installations. At GetInSolar, we carry high-performance CT PT transformers that comply fully with the highest standards of quality and safety.",
-                "Our transformers are designed to be easily integrated into power distribution systems, thus ensuring loss of little and maximum accuracy. If this is a system you're setting up or an upgrade of the already existing ones, the CT PT solutions help you monitor energy consumption, detect faults, and keep your system integrity in top condition. The devices suit industrial and commercial applications where high consumption of power requires reliable oversight in real-time."
+                {contenttitle:"Ensuring Accurate Power Measurement with CT and PT Transformers",content:"In the monitoring of the flow of electricity within a system, CT and PT transformers are critical to allow for proper and accurate power measurement and management. Current transformers measure the current flowing through a conductor while potential transformers measure voltage in the system. Together they ensure the safe and precise operation of electrical installations. At GetInSolar, we carry high-performance CT PT transformers that comply fully with the highest standards of quality and safety."},
+                {contenttitle:"Power Trading: A Strategic Move for Cost Savings and Environmental Sustainability",content:"Our transformers are designed to be easily integrated into power distribution systems, thus ensuring loss of little and maximum accuracy. If this is a system you're setting up or an upgrade of the already existing ones, the CT PT solutions help you monitor energy consumption, detect faults, and keep your system integrity in top condition. The devices suit industrial and commercial applications where high consumption of power requires reliable oversight in real-time."}
             ],
 
         },
         content2: {
-            img: dummy,
+            img: CT_PT_Distribution_Boxes2,
             contenthead: "Power distribution equipment fitted with custom boxes",
             contentpara: [
-                "Safe and efficient power distribution is important to the reliability of any electrical system, and distribution boxes play a central role in ensuring this process is carried out effectively. At GetInSolar, we offer customized distribution boxes designed to safely distribute electrical power to different circuits while protecting your infrastructure from electrical faults. Our distribution boxes are fitted with up-to-date safety features like circuit breakers, fuses, and overload protection, giving your electrical system protection against all types of short circuits, overcurrent situations, and other electrical hazards.",
-                "From a residential solar installation to one running a large industrial facility, GetInSolar's distribution boxes provide an organized and efficient way for power management. Our solutions are scalable and adaptable, suited for small-scale setup applications as well as large electrical grids. With easy design structures and long-lasting construction materials, our distribution boxes will ensure your system is safe, managed well, and can deliver power effectively. We focus on ease of installation and maintenance, so your energy infrastructure remains reliable and efficient with time."
+                 {contenttitle:"Customized Distribution Boxes for Reliable and Safe Power Management",content:"Safe and efficient power distribution is important to the reliability of any electrical system, and distribution boxes play a central role in ensuring this process is carried out effectively. At GetInSolar, we offer customized distribution boxes designed to safely distribute electrical power to different circuits while protecting your infrastructure from electrical faults. Our distribution boxes are fitted with up-to-date safety features like circuit breakers, fuses, and overload protection, giving your electrical system protection against all types of short circuits, overcurrent situations, and other electrical hazards."},
+                {contenttitle:"Scalable and Durable Distribution Boxes for Seamless Power Management",content:"From a residential solar installation to one running a large industrial facility, GetInSolar's distribution boxes provide an organized and efficient way for power management. Our solutions are scalable and adaptable, suited for small-scale setup applications as well as large electrical grids. With easy design structures and long-lasting construction materials, our distribution boxes will ensure your system is safe, managed well, and can deliver power effectively. We focus on ease of installation and maintenance, so your energy infrastructure remains reliable and efficient with time."}
             ]
-        }
+        },
+        slides:[
+            CT_PT_Distribution_Boxes3,
+            CT_PT_Distribution_Boxes4,
+            CT_PT_Distribution_Boxes5,
+            CT_PT_Distribution_Boxes6,
+    
+        ]
     }
 }
